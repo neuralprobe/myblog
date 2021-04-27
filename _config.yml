@@ -52,13 +52,13 @@ menu:
   - title:             Blog
     url:               /blog/
   - title:             Projects
-   url:                /projects/
-  # - title:             Résumé*
-  #  url:               /resume/
+    url:               /projects/
+  # - title:           Résumé*
+  #  url:              /resume/
   - title:             Documentation
     url:               /docs/
-  # - title:             About me
-  #  url:               /about/
+  # - title:           About me
+  #  url:              /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
