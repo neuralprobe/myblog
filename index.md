@@ -2,6 +2,7 @@
 layout: welcome
 cover:  true
 ---
+
 <!--author-->
 
 ## Recent Posts
@@ -9,4 +10,3 @@ cover:  true
 
 ## Recent Projects
 <!--projects-->
-

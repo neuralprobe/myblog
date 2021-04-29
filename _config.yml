@@ -51,7 +51,7 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Projects
+  - title:             Projects/Notebooks
     url:               /projects/
   # - title:           Résumé*
   #  url:              /resume/

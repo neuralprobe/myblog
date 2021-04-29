@@ -44,3 +44,7 @@ sitemap: false
 - Pentium4 Architecture [link](http://www.ecs.umass.edu/ece/koren/ece568/papers/Pentium4.pdf) [Simplified, Prof.Mutlu](https://dl.acm.org/citation.cfm?id=822823)
 - The Alpha 21264 microprocessor
  [Kessler](https://ieeexplore.ieee.org/document/755465)
+
+ ## Synthesis Lectures on Computer Architecture
+
+ - On-Chip Networks [note](note_NoC)
