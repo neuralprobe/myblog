@@ -1,7 +1,6 @@
 ---
 layout: project
 title: 'On-Chip Network'
-caption: from Synthesis Lectures on Computer Architecture
 description: >
   from Synthesis Lectures on Computer Architecture
 date: 1 Jun 2020

@@ -13,7 +13,7 @@ sitemap: false
 ## Optimization skills
 - Quadratic Programming [link](https://wikidocs.net/17852)
 
-## Ising model, Simulated annealing, and Hardware Acceleration
+## Ising model, simulated annealing, and hardware acceleration
 - [Ising formulations of many NP problems, A.Lucas](/assets/notes/TSP_papers/Lucas_IsingFormulation.pdf)
 - [On the computational complexity of Ising spin glass models, F. Barahona](http://iopscience.iop.org/article/10.1088/0305-4470/15/10/028)
 - [A 20k-Spin Ising Chip to Solve Combinatorial Optimization Problems With CMOS Annealing, Hitachi](https://ieeexplore.ieee.org/abstract/document/7350099)

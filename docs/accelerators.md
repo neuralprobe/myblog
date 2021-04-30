@@ -34,7 +34,7 @@ sitemap: false
 - TPU: In-datacenter performance analysis of a tensor processing unit, Google, 2017 [link](https://ieeexplore.ieee.org/abstract/document/8192463)
 - TPU: Machine Learning for Systems and Systems for Machine Learning, Google, 2017[link](http://learningsys.org/nips17/assets/slides/dean-nips17.pdf)
 
-## Stanford CS217 Reading List (2019)
+## Stanford CS217 reading list (2019)
 - Hardware Accelerators for Machine Learning, Stanford cs217 [link](https://cs217.stanford.edu/)
 - Is Dark Silicon Useful? by M. B. Taylor, 2012 [pdf_annotated](/assets/notes/cs217/DarkSilicon.pdf)
 - Why Systolic Architecture? by H. T. Kung, 1982 [pdf_annotated](/assets/notes/cs217/WhySystolicArchitecture.pdf)

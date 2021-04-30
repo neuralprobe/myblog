@@ -25,11 +25,10 @@ title:                 jonghoon.blog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Welcome to Jong Hoon's blog
 
 # A shorter description for the sidebar.
-tagline:               Interested in science and arts. Live and work in San Jose, CA.
+tagline:               Interested in science, nature, and engineering. Working in San Jose, CA.
 
 # A list of keywords for your blog
 keywords:              []
@@ -51,7 +50,7 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Projects/Notebooks
+  - title:             Projects & Notebooks
     url:               /projects/
   # - title:           Résumé*
   #  url:              /resume/

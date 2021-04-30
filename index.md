@@ -8,5 +8,5 @@ cover:  true
 ## Recent Posts
 <!--posts-->
 
-## Recent Projects
+## Recent Projects & Notebooks
 <!--projects-->

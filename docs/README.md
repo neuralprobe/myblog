@@ -22,7 +22,7 @@ permalink: /docs/
 
 ## Software
 * [Artificial Intelligence]{:.heading.flip-title} --- Make machine smart.
-* [Algorithm]{:.heading.flip-title} --- (Dummy link yet.) Make your codes effiecient.
+* [Algorithm]{:.heading.flip-title} --- Make your codes effiecient.
 * [Programming Language]{:.heading.flip-title} --- Enjoy your coding.
 * [Software Tools]{:.heading.flip-title} --- Make your life easier with these tools.
 {:.related-posts.faded}
@@ -43,8 +43,8 @@ permalink: /docs/
 [optimization]: optimization
 
 ## Others
-* [Quantum Computing]{:.heading.flip-title} --- Schrodinger's cat!
-* [Reservoir Computing]{:.heading.flip-title} --- Make nature calculate!
+* [Quantum Computing]{:.heading.flip-title} --- Schrodinger's cat turned into a genius.
+* [Reservoir Computing]{:.heading.flip-title} --- Make chaotic nature solve chaotic equations!
 {:.related-posts.faded}
 
 [quantum computing]: quantum_computing

@@ -45,6 +45,8 @@ sitemap: false
 - The Alpha 21264 microprocessor
  [Kessler](https://ieeexplore.ieee.org/document/755465)
 
- ## Synthesis Lectures on Computer Architecture
+## Synthesis Lectures on Computer Architecture
 
- - On-Chip Networks [note](note_NoC)
+- [On-Chip Networks]{:.heading.flip-title}
+{:.related-posts.faded}
+[on-chip networks]: /projects/project_NoC

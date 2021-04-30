@@ -1,10 +1,8 @@
 ---
 layout: project
 title: 'HydeJack Site'
-caption: How @qwtel use Hydejack on my personal site.
 description: >
-  This is how I use Hydejack on my personal site. 
-  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
+  This is how @qwtel use Hydejack on his personal site. 
 date: 1 Jun 2019
 image: 
   path: /assets/img/projects/qwtel.jpg
@@ -21,6 +19,8 @@ accent_image:
 theme_color: '#193747'
 sitemap: false
 ---
+Written by @qwtel:
+{:.note}
 
 For my personal site I've toned it down a bit. Instead of a flashy sidebar image, I chose a solid background color.
 However, I've given [certain](https://qwtel.com/projects/ducky-hunting/) [pages](https://qwtel.com/projects/blocky-blocks/) big sidebar images, and let Hydejack blend back to normal when the user navigates away.
