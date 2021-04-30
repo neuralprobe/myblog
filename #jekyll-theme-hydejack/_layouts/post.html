@@ -24,6 +24,17 @@ layout: base
 
 {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 
+
+{% if page.applause_button %}
+  <applause-button
+    color={{ site.accent_color | default:'rgb(79,177,186)' }}
+    url={{ site.url }}{{ page.url }} >
+  </applause-button>
+{% else %}
+  <hr class="dingbat related" />
+{% endif %}
+
+
 {% include components/dingbat.html %}
 
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
@@ -43,12 +54,3 @@ layout: base
   {% else %}
   {% endcase %}
 {% endfor %}
-
-{% if page.applause_button %}
-  <applause-button
-    color={{ site.accent_color | default:'rgb(79,177,186)' }}
-    url={{ site.url }}{{ page.url }} >
-  </applause-button>
-{% else %}
-  <hr class="dingbat related" />
-{% endif %}
