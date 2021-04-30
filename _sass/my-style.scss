@@ -17,3 +17,16 @@
 //   border: 1px solid var(--border-color);
 //   transition: border-color 500ms ease;
 // }
+
+
+// applause-button
+
+applause-button {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+
+  .count-container {
+    color: inherit;
+  }
+}
