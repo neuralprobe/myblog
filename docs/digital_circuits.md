@@ -14,7 +14,7 @@ sitemap: false
 - Digital Design, M. Morris Mano and Michael D. Ciletti, 5th Edition [link](https://www.pearson.com/us/higher-education/product/Mano-Digital-Design-5th-Edition/9780132774208.html)
 
 ## Tutorials
-- SystemC Tutorial by Forte [Video](https://youtube.com/playlist?list=PLcvQHr8v8MQLj9tCYyOw44X1PLisEsX-J)[Note](note_systemCtutorial)
+- SystemC Tutorial by Forte [Video](https://youtube.com/playlist?list=PLcvQHr8v8MQLj9tCYyOw44X1PLisEsX-J)[Note](/blog/scitech/2020-05-01-systemCTutorialNote/)
 
 ## Items
 - RS-flipflop [link](https://circuitglobe.com/rs-flip-flop.html) [video](https://www.youtube.com/watch?v=mUs5NKIkuc8)

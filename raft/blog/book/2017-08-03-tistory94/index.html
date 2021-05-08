@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+  <meta name="robots" content="noindex">
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>인공지능 - 현대적 접근방식1 | jonghoon.blog</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="인공지능 - 현대적 접근방식1" />
+<meta name="author" content="Jonghoon Shin" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="인공지능의 친척쯤 되는 일을 하면서 인공지능의 큰 줄기를 알지 못하는게 답답했다. 그리하여 인공지능의 입문서로 유명한 이 책 &lt;인공지능: 현대적 접근 1&gt;을 지르게 되었는데, 책을 구입하고는 거의 반년을 지나버린 것 같다. 그리고 이번 여름, 인공지능의 첨병 가운데 하나인 IBM에서 인턴으로 일하게 된 것을 핑계로 책장을 펴보게 되었다." />
+<meta property="og:description" content="인공지능의 친척쯤 되는 일을 하면서 인공지능의 큰 줄기를 알지 못하는게 답답했다. 그리하여 인공지능의 입문서로 유명한 이 책 &lt;인공지능: 현대적 접근 1&gt;을 지르게 되었는데, 책을 구입하고는 거의 반년을 지나버린 것 같다. 그리고 이번 여름, 인공지능의 첨병 가운데 하나인 IBM에서 인턴으로 일하게 된 것을 핑계로 책장을 펴보게 되었다." />
+<meta property="og:site_name" content="jonghoon.blog" />
+<meta property="og:image" content="/assets/img/posts/from_tistory/094.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-08-03T00:00:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/assets/img/posts/from_tistory/094.png" />
+<meta property="twitter:title" content="인공지능 - 현대적 접근방식1" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/blog/book/2017-08-03-tistory94/"},"author":{"@type":"Person","name":"Jonghoon Shin"},"url":"/blog/book/2017-08-03-tistory94/","description":"인공지능의 친척쯤 되는 일을 하면서 인공지능의 큰 줄기를 알지 못하는게 답답했다. 그리하여 인공지능의 입문서로 유명한 이 책 &lt;인공지능: 현대적 접근 1&gt;을 지르게 되었는데, 책을 구입하고는 거의 반년을 지나버린 것 같다. 그리고 이번 여름, 인공지능의 첨병 가운데 하나인 IBM에서 인턴으로 일하게 된 것을 핑계로 책장을 펴보게 되었다.","image":"/assets/img/posts/from_tistory/094.png","@type":"BlogPosting","headline":"인공지능 - 현대적 접근방식1","dateModified":"2021-04-30T01:00:37-04:00","datePublished":"2017-08-03T00:00:00-04:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="jonghoon.blog">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="jonghoon.blog">
+
+
+  <meta name="theme-color" content="rgb(8,46,57)">
+
+
+<meta name="generator" content="Hydejack v9.1.4" />
+
+
+<link rel="alternate" href="/blog/book/2017-08-03-tistory94/" hreflang="en">
+
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="jonghoon.blog" />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+<link rel="dns-prefetch" href="/assets/js/search-worker-9.1.4.js" as="worker" id="_hrefSearch">
+
+  
+  <link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css" id="_katexPreload">
+  <noscript><link rel="stylesheet" href="/assets/bower_components/katex/dist/katex.min.css"></noscript>
+
+
+
+
+<link rel="dns-prefetch" href="https://jonghoon-blog.disqus.com" id="_hrefDisqus">
+
+
+<!--applause button-->
+
+  <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
+  <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+
+
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script");n.src=e,t&&a(n,"load",t,{once:!0});t=c.scripts[0];return t.parentNode.insertBefore(n,t),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._advertise = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2021-05-04T12:05:33-04:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.4.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);--accent-color-highlight: rgba(79,177,186,0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(8,46,57);--dark-mode-body-bg: #282f31;--dark-mode-border-color: #343c3f}
+
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+
+</head>
+
+<body class="no-break-layout">
+  
+<script>
+  window._sunrise = 6;
+  window._sunset =  18;
+  !function(e,s){var d="light-mode",o="dark-mode",a=(new Date).getHours();"matchMedia"in e&&e.matchMedia("(prefers-color-scheme)")||(o=(e=a<=e._sunrise||a>=e._sunset?o:d)==o?d:o,s.body.classList.add(e),s.body.classList.remove(o))}(window,document);
+
+</script>
+
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-post"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+    <li><a href="/">home</a></li>
+    
+      <li>
+      
+        <span>/</span>
+        
+        
+        <a href="/blog/">blog</a>
+      
+      </li>
+    
+      <li>
+      
+        <span>/</span>
+        
+        
+        <a href="/blog/book/">book</a>
+      
+      </li>
+    
+      <li>
+      
+        <span>/</span>
+        <span>2017-08-03-tistory94</span>
+      
+      </li>
+    
+  
+</ul></nav>
+  
+
+
+
+
+
+
+
+
+
+
+<article id="post-blog-book-tistory94" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        인공지능 - 현대적 접근방식1
+      
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2017-08-03T00:00:00-04:00">03 Aug 2017</time> in <a href="/blog/book/" class="flip-title">Book</a> 
+      </span>
+      
+    </div>
+
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/posts/from_tistory/094.png"
+  
+  alt="인공지능 - 현대적 접근방식1"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+
+
+  </header>
+
+  
+    <p>인공지능의 친척쯤 되는 일을 하면서 인공지능의 큰 줄기를 알지 못하는게 답답했다. 그리하여 인공지능의 입문서로 유명한 이 책 &lt;인공지능: 현대적 접근 1&gt;을 지르게 되었는데, 책을 구입하고는 거의 반년을 지나버린 것 같다. 그리고 이번 여름, 인공지능의 첨병 가운데 하나인 IBM에서 인턴으로 일하게 된 것을 핑계로 책장을 펴보게 되었다.</p>
+
+<p>인공지능은 참 재밌는 분야다. 인간의 지능을 따라하려고 애쓰는 분야인만큼 ‘생각의 방식’과 관련이 있으면 모조리 연관있다고 해도 무방하다. 책은 엉뚱하게도 철학으로 시작해서 수학, 경제학, 신경과학, 심리학, 컴퓨터 공학, 제어이론과 인공두뇌학, 언어학과의 연관성을 설명한다. 인공지능의 역사에 대해서도 자세히 설명하는데 그 대략은 이렇다. </p>
+
+<p>인공지능은 1943년 1) 매컬록과 핏츠가 제안한 신경세포의 수학적 모델에 관한 연구, 2) 철학자 러셀과 화이트 헤드의 ‘명제논리의 형식분석’, 3) 계산에 관한 튜링의 이론, 이렇게 세 방향에서 시작되었다. 1949년 헵이 뉴런의 학습 방식에 대한 결과를 발표한 이후, 마빈 민스키, 딘 에드먼즈가 신경망 컴퓨터를 만들며 인공지능 시대가 열린다. 1956년 다트머스에서, 매카시, 민스키, 섀넌, 로체스터 등의 학자들은 IBM 엔지니어들과 모여 인공지능 연구를 본격적으로 시작한다. 목표는 ”언어를 사용하고 추상과 개념을 형성하고, 지금은 사람만 풀 수 있는 종류의 문제를 풀고, 스스로를 향상시키는 기계를 만드는 방법”을 개발하는 것이다. 카네기 공대의 Logic Theorist 같이 구체적인 프로그램이 출시 되었고, 인공지능은 열기를 더해갔다. 인공지능의 한 분야인 인공 신경망도 점점 번성해서 Adalines, Perceptron 이 정립되었다.</p>
+
+<p>하지만, 초기의 인공지능은 단순한 구문 조작 능력을 벗어나지 못했고, 문제의 크기가 증가함에 따라 계산량이 처리 불가능할 정도로 증가해버리는 Intractibility 문제로 인해 더 이상 발전하지 못했고, 그 열기는 시들어 버렸다. 한술 더 떠 인공신경망의 대세였던 Perceptron은 그 뛰어난 학습능력에도 불구하고, 표현 가능한 상태의 수가 너무 적다는 문제를 풀지 못했다. 인공지능은 다른 길을 찾기 시작했다. 인간을 닮지는 못하더라도, 문제를 잘 푸는데 집중하기로 말이다. 이렇게 자리 잡은 지식기반 시스템은 ‘어려운 문제를 풀려면 그 답을 이미 거의 알고 있어야 한다’는 말로 설명할 수 있겠다. 전문가 집단의 자문을 구해, 예상가능한 문제지들의 답을 미리 적어두고 이를 ‘잘’ 찾는 방식이다. 이런 Knowledge-intensive한 방식들은 의학과 자연어 분야을 비롯한 여러 분야에서 좋은 성과를 냈고, 산업적으로도 좋은 성과를 거두었다.</p>
+
+<p>이에 더해, Back-propagation의 활용을 계기로 한때 인기를 끌었던 신경망이 다시 부활하게 된다. 여러 층으로 구성된 신경망을 훈련할 수 있게 되면서, 다양한 인공지능 알고리즘이 개발되기 시작했다. Hidden Markov Chain, Bayesian network를 시작으로 요즘엔 RNN, CNN, LSTM, GAN 등이 (인기리에) 사용되고 있다. 여기에 구글을 비롯한 데이터 괴물들이 자신의 데이터를 활용해 무시무시한 결과를 뿜어내고 있다. 그리고, 단순히 주어진 문제를 풀어내는 인식기/계산기의 기능을 넘어 인간처럼 사고하고 행동하는 HLAI(Human-level AI)에 대한 연구도 2004년의 심포지엄을 기점으로 시작되었다. 아직 인간 수준의 의식을 재현할 수 있을지에 대해선 의견이 분분하지만, 경제-문화-사회적으로 커다란 변화를 일으킬 것만은 분명해 보인다.</p>
+
+<p>이 책은 인공지능을 설명하기 위해 ‘지능적 에이전트’ 개념을 소개한다. 에이전트는 센서를 통해 자신의 환경을 인지하고, 작동기를 통해 어떤 동작을 취하는 주체를 말한다. 어찌보면 인간의 함수적 속성을 단순화시킨 개념으로 볼 수도 있겠다. 그리고 이런 일련의 프로세스는 에이전트 프로그램으로 구현된다. 결국, ‘이럴 땐 이렇게, 저럴 땐 저렇게’ 반응하는 기계를 만드는 것이 목적이다. 문제는 환경이 너무 복잡해서 주어지는 입력을 출력으로 1:1 매칭 시키려다 보면 엄청나게 많은 정보가 프로그램에 담겨야 한다는 것이다. 이런 방식을 Table-Driven-Agent 방식이라고 한다. 모든 입력과 모든 출력을 대응시키는 테이블을 저장하고 있다가, 주어진 입력에 답을 내는 방식이다. 100<em>100 픽셀 이미지를 읽어 저장된 숫자 0~9 를 인식한다고 해보자. 명암을 무시한다고 해도 입력의 경우의 수는 2^10000으로 엄청나게 크다. 출력은 10개에 불과하지만, 컴퓨터가 기억해야하는 모든 경우의 수는 2^10000</em>10개로, 거의 무한에 가까운 수다. 절대로 컴퓨터에 미리 담을 수 없는 양이기 때문에, 어느정도의 ‘근사’를 통해 문제를 해결해야한다. 에이전트는 좋은 ‘근사’를 하기 위해 여러 방식을 취하는데 그 종류로는, Simple Reflex Agent, Model-based Agent, Goal-based Agent, Utility-based Agent, Learning Agent 등이 있다.</p>
+
+<p>Agent 에 대한 일반론 이후에는 구체적인 Agent의 예가 제시된다. 3장에서는 Problem-Solving Agent는 Search를 통해 문제를 해결한다. Search Tree, Graph-Search Algorithm와 정보가 불충분한 경우의 검색방법을 배울 수 있다. 4장에는 Local search, Simulated Annealing, Genetic Algorithm, Online search, Belief State 등을 다룬다. 5장은 여러 Agent가 상호 작용하는 Game theory 상황을 푼다. 이런 알고리즘을 Adversarial search(대항검색)이라고 한다. Minmax algorithm, alpha-beta pruning, stochastic game 등을 배울 수 있다. 6장은 제약 만족 문제로, 하나의 솔루션, 가능한 상태를 여러 변수들의 조합으로 설명하는 경우의 문제 풀이법이다. </p>
+
+<p>7장부턴 인간의 지능을 제대로 따라하려는 노력에 대한 이야기가 시작된다. 인간이 외부 환경에 대한 단순 반응하는 존재가 아닌 것 처럼, 인공지능도 반사 메커니즘이 아닌 ‘지식’을 이용해 ‘추론’하게 만들 수 있을까? 지식 기반 에이전트 (Knowledge-based agent)는 이런 도전의 결과물이다. 지식기반 에이전트는, 일련의 명제들 (지식)을 알고는 있지만 구체적인 상황에 대해서는 모른다. </p>
+
+<p>웜푸스라는 괴물이 사는 던전을 여행하는 사람은, 그 던전에 한번도 들어간 적이 없더라도 상식을 활용해 동굴을 탈출 할 수 있다. ‘웜푸스가 죽을 땐 비명소리를 지른다’, ‘금덩이가 옆방에 있으면 반짝하는 빛을 볼 수 있다’ 등등의 상식들 말이다. 인간의 강점은 이런 단순 명제, 추상적 명제를 구체적인 상황에 끌어와서 ‘금을 찾아서 웜푸스를 피해 동굴을 빠져나간다’는 목적을 달성해는 추론 능력에 있다. 그리고, 지식기반 에이전트는 이를 목표로 개발 되었다. 이를 위해 컴퓨터는 논리학, 진리표, 구문의 이해, 추리와 증명을 알고 있어야 한다. 더 나아가 ‘언어’ 그 자체를 컴퓨터가 이해할 수 있어야 한다.(8장) 그러면 일상적 언어를 컴퓨터가 이해(분해)해서 추리과정을 거쳐 문제를 해결할 수 있다.(9장) (와우…) 여기에 고전적 계획 수립(10장), 실세계에서의 계획수립과 실행(11장), 지식 표현 (12장)등 지식기반 에이전트를 구성하기 위해 필요한 문제/문제해결방식의 표현/계획에 대해서도 소개한다.  (8장부터는 점점 추상적인 논의가 진행되어서 지루한 감이 있다….)</p>
+
+<p>1권은 주로 인공지능의 역사와, 기본적 문제의식, 지식기반 에이전트에 대한 소개가 주를 이룬다. 다음 달에 읽기 시작할 2권은 1권의 추상적인 해설 보다는, 베이즈망/ 히든 마르코프 체인 / 의사결정론/ 인공신경망 / 통계학습 / 강화학습 등 구체적인 머신런닝 알고리즘을 논하게 된다. 역시 구체적인게 이해하기 쉬운 만큼, 기대가 된다. </p>
+
+<p>인공지능의 레전설들이 작성한 만큼, ‘인공지능이 대체 무엇인가?’ 하는 막연한 궁금증을 어느 정도 풀수 있는 책이다. 컴퓨터 프로그래밍에 대한 전문적인 훈련을 받지 않은 사람도 (단, 인내심을 갖고) 읽을 수 있도록 친절하게 쓰인 글이니, 인공지능에 관심있는 비전공자에게도 추천한다.</p>
+
+  
+</article>
+
+
+
+
+  <applause-button
+    color=rgb(79,177,186)
+    url=/blog/book/2017-08-03-tistory94/ >
+  </applause-button>
+
+
+
+
+  <clap-button class="mb6" ></clap-button>
+  
+  
+    <p class="message centered border-radius" >
+      <span style="display:block;margin-bottom:.5rem;">This is a preview of <a href="https://getclaps.app">Clap Button</a>, a new feedback and analytics tools for Hydejack, built by yours truly.</span>
+      <span style="display:block;margin-bottom:.5rem;">You can try it out on <code>localhost</code> for free, but it will be removed (together with this message) when building with <code>JEKYLL_ENV=production</code>.</span>
+      <span style="display:block;margin-bottom:.5rem;">To use Clap Button on your site, get a <a href="https://getclaps.app#pricing">subscription</a><br/>and set <code>clap_button: true</code> in your config file.</span>
+    </p>
+  
+
+
+
+
+
+
+  
+     
+
+
+  <aside class="about related mt4 mb4" role="complementary">
+    
+    
+
+<div class="author mt4">
+  
+
+  
+    
+
+
+<img
+  
+    src="/assets/img/profile/me.jpg"
+    
+    
+  
+  alt="Jonghoon Shin"
+  class="avatar"
+  
+  width="120"
+  height="120"
+  loading="lazy"
+/>
+
+  
+
+  
+  
+  <h2  class="page-title hr-bottom">
+    About
+  </h2>
+
+  <p>Interested in physics, solid state devices, neuromorphic computing, artificial intelligence, and computer architecture. I like to read, write, learn, try, and share. Currently, working in San Jose, CA. Hope you enjoy this blog. :)</p>
+
+
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/jhoons0" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/neuralprobe" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+
+  </aside>
+
+
+  
+
+  
+    
+
+
+  
+
+  
+    
+
+
+  <aside class="other-projects related mb0" role="complementary">  <h2>Related Posts</h2>  <div class="columns">          <div class="column column-1-2">                  <article class="project-card">  <a href="/blog/book/2021-02-11-tistory352/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img">              <img      src="/assets/img/posts/from_tistory/352_1.jpeg"    alt="단테-신곡"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/blog/book/2021-02-11-tistory352/" class="flip-title">단테-신곡</a>  </h3>      <a class="fill-card no-hover" href="/blog/book/2021-02-11-tistory352/" tabindex="-1"><span class="sr-only">Continue reading 단테-신곡</span></a></article>              </div>          <div class="column column-1-2">                  <article class="project-card">  <a href="/blog/book/2020-06-10-tistory199/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img">              <img      src="/assets/img/posts/from_tistory/199.jpg"    alt="여덟 단어-박웅현"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/blog/book/2020-06-10-tistory199/" class="flip-title">여덟 단어-박웅현</a>  </h3>      <a class="fill-card no-hover" href="/blog/book/2020-06-10-tistory199/" tabindex="-1"><span class="sr-only">Continue reading 여덟 단어-박웅현</span></a></article>              </div>      </div></aside>
+
+  
+
+  
+    
+
+
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Random Posts</h2>  <ul class="related-posts">          <li class="h4">  <a href="/blog/book/2017-06-19-tistory90/" class="flip-title"><span>채식주의자 - 한강</span></a>  <time class="faded fine" datetime="2017-06-19T00:00:00-04:00">19 Jun 2017</time></li>          <li class="h4">  <a href="/blog/book/2016-11-10-tistory75/" class="flip-title"><span>Hunger Games - Catching Fire -Suzanne Collins</span></a>  <time class="faded fine" datetime="2016-11-10T00:00:00-05:00">10 Nov 2016</time></li>          <li class="h4">  <a href="/blog/book/2016-04-27-tistory50/" class="flip-title"><span>헬스의 정석 (종합편) - 수피</span></a>  <time class="faded fine" datetime="2016-04-27T00:00:00-04:00">27 Apr 2016</time></li>      </ul></aside>
+
+  
+
+  
+    
+<aside class="comments related" role="complementary">
+  <h2 class="hr-bottom">Comments</h2>
+  
+
+<div id="disqus_thread"></div>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<script>!function(w, d) {
+  if (d.getElementById("disqus_thread")) {
+    if (w.DISQUS) {
+      w.DISQUS.reset({
+        reload: true,
+        config() {
+          this.page.url = w.location.href;
+          this.page.title = d.title;
+        },
+      });
+    } else {
+      w.disqus_config = function disqusConfig() {
+        this.page.url = w.location.href;
+        this.page.title = d.title;
+      };
+      w.loadJSDeferred(d.getElementById("_hrefDisqus").href + '/embed.js');
+    }
+  }
+}(window, document);</script>
+
+
+</aside>
+
+
+  
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2021. All rights reserved.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
+      
+    
+    </small></nav>
+  
+  
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(8,46,57);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">jonghoon.blog</h2></a>
+    
+    
+      <p class="">
+        Interested in science, nature, and engineering. Working in San Jose, CA.
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_drawer--opened"
+          href="/blog/"
+          class="sidebar-nav-item "
+          
+        >
+          Blog
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/tags/"
+          class="sidebar-nav-item "
+          
+        >
+          Tags@Blog
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/projects/"
+          class="sidebar-nav-item "
+          
+        >
+          Projects & Notebooks
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/docs/"
+          class="sidebar-nav-item "
+          
+        >
+          Documentation
+        </a>
+      </li>
+    
+  
+</ul>
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/jhoons0" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/neuralprobe" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.4.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.4.js" nomodule defer></script>
+  
+
+  
+  <script>!function(w, d) {
+    w.ga=w.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+    /**/
+      ga('create', 'UA-75766716-1', 'auto');
+    /**/
+
+    var pushStateEl = d.getElementById('_pushState');
+    var timeoutId;
+    pushStateEl.addEventListener('hy-push-state-load', function() {
+      w.clearTimeout(timeoutId);
+      timeoutId = w.setTimeout(function() {
+        ga('set', 'page', w.location.pathname);
+        ga('send', 'pageview');
+      }, 500);
+    });
+
+    d.addEventListener('hy--cookies-ok', function () {
+      w.ga(function(tracker) {
+        w.ga("set", "anonymizeIp", undefined);
+        localStorage && localStorage.setItem("ga--client-id", tracker.get("clientId"));
+      });
+    });
+
+    w.loadJSDeferred('https://www.google-analytics.com/analytics.js');
+  }(window, document);</script>
+
+
+  <script type="module">
+    if ('serviceWorker' in navigator) {
+      /**/
+      navigator.serviceWorker.getRegistration()
+        .then(r => r.unregister())
+        .catch(() => {});
+      /**/
+    }
+  </script>
+<!--<![endif]-->
+  <!-- <script>
+  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+    el.addEventListener('click', function (e) {
+      if (el.pathname === window.location.pathname) {
+        e.preventDefault();
+        e.stopPropagation();
+        document.querySelector('hy-drawer').close();
+      }
+    });
+  });
+</script> -->
+
+<!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <clap-config>
+    <clap-text at="1">Keep going!</clap-text>
+    <clap-text at="2">Keep going ×2!</clap-text>
+    <clap-text at="3">Give me more!</clap-text>
+    <clap-text at="5">Thank you, thank you</clap-text>
+    <clap-text at="7">Far too kind!</clap-text>
+    <clap-text at="10">Never gonna give me up?</clap-text>
+    <clap-text at="14">Never gonna let me down?</clap-text>
+    <clap-text at="20">Turn around and desert me!</clap-text>
+    <clap-text at="30">You're an addict!</clap-text>
+    <clap-text at="40">Son of a clapper!</clap-text>
+    <clap-text at="50">No way</clap-text>
+    <clap-text at="60">Go back to work!</clap-text>
+    <clap-text at="70">This is getting out of <em>hand</em></clap-text>
+    <clap-text at="80">Unbelievable</clap-text>
+    <clap-text at="90">PREPOSTEROUS</clap-text>
+    <clap-text at="100">I N S A N I T Y</clap-text>
+    <clap-text at="185"><span style="font-family:monospace">FEED ME A STRAY CAT</span></clap-text>
+  </clap-config>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+  
+  
+    <template id="_dark-mode-template">
+  <button id="_dark-mode" class="nav-btn no-hover" >
+    <span class="sr-only">Dark Mode</span>
+    <span class="icon-brightness-contrast"></span>
+  </button>
+</template>
+
+  
+  
+    <template id="_search-template">
+  <button id="_search" class="nav-btn no-hover">
+    <label class="sr-only" for="_search-input">Search</label>
+    <span class="icon-search"></span>
+  </button>
+  <div id="_search-box">
+    <div class="nav-btn">
+      <span class="icon-search"></span>
+    </div>
+    <input 
+      id="_search-input"
+      type="search"
+      class="form-control form-control-lg nav-btn"
+      placeholder="Build with JEKYLL_ENV=production to enable search."
+    />
+    <button type="reset" class="nav-btn no-hover">
+      <span class="sr-only">Close</span>
+      <span class="icon-cross"></span>
+    </button>
+  </div>
+  <div id="_hits"></div>
+</template>
+
+  
+</div>
+
+</body>
+</html>

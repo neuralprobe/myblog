@@ -5,5 +5,5 @@ title: Productivity
 slug: productivity
 sidebar: false
 description: >
-   Related to productivity
+   Related to Productivity
 ---

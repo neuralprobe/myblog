@@ -12,7 +12,7 @@ sitemap: false
 
 ## Reservoir computing review
 - [Recent Advances in Physical Reservoir Computing: A Review, Tanaka](https://arxiv.org/abs/1808.04962)
-  - [Note](note_review_RC_tanaka)
+  - [Note](/blog/scitech/2019-01-01-Reservoir_Tanaka)
 
 ## Reservoir computing papers
 - [Information processing using a single dynamical node as complex system, Nat. Comm. 2011](https://www.nature.com/articles/ncomms1476)

@@ -50,10 +50,10 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Tags@Blog
+  - title:             Tags
     url:               /tags/
-  - title:             Projects & Notebooks
-    url:               /projects/
+  - title:             Notebooks
+    url:               /tag-notebook/
   # - title:           Résumé*
   #  url:              /resume/
   - title:             Documentation

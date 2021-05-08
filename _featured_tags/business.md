@@ -1,8 +1,9 @@
 ---
 layout: grid
+type: tag
 title: Business
 slug: business
 sidebar: false
 description: >
-   Related to business
+   Related to Business
 ---

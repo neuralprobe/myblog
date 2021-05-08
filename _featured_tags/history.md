@@ -5,5 +5,5 @@ title: History
 slug: history
 sidebar: false
 description: >
-   Related to history
+   Related to History
 ---

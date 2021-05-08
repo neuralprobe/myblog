@@ -49,4 +49,4 @@ sitemap: false
 
 - [On-Chip Networks]{:.heading.flip-title}
 {:.related-posts.faded}
-[on-chip networks]: /projects/project_NoC
+[on-chip networks]: /blog/scitech/2020-06-01-OnChipNetwork/
