@@ -4,7 +4,6 @@ title: Software Tools
 description: >
   describe here
 hide_description: true
-sitemap: false
 ---
 
 - Table of Contents

@@ -3,7 +3,6 @@ title: Documentation
 description: >
   Long live my short-term memory!
 hide_description: false
-sitemap: false
 permalink: /docs/
 ---
 

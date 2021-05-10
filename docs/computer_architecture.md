@@ -4,7 +4,6 @@ title: Computer Architecture
 description: >
   High level hardware orginization and its operation.
 hide_description: true
-sitemap: false
 ---
 
 - Table of Contents

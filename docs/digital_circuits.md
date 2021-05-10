@@ -4,7 +4,6 @@ title: Digital Circuits
 description: >
   Digital circuits
 hide_description: true
-sitemap: false
 ---
 
 - Table of Contents
