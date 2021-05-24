@@ -1,4 +1,4 @@
-Jong Hoon's Blog
+## Welcome to Jong Hoon's Blog
 
 This repo is the source codes of my static website [jonghoon.blog](https://jonghoon.blog)
 The main purpose of this blog is to keep my memory of reading and studying long-term.
