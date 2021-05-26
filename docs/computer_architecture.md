@@ -9,6 +9,13 @@ hide_description: true
 - Table of Contents
 {:toc .large-only}
 
+## Open-source Hardware
+* [Risc-V]{:.heading.flip-title} --- New era of open-source CPU just got started!
+{:.related-posts.faded}
+
+[Risc-V]: /docs/riscV
+
+
 ## Keynotes
 - ISCA2018: A New Golden Age for Computer Architecture by J. Hennessy and D. Patterson [video](https://youtu.be/3LVeEjsn8Ts)
 
