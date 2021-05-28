@@ -10,7 +10,7 @@ permalink: /lib/
 - Table of Contents
 {:toc .large-only}
 
-* [Library UpdateLog]{:.heading.flip-title}
+[Library UpdateLog]{:.heading.flip-title}
 
 [Library UpdateLog]: updatelog
 
