@@ -13,7 +13,7 @@ hide_description: true
 * [Risc-V]{:.heading.flip-title} --- New era of open-source CPU just got started!
 {:.related-posts.faded}
 
-[Risc-V]: /docs/riscV
+[Risc-V]: /lib/riscV
 
 
 ## Keynotes

@@ -56,8 +56,8 @@ menu:
     url:               /tag-notebook/
   # - title:           Résumé*
   #  url:              /resume/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Library
+    url:               /lib/
   # - title:           About me
   #  url:              /about/
 

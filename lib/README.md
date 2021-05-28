@@ -1,13 +1,18 @@
 ---
-title: Documentation
+layout: page
+title: Library
 description: >
   Long live my short-term memory!
 hide_description: false
-permalink: /docs/
+permalink: /lib/
 ---
 
 - Table of Contents
 {:toc .large-only}
+
+* [Library UpdateLog]{:.heading.flip-title}
+
+[Library UpdateLog]: updatelog
 
 ## Hardware
 * [Computer Architecture]{:.heading.flip-title} --- High level hardware orginization and its operation.
