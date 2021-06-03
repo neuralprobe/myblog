@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>On-Chip Network | jonghoon.blog</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="On-Chip Network" />
+<meta name="author" content="Jonghoon Shin" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="from Synthesis Lectures on Computer Architecture" />
+<meta property="og:description" content="from Synthesis Lectures on Computer Architecture" />
+<link rel="canonical" href="https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/" />
+<meta property="og:url" content="https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/" />
+<meta property="og:site_name" content="jonghoon.blog" />
+<meta property="og:image" content="https://jonghoon.blog/assets/notes/note_NetworkOnChip/OnChipNetwork_cover.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-01T00:00:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://jonghoon.blog/assets/notes/note_NetworkOnChip/OnChipNetwork_cover.png" />
+<meta property="twitter:title" content="On-Chip Network" />
+<meta name="google-site-verification" content="JJLECMHEFQYgb4RaUq4w_U5R_Vr2b5ZYJTn4Hv41q3k" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/"},"author":{"@type":"Person","name":"Jonghoon Shin"},"url":"https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/","description":"from Synthesis Lectures on Computer Architecture","image":{"srcset":{"500w":"/assets/notes/note_NetworkOnChip/OnChipNetwork_cover_500.png","1000w":"/assets/notes/note_NetworkOnChip/OnChipNetwork_cover_1000.png","1500w":"/assets/notes/note_NetworkOnChip/OnChipNetwork_cover_1500.png"},"url":"https://jonghoon.blog/assets/notes/note_NetworkOnChip/OnChipNetwork_cover.png","@type":"imageObject"},"@type":"BlogPosting","headline":"On-Chip Network","dateModified":"2021-05-07T20:15:51-04:00","datePublished":"2020-06-01T00:00:00-04:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="jonghoon.blog">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="jonghoon.blog">
+
+
+  <meta name="theme-color" content="rgb(36,36,36)">
+
+
+<meta name="generator" content="Hydejack v9.1.4" />
+
+
+<link rel="alternate" href="https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/" hreflang="en">
+
+<link type="application/atom+xml" rel="alternate" href="https://jonghoon.blog/feed.xml" title="jonghoon.blog" />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+<link rel="dns-prefetch" href="/assets/js/search-worker-9.1.4.js" as="worker" id="_hrefSearch">
+
+  
+  <link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css" id="_katexPreload">
+  <noscript><link rel="stylesheet" href="/assets/bower_components/katex/dist/katex.min.css"></noscript>
+
+
+
+
+<link rel="dns-prefetch" href="https://jonghoon-blog.disqus.com" id="_hrefDisqus">
+
+
+<!--applause button-->
+
+  <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
+  <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+
+
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script");n.src=e,t&&a(n,"load",t,{once:!0});t=c.scripts[0];return t.parentNode.insertBefore(n,t),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._advertise = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2021-05-31T12:56:19-04:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.4.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(212,97,44);--accent-color-faded: rgba(212,97,44,0.5);--accent-color-highlight: rgba(212,97,44,0.1);--accent-color-darkened: #b55225;--theme-color: rgb(36,36,36);--dark-mode-body-bg: #2d2d2d;--dark-mode-border-color: #393939}
+
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+
+</head>
+
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-post"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+    <li><a href="/">home</a></li>
+    
+      <li>
+      
+        <span>/</span>
+        
+        
+        <a href="/blog/">blog</a>
+      
+      </li>
+    
+      <li>
+      
+        <span>/</span>
+        
+        
+        <a href="/blog/scitech/">scitech</a>
+      
+      </li>
+    
+      <li>
+      
+        <span>/</span>
+        <span>2020-06-01-OnChipNetwork</span>
+      
+      </li>
+    
+  
+</ul></nav>
+  
+
+
+
+
+
+
+
+
+
+
+<article id="post-blog-scitech-OnChipNetwork" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        On-Chip Network
+      
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2020-06-01T00:00:00-04:00">01 Jun 2020</time> in <a href="/blog/scitech/" class="flip-title">Sci-Tech</a> on <a href="/tag-computer/" class="flip-title">Computer</a>, <a href="/tag-hardware/" class="flip-title">Hardware</a>, <a href="/tag-notebook/" class="flip-title">Notebooks</a>
+      </span>
+      
+        
+          
+          
+          
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 2021-05-07">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2021-05-07T20:15:51-04:00">2021-05-07</time>
+            </span>
+          
+        
+      
+    </div>
+
+    
+    
+      
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/notes/note_NetworkOnChip/OnChipNetwork_cover.png"
+    srcset="/assets/notes/note_NetworkOnChip/OnChipNetwork_cover_500.png 500w,/assets/notes/note_NetworkOnChip/OnChipNetwork_cover_1000.png 1000w,/assets/notes/note_NetworkOnChip/OnChipNetwork_cover_1500.png 1500w"
+    
+  
+  alt="On-Chip Network"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      from Synthesis Lectures on Computer Architecture
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <ul class="large-only" id="markdown-toc">
+  <li><a href="#chapter-1-introduction" id="markdown-toc-chapter-1-introduction">Chapter 1. Introduction</a>    <ul>
+      <li><a href="#network-basics-a-quick-primer" id="markdown-toc-network-basics-a-quick-primer">Network Basics: A quick primer</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-2-interface-with-system-architecture" id="markdown-toc-chapter-2-interface-with-system-architecture">Chapter 2. Interface with System Architecture</a>    <ul>
+      <li><a href="#shared-memory-networks-in-chip-multiprocessors" id="markdown-toc-shared-memory-networks-in-chip-multiprocessors">Shared memory networks in chip multiprocessors</a></li>
+      <li><a href="#impact-of-coherence-protocol-on-network-performance" id="markdown-toc-impact-of-coherence-protocol-on-network-performance">Impact of coherence protocol on network performance</a></li>
+      <li><a href="#protocol-level-network-deadlocks" id="markdown-toc-protocol-level-network-deadlocks">Protocol-level network deadlocks</a></li>
+      <li><a href="#impact-of-cache-hierarchy-implementation" id="markdown-toc-impact-of-cache-hierarchy-implementation">Impact of cache hierarchy implementation</a></li>
+      <li><a href="#home-node-and-memory-controller-design-issues" id="markdown-toc-home-node-and-memory-controller-design-issues">Home node and memory controller design issues</a></li>
+      <li><a href="#miss-and-transaction-status-holding-registers" id="markdown-toc-miss-and-transaction-status-holding-registers">Miss and transaction status holding registers</a></li>
+    </ul>
+  </li>
+  <li><a href="#synthesized-nocs-in-mpsocs" id="markdown-toc-synthesized-nocs-in-mpsocs">Synthesized NOCs in MPSOCs</a></li>
+  <li><a href="#chapter-3-topology" id="markdown-toc-chapter-3-topology">Chapter 3. Topology</a>    <ul>
+      <li><a href="#metrics-for-comparing-topologies" id="markdown-toc-metrics-for-comparing-topologies">Metrics for comparing Topologies</a></li>
+      <li><a href="#direct-topologies" id="markdown-toc-direct-topologies">Direct Topologies</a></li>
+      <li><a href="#indirect-topologies" id="markdown-toc-indirect-topologies">Indirect Topologies</a></li>
+      <li><a href="#irregular-topologies" id="markdown-toc-irregular-topologies">Irregular topologies</a></li>
+      <li><a href="#topology-synthesis-algorithm-example" id="markdown-toc-topology-synthesis-algorithm-example">Topology Synthesis Algorithm Example</a></li>
+      <li><a href="#layout-and-implementation" id="markdown-toc-layout-and-implementation">Layout and Implementation</a></li>
+      <li><a href="#concentrator" id="markdown-toc-concentrator">Concentrator</a></li>
+      <li><a href="#implication-of-abstract-metrics-on-on-chip-implementation" id="markdown-toc-implication-of-abstract-metrics-on-on-chip-implementation">Implication of abstract metrics on on-chip implementation</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-4-routing" id="markdown-toc-chapter-4-routing">Chapter 4. Routing</a>    <ul>
+      <li><a href="#types-of-routing-algorithms" id="markdown-toc-types-of-routing-algorithms">TYPES OF ROUTING ALGORITHMS</a></li>
+      <li><a href="#deadlock-avoidance" id="markdown-toc-deadlock-avoidance">DEADLOCK AVOIDANCE</a></li>
+      <li><a href="#deterministic-dimension-ordered-routing" id="markdown-toc-deterministic-dimension-ordered-routing">DETERMINISTIC DIMENSION-ORDERED ROUTING</a></li>
+      <li><a href="#oblivious-routing" id="markdown-toc-oblivious-routing">OBLIVIOUS ROUTING</a></li>
+      <li><a href="#adaptive-routing" id="markdown-toc-adaptive-routing">ADAPTIVE ROUTING</a>        <ul>
+          <li><a href="#adaptive-turn-model-routing" id="markdown-toc-adaptive-turn-model-routing">ADAPTIVE TURN MODEL ROUTING</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#implementation" id="markdown-toc-implementation">IMPLEMENTATION</a>    <ul>
+      <li><a href="#source-routing" id="markdown-toc-source-routing">SOURCE ROUTING</a></li>
+      <li><a href="#node-table-based-routing" id="markdown-toc-node-table-based-routing">NODE TABLE-BASED ROUTING</a></li>
+      <li><a href="#combinational-circuits" id="markdown-toc-combinational-circuits">COMBINATIONAL CIRCUITS</a></li>
+      <li><a href="#adaptive-routing-1" id="markdown-toc-adaptive-routing-1">ADAPTIVE ROUTING</a></li>
+      <li><a href="#routing-on-irregular-topologies" id="markdown-toc-routing-on-irregular-topologies">ROUTING ON IRREGULAR TOPOLOGIES</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-5-flow-control" id="markdown-toc-chapter-5-flow-control">Chapter 5. Flow Control</a>    <ul>
+      <li><a href="#messages-packets-flits-and-phits" id="markdown-toc-messages-packets-flits-and-phits">MESSAGES, PACKETS, FLITS, AND PHITS</a></li>
+      <li><a href="#message-based-flow-control" id="markdown-toc-message-based-flow-control">MESSAGE-BASED FLOW CONTROL</a></li>
+      <li><a href="#packet-based-flow-control" id="markdown-toc-packet-based-flow-control">PACKET-BASED FLOW CONTROL</a></li>
+      <li><a href="#flit-based-flow-control" id="markdown-toc-flit-based-flow-control">FLIT-BASED FLOW CONTROL</a></li>
+      <li><a href="#virtual-channels" id="markdown-toc-virtual-channels">VIRTUAL CHANNELS</a></li>
+      <li><a href="#deadlock-free-flow-control" id="markdown-toc-deadlock-free-flow-control">DEADLOCK-FREE FLOW CONTROL</a></li>
+      <li><a href="#buffer-backpressure" id="markdown-toc-buffer-backpressure">BUFFER BACKPRESSURE</a></li>
+      <li><a href="#implementation-1" id="markdown-toc-implementation-1">IMPLEMENTATION</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-6-router-microarchitecture" id="markdown-toc-chapter-6-router-microarchitecture">Chapter 6. Router Microarchitecture</a>    <ul>
+      <li><a href="#virtual-channel-router-microarchitecture" id="markdown-toc-virtual-channel-router-microarchitecture">VIRTUAL CHANNEL ROUTER MICROARCHITECTURE</a></li>
+      <li><a href="#buffers-and-virtual-channels" id="markdown-toc-buffers-and-virtual-channels">BUFFERS AND VIRTUAL CHANNELS</a></li>
+      <li><a href="#switch-design" id="markdown-toc-switch-design">SWITCH DESIGN</a></li>
+      <li><a href="#allocators-and-arbiters" id="markdown-toc-allocators-and-arbiters">ALLOCATORS AND ARBITERS</a></li>
+      <li><a href="#pipeline" id="markdown-toc-pipeline">PIPELINE</a></li>
+      <li><a href="#low-power-microarchitecture" id="markdown-toc-low-power-microarchitecture">LOW-POWER MICROARCHITECTURE</a></li>
+      <li><a href="#physical-implementation" id="markdown-toc-physical-implementation">PHYSICAL IMPLEMENTATION</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>written by <em>Natalie Enright Jerger</em>, University of Toronto and <em>Li-Shiuan Peh</em>, Princeton University, 2nd edition, 2017</p>
+
+<p><em>from Synthesis Lectures on Computer Architecture</em></p>
+
+<hr />
+<h2 id="chapter-1-introduction">Chapter 1. Introduction</h2>
+
+<ul>
+  <li><strong>High-bandwidth communication</strong> will be required for these throughput-oriented applications. <strong>Communication latency</strong> can have a significant impact on the performance of multi-threaded workloads; <strong>synchronization between threads</strong> will require low-overhead communication in order to scale to a large number of cores. In MPSoCs, leveraging an on-chip network can help enable <strong>design isolation</strong>: MPSoCs utilize heterogeneous IP blocks from a variety of vendors; with <strong>standard interfaces</strong>, these blocks can communicate through an on-chip network in <strong>a plug-and-play fashion</strong>.</li>
+  <li>ON-chip vs Off-chip:
+    <ul>
+      <li>More abundant on-chip wiring &gt; I/O bottleneck of multi-chassis interconnection networks such as supercomputers, clusters of workstations, internet routers.</li>
+      <li>On-chip networks targeting high-performance multi-core processors must supply high bandwidth at ultra-low latencies, with a <strong>tight power envelope</strong> and <strong>area budget</strong>. (e.g. Sun Niagara 2’s flat 8x9 crossbar had similar area to its core)</li>
+      <li>Power consumption of Intel’s 80core TeraFlops net ~ 30%</li>
+    </ul>
+  </li>
+  <li>Commercial on-chip network chips
+    <ul>
+      <li>IBM Cell: 1 IBM power arch core + 8 synergsitic processing elements, Element Interconnect Bus (EIB)  with max BW &gt; 300 GB/s</li>
+      <li>Intel TeraFLOPS: 80 tiles (tile = PE + router) with max BW 320GB/s</li>
+      <li>Tilera TILE64 and TILE64Pro: 64 tiles, max BW ~ 2Tb/s, E &lt;300mW</li>
+      <li>STMicroelectronis STNoC: MPSoC target OCN</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="network-basics-a-quick-primer">Network Basics: A quick primer</h3>
+<ul>
+  <li>NoC (network-on-chip), OCIN (on-chip interconnection network) and OCN (on-
+chip network)</li>
+  <li>An on-chip network, as a subset of a broader class of interconnection networks, can be viewed as <strong>a programmable system that facilitates the transporting of data between nodes</strong>.</li>
+  <li><strong>Ad-hoc wiring</strong> for small number of nodes.</li>
+  <li><strong>Bus-based systems</strong> scale only to a modest number of processors due to its ealry traffic saturation and arbitration latency
+    <ul>
+      <li>sophisticated bus designs incorporate <strong>segmentation</strong>, <strong>distributed arbitration</strong>, <strong>split transactions</strong></li>
+      <li>and increasingly resemble <strong>switched on-chip networks</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Crossbars</strong> with high bandwidth, poor scalability
+    <ul>
+      <li><strong>hierarchical crossbars</strong></li>
+      <li>resemble <strong>multi-hop on-chip networks</strong></li>
+    </ul>
+  </li>
+  <li><strong>Benfits</strong> of On-chip networks :
+    <ul>
+      <li>A scalable solution</li>
+      <li>Very efficient in their use of wiring and multiplexing</li>
+      <li>Regular topologies have local, short interconnects</li>
+    </ul>
+  </li>
+  <li><strong>OCN building blocks</strong> :
+    <ul>
+      <li>Topology</li>
+      <li>Routing</li>
+      <li>Flow Control</li>
+      <li>Router microarchitecture : input buffers, router state, routing logic, allocators, and a crossbar (or switch)</li>
+      <li>Link architecture</li>
+    </ul>
+  </li>
+  <li><strong>OCN Performance and cost</strong></li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_1_1.png" alt="fig1.1" /><br />
+<em>Fig1.1: Latency vs Throughput for on-chip network</em></p>
+
+<hr />
+<h2 id="chapter-2-interface-with-system-architecture">Chapter 2. Interface with System Architecture</h2>
+
+<h3 id="shared-memory-networks-in-chip-multiprocessors">Shared memory networks in chip multiprocessors</h3>
+<ul>
+  <li>Shared memory and a partitioned global address space (PGAS)</li>
+  <li>With the shared-memory model, communication occurs implicitly through the loading and storing of data and the accessing of instructions. As a result, the shared-memory model is an intuitive way to realize this sharing.</li>
+  <li>Two key characteristics due to mem hierarchy for shared memory :
+    <ul>
+      <li>the <strong>cache coherence protocol</strong> that makes sure nodes receive the correct up-to-date copy of a cache line, and</li>
+      <li>the <strong>cache hierarchy</strong>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_1.png" alt="fig2.1" /><br />
+<em>Fig2.1: Shared Memory Chip Multiprocessors Arhictecture</em></p>
+
+<h3 id="impact-of-coherence-protocol-on-network-performance">Impact of coherence protocol on network performance</h3>
+<ul>
+  <li>Any number of nodes may cache a copy of memory to read from; if a node wishes to write to that memory address, it must ensure that <strong>no other nodes are caching that address</strong>.</li>
+  <li><strong>Broadcast protocol</strong>: coherence request are sent to all nodes
+    <ul>
+      <li>One interconnect for ordering and a higher bandwidth</li>
+      <li>Unordered interconnect for data transfers</li>
+    </ul>
+  </li>
+  <li><strong>Diectory protocal</strong>: point-to-point messages</li>
+  <li>Type of message : (1) Unicast (2) Multicast (3) Broadcast</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_2.png" alt="fig2.2" /><br />
+<em>Fig2.2: Coherence protocol network request examples</em></p>
+
+<h3 id="protocol-level-network-deadlocks">Protocol-level network deadlocks</h3>
+<ul>
+  <li>Network needs to be free from protocol-level deadlock</li>
+  <li>If both processors generate a burst of requests tha fill the network resources, both processors will be stalled waiting for remote replies before they can consume additional outstanding requests. If replies utilize the same network resources as requests, those replies cannot make forward progress resulting in <strong>deadlock</strong>.</li>
+  <li>Mutliple <strong>virtual channels</strong> can be used to prevent deadlock.(See Chapter 5) In short, use different virtual channels for different message classes =&gt; the cyclic dependence between requests and responses is broken in the networks.</li>
+  <li>Three typical classes:
+    <ul>
+      <li><strong>Requests</strong>: loads, stores, upgrades, writebacks</li>
+      <li><strong>Intervensions</strong>: messages sent from directory to request modified data be transferred to a new node</li>
+      <li><strong>Responses</strong>: invalidataion acknowledgements, negative acknowledgements, data messages</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_3.png" alt="fig2.3" /><br />
+<em>Fig2.3: Coherence protocol network request examples</em></p>
+
+<h3 id="impact-of-cache-hierarchy-implementation">Impact of cache hierarchy implementation</h3>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_4.png" alt="fig2.4" /><br />
+<em>Fig2.4: Private and Shared Caches</em></p>
+
+<ul>
+  <li><strong>Private vs Shared L2 Caches</strong> : With a private L2 cache, ‘L1 miss’ will only be sent to the local L2 cache. Then, the reqeust could hit, or be forwarded to a remote L2 cache that hold its directory, or access to off-chip memory. On the otherhand, with shared L2 cache, L1 miss will be sent to an L2 bannk determined by the miss address (not necessarily the local L2 bank).</li>
+  <li><strong>Drawback of private cache</strong>: (1) Need to replicate data, and (2) increased L2 miss rate.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_5.png" alt="fig2.5" /><br />
+<em>Fig2.5: <strong>Private L2 caches</strong> walk-through example. (a) Private L2 Hit case. (b) Private L2 miss case. Then, the load of A misses in the private L2 cache and must be sent to the network interface(4), sent through the network to the memory controller (5), sent off-chip and finally re-traverse the network back to the the requestor (6)</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_6.png" alt="fig2.6" /><br />
+<em>Fig2.6: <strong>Shared L2 cache</strong> walk-through example. (a) Private L2 Hit case. If L1 misses, the router will format the request message and send it to the one of the remote shared nodes. if the shared L2 hit, the date will be sent to the requsetor. (b) If shared L2 cache in a remote node misses, the remote node will generate request for data to the off-chip memory, and send the acquired date to the original requestor</em></p>
+
+<h3 id="home-node-and-memory-controller-design-issues">Home node and memory controller design issues</h3>
+
+<ul>
+  <li>
+    <p><strong>Home node</strong> : With a directory protocol, each address statically maps to a home node. The directory information resides at the home node which is responsible for ordering requests to all addresses that map to this home node.The directory either supplies the data from off-chip, either from memory or from another socket, or sends intervention messages on-chip to acquire data and/or permissions for the coherence request. For a shared L2 cache, the home node with directory information is the cache bank that the address maps to. From the example in Figure 2.6, the directory is located at the tile marked A for address A. If remote L1 cache copies need to be invalidated (for a write request to A), the directory will send those requests through the network. With a private L2 cache conﬁguration, there does not need to be a one-to-one correspondence between the number of home nodes and the number of tiles. Every tile can house a portion of the directory (n home nodes), there can be a single centralized directory, or there can be a number of home nodes in between 1 and n. Broadcast protocols such as the Opteron protocol [41] require an ordering point similar to a home node from which to initiate the broadcast request.</p>
+  </li>
+  <li>
+    <p><strong>Memory controller</strong>: Handle the data request from the network to memory outside the chip.</p>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_7.png" alt="fig2.7" />
+<em>Fig2.7: Memory controller inside/outside the core</em></p>
+
+<h3 id="miss-and-transaction-status-holding-registers">Miss and transaction status holding registers</h3>
+
+<ul>
+  <li><strong>Processor-to-Network interface</strong> is responsible fro formatting network messages to handle cache misses (due to a load or store), cache line permission upgrads, and cache line evictions.</li>
+  <li>MSHR: Miss status handling register</li>
+  <li>cache miss =&gt; MSHR =&gt; send message to the network</li>
+  <li>
+    <p>recieve message from the network =&gt; MSHR matching =&gt; complete cache miss actions.
+<img src="/assets/notes/note_NetworkOnChip/NoC_2_8.png" alt="fig2.8" /><br />
+<em>Fig2.8: Processor-to-Network Interface (adapted from Dally and Towles [47])</em></p>
+  </li>
+  <li><strong>Memory-to-Network interface</strong> is responsible for receiving memory request messages from processors (caches) and initiating replies.</li>
+  <li>TSHR: Transaction status handling registers
+<img src="/assets/notes/note_NetworkOnChip/NoC_2_9.png" alt="fig2.9" /><br />
+<em>Fig2.9: Memory-to-Network Interface (adapted from Dally and Towles [47])</em></li>
+</ul>
+
+<h2 id="synthesized-nocs-in-mpsocs">Synthesized NOCs in MPSOCs</h2>
+
+<ul>
+  <li>Holy grail in NoC design in MPSoCs is to allow designers to feed in NoC traffic characterziation to a design tool, which will then automaticallly generate a fully sythesizable NoC design</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_10.png" alt="fig2.10" /><br />
+<em>Fig2.10: VOPD (video decoder) task graph example from [104, 30]. The peak/average communication bandwidth between cores are characterized and marked on the links between cores</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_11.png" alt="fig2.11" /><br />
+<em>Fig2.11: Synthesis flow from [183]</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_13.png" alt="fig2.13" /><br />
+<em>Fig2.13: AXI read (addresss, data) and write (address, data, response) channel</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_2_14.png" alt="fig2.14" /><br />
+<em>Fig2.14: The AXI Protocol allows messages to complete out of order: D21 returns data prior to D11 even though A11 occurred prior to A21.</em></p>
+
+<hr />
+<h2 id="chapter-3-topology">Chapter 3. Topology</h2>
+
+<ul>
+  <li>The on-chip network <strong>topology</strong> determines the physical layout and connections between nodes and channels in the network.</li>
+  <li>The implementation complexity cost of a topology depends on two factors: the number of links at each node (<strong>node degree</strong>) and the <strong>ease of laying out</strong> a topology on a chip (wire lengths and the number of metal layers required).</li>
+</ul>
+
+<h3 id="metrics-for-comparing-topologies">Metrics for comparing Topologies</h3>
+
+<ul>
+  <li>Question: How to compare the characteristics of different topologies?</li>
+  <li>Bisection bandwidth: a metric for off-chip networks. Not proper for NoC because of large number of wires in NoC.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_1.png" alt="fig3.1" /><br />
+<em>Fig3.1: Common on-chip network topologies.</em></p>
+
+<ul>
+  <li><strong>Degree a topology</strong> : ~ the number of ports at routers. e.g. ring = 2, torus = 4, mesh = 2~4 (not uniform)</li>
+  <li><strong>Hop count</strong> : ~ network latency</li>
+  <li><strong>Maximum channel load</strong> : maximum number of bits per second (bps) that can be injected by every node into the network before it saturates</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Path diversity</strong> : A topology that provides multiple shortest paths (</td>
+          <td>R_(src−dst)</td>
+          <td>&gt; 1, where R represents the path diversity) between a given source and destination pair has greater path diversity than a topology where there is only a single path between a source and destination pair (</td>
+          <td>R_(src−dst)</td>
+          <td>= 1).</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_2.png" alt="fig3.2" /><br />
+<em>Fig3.2: Channel load example with 2 rings connected via a single channel. The max channel load for the bottleneck channel = 4 = 8x1/2</em></p>
+
+<h3 id="direct-topologies">Direct Topologies</h3>
+
+<ul>
+  <li><strong>Ring</strong> : Rings fall into the torus family of network topologies as k-ary 1-cubes.</li>
+  <li><strong>Mesh</strong> : Mesh and torus networks can be described as <em>k-ary n-cubes</em> , where k is the number of nodes along each dimension, and n is the number of dimensions.</li>
+  <li><strong>Tori</strong> : With a torus, all nodes have the same degree</li>
+</ul>
+
+<h3 id="indirect-topologies">Indirect Topologies</h3>
+
+<ul>
+  <li><strong>BUTTERFLIES</strong> : Butterﬂy networks can be described as k-ary n-ﬂies. Such a network would consist of k^n terminal nodes (e.g.cores,memory),and comprises n stages of k^(n−1) k×k intermediate switch nodes. The primary disadvantages of a butterﬂy network are the lack of path diversity and the inability of these networks to exploit locality. (Poor for unbalanced traffic patterns)</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_3.png" alt="fig3.3" /><br />
+<em>Fig3.3: A 2-ary 3-ﬂy butterﬂy network.</em></p>
+
+<ul>
+  <li><strong>CLOS NETWORKS</strong> : a three-stage network characterized by the triple, (m,n,r) where m is the number of middle stage switches, n is the number of input/output ports on each input/output switch (ﬁrst and last stage switches), and r is the number of ﬁrst/last stage switches. When m &gt; (2n−1), a Clos network is strictly non-blocking. A disadvantage of a Clos network is its inability to exploit locality between source and destination pairs.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_4.png" alt="fig3.4" /><br />
+<em>Fig3.4: An (m = 5, n = 3, r = 4) symmetric Clos network with r = 4n × m input-stage switches, m = 5r × r middle-stage switches, and r = 4m × n output-stage switches. Crossbars form all switches.</em></p>
+
+<ul>
+  <li><strong>FAT TREES</strong> : a binary tree network in which wiring resources increase for stages closer to the root node (Figure 3.5a). A fat tree can be constructed from a folded Clos network, as shown in Figure 3.5b giving path diversity over the tree network in Figure 3.5a.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_5.png" alt="fig3.5" /><br />
+<em>Fig3.5: A fat tree network. (b) A Clos network can be folded along the middle set of switches so that the input and output switches are shared. A 5-stage folded Clos network characterized by the triple (2, 2, 4) is depicted. The center stage is realized with another 3-stage Clos formed using (2, 2, 2) Clos network. This Clos network is folded along the top row of switches.</em></p>
+
+<h3 id="irregular-topologies">Irregular topologies</h3>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_6.png" alt="fig3.6" /><br />
+<em>Fig3.6: A regular (mesh) topology and a custom topology for a video object plane decoder (VOPD) (from [30]).</em></p>
+
+<ul>
+  <li><strong>Splitting</strong>: With splitting, a large crossbar connecting all nodes is ﬁrst created and then iteratively split into multiple small switches to accommodate a set of design constraints.</li>
+  <li><strong>Merging</strong>: Alternatively, a network with a larger number of switches such as a mesh or torus can be used as a starting point. From this starting point, switches are merged together to reduce area and power.</li>
+</ul>
+
+<h3 id="topology-synthesis-algorithm-example">Topology Synthesis Algorithm Example</h3>
+
+<ul>
+  <li>
+    <p>Finding optimal topology? An <strong>NP-hard problem</strong>! -&gt; several heuristics have been proposed to ﬁnd the best topology in an efﬁcient manner like…</p>
+  </li>
+  <li>
+    <p>The <strong>min-cut partition</strong> is performed so that the edges of the graph that cross partitions have lower weights than the edges within partitions. Additionally, the number of nodes assigned to each partition remains nearly the same. Such a min-cut partition will ensure that trafﬁc ﬂows with high bandwidth will use the same switch for communication.</p>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_7.png" alt="fig3.7" /><br />
+<em>Fig3.7: Topology Synthesis Algorithm example.</em></p>
+
+<h3 id="layout-and-implementation">Layout and Implementation</h3>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_8.png" alt="fig3.8" /><br />
+<em>Fig3.8: Layout of a 8x8 folded torus.</em></p>
+
+<h3 id="concentrator">Concentrator</h3>
+
+<ul>
+  <li>Up to this point, we have assumed a one-to-one correspondence between network nodes and terminal nodes. However, this need not be the case. Frequently, multiple cores that do not require the bandwidth of a single network node will share a node by using <strong>concentrators</strong>.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_9.png" alt="fig3.9" /><br />
+<em>Fig3.9: A mesh where four nodes are sharing bandwidth through a concentrator.</em></p>
+
+<h3 id="implication-of-abstract-metrics-on-on-chip-implementation">Implication of abstract metrics on on-chip implementation</h3>
+
+<ul>
+  <li><strong>High node degree</strong> : high port count, additional input buffer queue(s), additional requestors to the allocators, additional ports to the crossbar switch, (= all major contributors to a router’s critical path delay, area footprint, and power).</li>
+  <li><strong>Link complexity</strong> depends on the link width, as link area and power overheads correlate more closely with the number of wires than the number of ports.</li>
+  <li><strong>Hop count</strong> : Overall network latency and power. However, hop count does not always correlate with network latency in practice, as it depends heavily on the router pipeline length and the link propagation delay.
+    <ul>
+      <li>For instance, a network with only <strong>2 hops</strong>, router pipeline depths of 5 cycles, and long inter-router distances requiring 4 cycles for link traversal, will have an actual network latency of <strong>18 cycles</strong>.</li>
+      <li>Conversely, a network with <strong>3 hops</strong> where each router has a single-cycle pipeline and the link delay is a single cycle, will have a total network latency of only <strong>6 cycles</strong>.</li>
+      <li>However, unfortunately, factors such as <strong>router pipeline depth</strong> are typically <em>not known until later in the design cycle</em>.</li>
+    </ul>
+  </li>
+  <li><strong>Maximum channel load</strong> : A good proxy for network saturation throughput (congestion) and maximum power. Since it is a good proxy for saturation, it is also very useful for estimating <strong>peak power</strong>, as dynamic power is highest with peak switching activity and utilization in the network.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_10.png" alt="fig3.10" /><br />
+<em>Fig3.10: Various Spidergon Topologies.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_3_11.png" alt="fig3.11" /><br />
+<em>Fig3.11: 12 Node Full Spidergon Layout for the logical Spidergon depicted in Figure 3.10c.</em></p>
+
+<hr />
+<h2 id="chapter-4-routing">Chapter 4. Routing</h2>
+
+<ul>
+  <li>The goal of the routing algorithm is to distribute trafﬁc evenly among the paths supplied by the network topology, so as to avoid hotspots and minimize contention,thus improving network latency and throughput.</li>
+</ul>
+
+<h3 id="types-of-routing-algorithms">TYPES OF ROUTING ALGORITHMS</h3>
+
+<ul>
+  <li>Three classes:
+    <ul>
+      <li>deterministic: dimension-ordered routing (DOR)</li>
+      <li>oblivious : randomly choose path</li>
+      <li>adaptive : the path depends on network trafﬁc situation</li>
+    </ul>
+  </li>
+  <li>Other two classes:
+    <ul>
+      <li>minimal</li>
+      <li>non-minimal</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_1.png" alt="fig4.1" /><br />
+<em>Figure 4.1: DOR illustrates an X-Y route from (0,0) to (2,3) in a mesh, while Oblivious shows two alternative routes (X-Y and Y-X) between the same source-destination pair that can be chosen obliviously prior to message transmission. Adaptive shows a possible adaptive route that branches away from the X-Y route if congestion is encountered at (1,0)</em></p>
+
+<h3 id="deadlock-avoidance">DEADLOCK AVOIDANCE</h3>
+
+<ul>
+  <li>A deadlock occurs when a cycle exists among the paths of multiple messages</li>
+  <li>Deadlock freedom can be ensured in the routing algorithm by preventing cycles among the routes generated by the algorithm, or in the ﬂow control protocol by preventing router buffers from being acquired and held in a cyclic manner</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_2.png" alt="fig4.2" /><br />
+<em>Figure 4.2: A classic network deadlock where four packets cannot make forward progress as they are waiting for links that other packets are holding on to.</em></p>
+
+<h3 id="deterministic-dimension-ordered-routing">DETERMINISTIC DIMENSION-ORDERED ROUTING</h3>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_3.png" alt="fig4.3" /><br />
+<em>Figure 4.3: Possible routing turns for a 2D Mesh.</em></p>
+
+<h3 id="oblivious-routing">OBLIVIOUS ROUTING</h3>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_4.png" alt="fig4.4" /><br />
+<em>Figure 4.4: Oblivious Routing Examples.</em></p>
+
+<h3 id="adaptive-routing">ADAPTIVE ROUTING</h3>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_5.png" alt="fig4.5" /><br />
+<em>Figure 4.5: Adaptive Routing Example.</em></p>
+
+<ul>
+  <li>If adaptive routing allows misrouting -&gt; Livelock -&gt; limit the maximum number of misroutes.</li>
+</ul>
+
+<h4 id="adaptive-turn-model-routing">ADAPTIVE TURN MODEL ROUTING</h4>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_6.png" alt="fig4.6" /><br />
+<em>Figure 4.6: Turn Model Routing.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_7.png" alt="fig4.7" /><br />
+<em>Figure 4.7: Turn Model Deadlock.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_8.png" alt="fig4.8" /><br />
+<em>Figure 4.8: Negative-First Routing example.</em></p>
+
+<h2 id="implementation">IMPLEMENTATION</h2>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_1_Table.png" alt="fig4.T1" /><br />
+<em>Table 4.1: Routing Algorithm and Implementation Options .</em></p>
+
+<h3 id="source-routing">SOURCE ROUTING</h3>
+
+<ul>
+  <li>The route can be embedded in the packet header at the source, known as source routing. For instance, the X-Y route in Figure 4.1 can be encoded as &lt; E, E, N, N, N, Eject &gt;, while the Y-X route can be encoded as &lt; N, N, N, E, E, Eject &gt;. At each hop, the router will read the leftmost direction off the route header, send the packet towards the speciﬁed outgoing link, and strip off the portion of the header corresponding to the current hop.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_2_Table.png" alt="fig4.T2" /><br />
+<em>Table 4.2: Source routing table at Node (0,0) for the 2x3 mesh in Figure 4.1</em></p>
+
+<h3 id="node-table-based-routing">NODE TABLE-BASED ROUTING</h3>
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_3_Table.png" alt="fig4.T3" /><br />
+<em>Table 4.3: Table-based routing for a 3x3 mesh with West-First Turn Model Algorithm</em></p>
+
+<h3 id="combinational-circuits">COMBINATIONAL CIRCUITS</h3>
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_9.png" alt="fig4.9" /><br />
+<em>Figure 4.9: Combinational Routing Circuit for 2-D Mesh.</em></p>
+
+<h3 id="adaptive-routing-1">ADAPTIVE ROUTING</h3>
+<ul>
+  <li>Route adjustments can be implemented by modifying the header,by employing combinational circuitry that accepts as input these congestion signals, or by updating entries in a routing table.</li>
+</ul>
+
+<h3 id="routing-on-irregular-topologies">ROUTING ON IRREGULAR TOPOLOGIES</h3>
+<ul>
+  <li>Common routing implementations for irregular networks rely on source table routing or node-table routing</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/NoC_4_10.png" alt="fig4.10" />  <br />
+<em>Figure 4.10: A 6 node Spidergon with the highlighted path from Node 0 to Node 4 using the Across-</em></p>
+
+<h2 id="chapter-5-flow-control">Chapter 5. Flow Control</h2>
+
+<ul>
+  <li>Flow control governs the allocation of network buﬀers and links. It determines when buﬀers and links are assigned to messages, the granularity at which they are allocated, and how these resources are shared among the many messages using the network.</li>
+</ul>
+
+<h3 id="messages-packets-flits-and-phits">MESSAGES, PACKETS, FLITS, AND PHITS</h3>
+
+<ul>
+  <li>Message -&gt; Packets -&gt; Flits -&gt; Phits</li>
+  <li>Head/Body/Tail filts contain cache line &amp; cache coherence command</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_1.png" alt="fig5.1" />  <br />
+<em>Figure 5.1: Composition of Message, Packets, Flits: Assuming 16-byte wide ﬂits and 64-byte cache lines, a cache line packet will be composed of 5 ﬂits and a coherence command will be a single-ﬂit packet. The sequence number (Seq#) is used to match incoming replies with outstanding requests, or to ensure ordering and detect lost packets.</em></p>
+
+<h3 id="message-based-flow-control">MESSAGE-BASED FLOW CONTROL</h3>
+
+<ul>
+  <li>Circuit switching pre-allocates resources (links) across multiple hops to the entire message.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_2.png" alt="fig5.2" />  <br />
+<em>Figure 5.2: Circuit-switching example from Core 0 to Core 8, with Core 2 being stalled. S: Setup ﬂit, A: Acknowledgement ﬂit,D: Data message,T:Tail (deallocation) ﬂit.Each D represents a message; multiple messages can be sent on a single circuit before it is deallocated. In cycles 12 and 16, the source node has no data to send.</em></p>
+
+<h3 id="packet-based-flow-control">PACKET-BASED FLOW CONTROL</h3>
+
+<ul>
+  <li>Packet-based ﬂow control techniques ﬁrst break down messages into packets, then interleave these packets on the links, thus improving link utilization. Unlike circuit switching, the remaining techniques will require <strong>per-node buﬀerin</strong> to store in-ﬂight packets.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_3.png" alt="fig5.3" /><br />
+<em>Figure 5.3: Store and Forward Example.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_4.png" alt="fig5.4" /><br />
+<em>Figure 5.4: Virtual Cut Through Example.</em></p>
+
+<h3 id="flit-based-flow-control">FLIT-BASED FLOW CONTROL</h3>
+
+<ul>
+  <li>To reduce the buﬀering requirements of packet-based techniques, ﬂit-based ﬂow control mechanisms exist. Low buﬀering requirements help routers meet tight area or power constraints on-chip.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_5.png" alt="fig5.5" /><br />
+<em>Figure 5.5: Wormhole Example.</em></p>
+
+<h3 id="virtual-channels">VIRTUAL CHANNELS</h3>
+
+<ul>
+  <li>Virtual channels have been explained as the “swiss-army knife” of interconnection networks</li>
+  <li>Essentially, a virtual channel (VC) is basically a separate queue in the router; multiple VCs share the physical wires (physical link) between two routers. By associating multiple separate queues with each input port, head-of-line blocking can be reduced. Virtual channels arbitrate for physical link bandwidth on a cycle-by-cycle basis.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_6.png" alt="fig5.6" /> <br />
+<em>Figure 5.6: Virtual Channel Flow Control Walk-through Example. Two packets A and B are broken into 4 ﬂits each (H: head, B: Body, T: Tail).</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_1_table1.png" alt="fig5.T1" /> <br />
+<em>Table 5.1: Summary of ﬂow control techniques.</em></p>
+
+<h3 id="deadlock-free-flow-control">DEADLOCK-FREE FLOW CONTROL</h3>
+
+<ul>
+  <li>DATELINE AND VC PARTITIONING, ESCAPE VCS, BUBBLE FLOW CONTROL</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_7.png" alt="fig5.7" /> <br />
+<em>Figure 5.7: Two virtual channels with separate buﬀer queues denote with white and grey circles at each router are used to break the cyclic route deadlock in Figure 4.2.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_8.png" alt="fig5.8" /> <br />
+<em>Figure 5.8: Escape virtual channel example. Virtual Channel 1 serves as an escape virtual channel that is dimension order XY routed.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_9.png" alt="fig5.9" /><br />
+<em>Figure 5.9: Bubble ﬂow control example.</em></p>
+
+<h3 id="buffer-backpressure">BUFFER BACKPRESSURE</h3>
+
+<ul>
+  <li>As most on-chip network designs cannot tolerate the dropping of packets, there must be buﬀer backpressure mechanisms for stalling ﬂits. Flits must not be transmitted when the next hop will not have buﬀers available to house them.</li>
+  <li>Credit-based, On/off signal</li>
+</ul>
+
+<h3 id="implementation-1">IMPLEMENTATION</h3>
+
+<ul>
+  <li>BUFFER SIZING FOR TURNAROUND TIME</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_10.png" alt="fig5.10" /><br />
+<em>Figure 5.10: Throttling due to too few buﬀers. Flit pipeline stages discussed in Chapter 6. C: Credit send. C-LT: Credit link traversal. C-Up: Credit update.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_11.png" alt="fig5.11" /><br />
+<em>Figure 5.11: Buﬀer backpressure mechanisms time lines.</em></p>
+
+<ul>
+  <li>REVERSE SIGNALING WIRES</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_5_12.png" alt="fig5.12" /><br />
+<em>Figure 5.12: Reverse signaling overhead.</em></p>
+
+<h2 id="chapter-6-router-microarchitecture">Chapter 6. Router Microarchitecture</h2>
+
+<h3 id="virtual-channel-router-microarchitecture">VIRTUAL CHANNEL ROUTER MICROARCHITECTURE</h3>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_1.png" alt="fig6.1" /><br />
+<em>Figure 6.1: A credit-based virtual channel router microarchitecture.</em></p>
+
+<h3 id="buffers-and-virtual-channels">BUFFERS AND VIRTUAL CHANNELS</h3>
+
+<ul>
+  <li>Buffer organization</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_2.png" alt="fig6.2" /><br />
+<em>Figure 6.2: Buﬀer and VC organizations.</em></p>
+
+<ul>
+  <li>Input VC state: Global, Rount, Output VC, Credit Count, Pointers</li>
+</ul>
+
+<h3 id="switch-design">SWITCH DESIGN</h3>
+
+<ul>
+  <li>
+    <p>The crossbar switch of a router is the heart of the router datapath. It switches bits from input ports to output ports, performing the essence of a router’s function.</p>
+  </li>
+  <li>
+    <p><strong>Crossbar design</strong></p>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_table1.png" alt="table6.1" /><br />
+<em>Table 6.1: Verilog of a 4-bit 5-port crossbar</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_3.png" alt="fig6.3" /><br />
+<em>Figure 6.3: Crossbar composed of many multiplexers.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_4.png" alt="fig6.4" /><br />
+<em>Figure6.4: A 5x5 crosspoint crossbar switch. Each horizontal and vertical line is w bits wide (1 phit width). The bold lines show a connection activated from the south input port to the east output port.</em></p>
+
+<ul>
+  <li><strong>Crossbar speedup</strong></li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_5.png" alt="fig6.5" /><br />
+<em>Figure 6.5: Crossbars with diﬀerent speedups for a 5-port router. (a) No crossbar speedup, (b) crossbar with input speedup of 2, (c) crossbar with output speedup of 2, and (d) crossbar with input and output speedup of 2.</em></p>
+
+<ul>
+  <li><strong>Crossbar slicing</strong></li>
+</ul>
+
+<h3 id="allocators-and-arbiters">ALLOCATORS AND ARBITERS</h3>
+
+<ul>
+  <li><strong>Round-robin arbiter</strong></li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_6.png" alt="fig6.6" /><br />
+<em>Figure 6.6: Round-robin arbiter.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_7.png" alt="fig6.7" /><br />
+<em>Figure 6.7: Request queues for arbiter examples.</em></p>
+
+<ul>
+  <li><strong>Matrix arbiter</strong></li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_8.png" alt="fig6.8" /><br />
+<em>Figure 6.8: Matrix arbiter. The boxes w_ij represent priority bits. When bit w_ij is set, request i has a higher priority than request j .</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_9.png" alt="fig6.9" /><br />
+<em>Figure 6.9: Matrix arbiter priority update for the request stream from Figure 6.7.</em></p>
+
+<ul>
+  <li><strong>Separable allocator</strong></li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_10.png" alt="fig6.10" /><br />
+<em>Figure 6.10: A separable 3:4 allocator (3 requestors, 4 resources) which consists of four 3:1 arbiters in the ﬁrst stage and three 4:1 arbiters in the second. The 3:1 arbiters in the ﬁrst stage decides which of the 3 requestors win a speciﬁc resource, while the 4:1 arbiters in the second stage ensure a requestor is granted just 1 of the 4 resources.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_11.png" alt="fig6.11" /><br />
+<em>Figure 6.11: Separable allocator example.</em></p>
+
+<ul>
+  <li><strong>Wavefront allocator</strong></li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_12.png" alt="fig6.12" /><br />
+<em>Figure 6.12: A 4 x 4 wavefront allocator. Diagonal priority groups are connected with bold lines. Connections for passing tokens are shown with grey lines.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_13.png" alt="fig6.13" /><br />
+<em>Figure 6.13: Wavefront allocator example.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_14.png" alt="fig6.14" /><br />
+<em>Figure 6.14: Wavefront grant matrix.</em></p>
+
+<ul>
+  <li><strong>Allocator Organization</strong></li>
+</ul>
+
+<h3 id="pipeline">PIPELINE</h3>
+
+<ul>
+  <li>A head ﬂit, upon arriving at an input port, is ﬁrst decoded and buﬀered according to its input VC in the buﬀer write (BW) pipeline stage. Next, the routing logic performs route computation (RC) to determine the output port for the packet. The header then arbitrates for a VC corresponding to its output port (i.e., the VC at the next router’s input port) in the VC allocation (VA) stage. Upon successful allocation of a VC, the header ﬂit proceeds to the switch allocation (SA) stage where it arbitrates for the switch input and output ports. On winning the output port, the ﬂit is then read from the buﬀer and proceeds to the switch traversal (ST) stage, where it traverses the crossbar. Finally, the ﬂit is passed to the next node in the link traversal (LT) stage. Body and tail ﬂits follow a similar pipeline except that they do not go through RC and VA stages, instead inheriting the route and the VC allocated by the head ﬂit. The tail ﬂit, on leaving the router, deallocates the VC reserved by the head ﬂit.</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_15.png" alt="fig6.15" /><br />
+<em>Figure 6.15: Router pipeline [BW: Buﬀer Write, RC: Route Computation, VA: Virtual Channel Allocation, SA: Switch Allocation, ST: Switch Traversal, LT: Link Traversal].</em></p>
+
+<ul>
+  <li>Pipeline optimization:
+    <ul>
+      <li>Lookahead Routing = Next route comput = Route pre-computation</li>
+      <li>Low-load bypassing</li>
+      <li>Speculative VA</li>
+      <li>VC selection</li>
+      <li>Lookahead bypass</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_16.png" alt="fig6.16" /><br />
+<em>Figure 6.16: Low-load bypass example.</em></p>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_17.png" alt="fig6.17" /><br />
+<em>Figure 6.17: Lookahead bypass example—Lookahead_B wins and B bypasses, A gets buﬀered.</em></p>
+
+<h3 id="low-power-microarchitecture">LOW-POWER MICROARCHITECTURE</h3>
+
+<ul>
+  <li>Dynamic power vs leakage power</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_18.png" alt="fig6.18" /><br />
+<em>Figure 6.18: Power and area of a 1-cycle mesh router at 32 nm [64].</em></p>
+
+<h3 id="physical-implementation">PHYSICAL IMPLEMENTATION</h3>
+
+<ul>
+  <li>Router floorplanning</li>
+  <li>Buffer implementation</li>
+</ul>
+
+<p><img src="/assets/notes/note_NetworkOnChip/Noc_6_19.png" alt="fig6.19" /><br />
+<em>Figure 6.19: Two router ﬂoorplans.</em></p>
+
+  
+</article>
+
+
+
+
+  <applause-button
+    color=rgb(212,97,44)
+    url=https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/ >
+  </applause-button>
+
+
+
+
+  <clap-button class="mb6" ></clap-button>
+  
+  
+    <p class="message centered border-radius" >
+      <span style="display:block;margin-bottom:.5rem;">This is a preview of <a href="https://getclaps.app">Clap Button</a>, a new feedback and analytics tools for Hydejack, built by yours truly.</span>
+      <span style="display:block;margin-bottom:.5rem;">You can try it out on <code>localhost</code> for free, but it will be removed (together with this message) when building with <code>JEKYLL_ENV=production</code>.</span>
+      <span style="display:block;margin-bottom:.5rem;">To use Clap Button on your site, get a <a href="https://getclaps.app#pricing">subscription</a><br/>and set <code>clap_button: true</code> in your config file.</span>
+    </p>
+  
+
+
+
+
+
+
+  
+     
+
+
+  <aside class="about related mt4 mb4" role="complementary">
+    
+    
+
+<div class="author mt4">
+  
+
+  
+    
+
+
+<img
+  
+    src="/assets/img/profile/me.jpg"
+    
+    
+  
+  alt="Jonghoon Shin"
+  class="avatar"
+  
+  width="120"
+  height="120"
+  loading="lazy"
+/>
+
+  
+
+  
+  
+  <h2  class="page-title hr-bottom">
+    About
+  </h2>
+
+  <p>Interested in physics, solid state devices, neuromorphic computing, artificial intelligence, computer architecture, and everything else. I like to read, write, learn, try, and share. Currently, working in San Jose, CA. Hope you enjoy this blog. :)</p>
+
+
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/jhoons0" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/neuralprobe" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:jhshin1026@gmail.com" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://jonghoon.blog/feed.xml" title="RSS" class="no-mark-external">
+      <span class="icon-rss2"></span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/jong-hoon-shin-b98b8673" title="LinkedIn" class="no-mark-external">
+      <span class="icon-linkedin2"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+
+  </aside>
+
+
+  
+
+  
+    
+
+
+  
+
+  
+    
+
+
+  <aside class="other-projects related mb0" role="complementary">  <h2>Related Posts</h2>  <div class="columns">          <div class="column column-1-2">                  <article class="project-card">  <a href="/blog/book/2021-05-23-invent_and_wander/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img">              <img      src="/assets/img/posts/invent_and_wander/2021-05-23-invent_and_wander/001_1500.png"    srcset="/assets/img/posts/2021-05-23-invent_and_wander/001_500.png 1500w,/assets/img/posts/2021-05-23-invent_and_wander/001_1000.png 1000w,/assets/img/posts/2021-05-23-invent_and_wander/001_1500.png 500w"    sizes="(min-width:86em)27.5rem,(min-width:54em)24.5rem,(min-width:42em)21.5rem,42rem"    alt="Invent and Wander"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/blog/book/2021-05-23-invent_and_wander/" class="flip-title">Invent and Wander</a>  </h3>      <a class="fill-card no-hover" href="/blog/book/2021-05-23-invent_and_wander/" tabindex="-1"><span class="sr-only">Continue reading Invent and Wander</span></a></article>              </div>          <div class="column column-1-2">                  <article class="project-card">  <a href="/blog/book/2021-02-11-tistory352/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img">              <img      src="/assets/img/posts/from_tistory/352_1.png"    srcset="/assets/img/posts/from_tistory/352_1_500.png 500w,/assets/img/posts/from_tistory/352_1_1000.png 1000w,/assets/img/posts/from_tistory/352_1_1500.png 1500w"    sizes="(min-width:86em)27.5rem,(min-width:54em)24.5rem,(min-width:42em)21.5rem,42rem"    alt="단테-신곡"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/blog/book/2021-02-11-tistory352/" class="flip-title">단테-신곡</a>  </h3>      <a class="fill-card no-hover" href="/blog/book/2021-02-11-tistory352/" tabindex="-1"><span class="sr-only">Continue reading 단테-신곡</span></a></article>              </div>      </div></aside>
+
+  
+
+  
+    
+
+
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Random Posts</h2>  <ul class="related-posts">          <li class="h4">  <a href="/blog/book/2018-01-16-tistory97/" class="flip-title"><span>그리스인 이야기1-시오노 나나미</span></a>  <time class="faded fine" datetime="2018-01-16T00:00:00-05:00">16 Jan 2018</time></li>          <li class="h4">  <a href="/blog/book/2018-01-23-tistory99/" class="flip-title"><span>One Page 정리기술 - 다카하시 마사후미</span></a>  <time class="faded fine" datetime="2018-01-23T00:00:00-05:00">23 Jan 2018</time></li>          <li class="h4">  <a href="/blog/book/2016-07-13-tistory59/" class="flip-title"><span>사피엔스 - 유발 하라리</span></a>  <time class="faded fine" datetime="2016-07-13T00:00:00-04:00">13 Jul 2016</time></li>      </ul></aside>
+
+  
+
+  
+    
+<aside class="comments related" role="complementary">
+  <h2 class="hr-bottom">Comments</h2>
+  
+
+<div id="disqus_thread"></div>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<script>!function(w, d) {
+  if (d.getElementById("disqus_thread")) {
+    if (w.DISQUS) {
+      w.DISQUS.reset({
+        reload: true,
+        config() {
+          this.page.url = w.location.href;
+          this.page.title = d.title;
+        },
+      });
+    } else {
+      w.disqus_config = function disqusConfig() {
+        this.page.url = w.location.href;
+        this.page.title = d.title;
+      };
+      w.loadJSDeferred(d.getElementById("_hrefDisqus").href + '/embed.js');
+    }
+  }
+}(window, document);</script>
+
+
+</aside>
+
+
+  
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2021. All rights reserved.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
+      
+    
+    </small></nav>
+  
+  
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(36,36,36);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">jonghoon.blog</h2></a>
+    
+    
+      <p class="">
+        Interested in humanity, science, and engineering. Working in San Jose, CA.
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_drawer--opened"
+          href="/blog/"
+          class="sidebar-nav-item "
+          
+        >
+          Blog
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/tags/"
+          class="sidebar-nav-item "
+          
+        >
+          Tags
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/tag-notebook/"
+          class="sidebar-nav-item "
+          
+        >
+          Notebooks
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/lib/"
+          class="sidebar-nav-item "
+          
+        >
+          Library
+        </a>
+      </li>
+    
+  
+</ul>
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/jhoons0" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/neuralprobe" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:jhshin1026@gmail.com" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://jonghoon.blog/feed.xml" title="RSS" class="no-mark-external">
+      <span class="icon-rss2"></span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/jong-hoon-shin-b98b8673" title="LinkedIn" class="no-mark-external">
+      <span class="icon-linkedin2"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.4.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.4.js" nomodule defer></script>
+  
+
+  
+  <script>!function(w, d) {
+    w.ga=w.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+    /**/
+      ga('create', 'UA-75766716-1', 'auto');
+    /**/
+
+    var pushStateEl = d.getElementById('_pushState');
+    var timeoutId;
+    pushStateEl.addEventListener('hy-push-state-load', function() {
+      w.clearTimeout(timeoutId);
+      timeoutId = w.setTimeout(function() {
+        ga('set', 'page', w.location.pathname);
+        ga('send', 'pageview');
+      }, 500);
+    });
+
+    d.addEventListener('hy--cookies-ok', function () {
+      w.ga(function(tracker) {
+        w.ga("set", "anonymizeIp", undefined);
+        localStorage && localStorage.setItem("ga--client-id", tracker.get("clientId"));
+      });
+    });
+
+    w.loadJSDeferred('https://www.google-analytics.com/analytics.js');
+  }(window, document);</script>
+
+
+  <script type="module">
+    if ('serviceWorker' in navigator) {
+      /**/
+      navigator.serviceWorker.getRegistration()
+        .then(r => r.unregister())
+        .catch(() => {});
+      /**/
+    }
+  </script>
+<!--<![endif]-->
+  <!-- <script>
+  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+    el.addEventListener('click', function (e) {
+      if (el.pathname === window.location.pathname) {
+        e.preventDefault();
+        e.stopPropagation();
+        document.querySelector('hy-drawer').close();
+      }
+    });
+  });
+</script> -->
+
+<!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <clap-config>
+    <clap-text at="1">Keep going!</clap-text>
+    <clap-text at="2">Keep going ×2!</clap-text>
+    <clap-text at="3">Give me more!</clap-text>
+    <clap-text at="5">Thank you, thank you</clap-text>
+    <clap-text at="7">Far too kind!</clap-text>
+    <clap-text at="10">Never gonna give me up?</clap-text>
+    <clap-text at="14">Never gonna let me down?</clap-text>
+    <clap-text at="20">Turn around and desert me!</clap-text>
+    <clap-text at="30">You're an addict!</clap-text>
+    <clap-text at="40">Son of a clapper!</clap-text>
+    <clap-text at="50">No way</clap-text>
+    <clap-text at="60">Go back to work!</clap-text>
+    <clap-text at="70">This is getting out of <em>hand</em></clap-text>
+    <clap-text at="80">Unbelievable</clap-text>
+    <clap-text at="90">PREPOSTEROUS</clap-text>
+    <clap-text at="100">I N S A N I T Y</clap-text>
+    <clap-text at="185"><span style="font-family:monospace">FEED ME A STRAY CAT</span></clap-text>
+  </clap-config>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+  
+  
+    <template id="_dark-mode-template">
+  <button id="_dark-mode" class="nav-btn no-hover" >
+    <span class="sr-only">Dark Mode</span>
+    <span class="icon-brightness-contrast"></span>
+  </button>
+</template>
+
+  
+  
+    <template id="_search-template">
+  <button id="_search" class="nav-btn no-hover">
+    <label class="sr-only" for="_search-input">Search</label>
+    <span class="icon-search"></span>
+  </button>
+  <div id="_search-box">
+    <div class="nav-btn">
+      <span class="icon-search"></span>
+    </div>
+    <input 
+      id="_search-input"
+      type="search"
+      class="form-control form-control-lg nav-btn"
+      placeholder="Build with JEKYLL_ENV=production to enable search."
+    />
+    <button type="reset" class="nav-btn no-hover">
+      <span class="sr-only">Close</span>
+      <span class="icon-cross"></span>
+    </button>
+  </div>
+  <div id="_hits"></div>
+</template>
+
+  
+</div>
+
+</body>
+</html>

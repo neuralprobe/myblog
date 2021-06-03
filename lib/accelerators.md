@@ -23,6 +23,7 @@ hide_description: true
 - Acceleration of Deep Learning in Algorithm & CMOS-based Hardware by me (2019)[pdf](/assets/notes/DeepLearningAcc_JHShin.pdf)
 
 ## Techniques for DL acceleration
+- Data Parallelism VS Model Parallelism in Distributed Deep Learning Training [link](https://leimao.github.io/blog/Data-Parallelism-vs-Model-Paralelism/)
 - One weird trick for parallelizing convolutional neural networks, Alex Krizhevsky, 2014 [link](https://arxiv.org/abs/1404.5997)
 - BinaryConnect: Training Deep Neural Networks with binary weights during propagations, Matthieu Courbariaux, 2016 [link](https://arxiv.org/abs/1511.00363)
 - Measuring the Limits of Data Parallel Training for Neural Networks, J. Lee, Mar. 2019[link](https://ai.googleblog.com/2019/03/measuring-limits-of-data-parallel.html?fbclid=IwAR0o5sHfD83FK3Gp1GvqoiNUpKGbJSszrBb4Ww9lhBQ8RtL18hFj3-AekFo)

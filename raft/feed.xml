@@ -1,5 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-04T12:05:33-04:00</updated><id>/feed.xml</id><title type="html">jonghoon.blog</title><subtitle>Welcome to Jong Hoon's blog
-</subtitle><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><entry><title type="html">단테-신곡</title><link href="/blog/book/2021-02-11-tistory352/" rel="alternate" type="text/html" title="단테-신곡" /><published>2021-02-11T00:00:00-05:00</published><updated>2021-04-29T03:06:14-04:00</updated><id>/blog/book/tistory352</id><content type="html" xml:base="/blog/book/2021-02-11-tistory352/">&lt;p&gt;학업을 마치고 일을 시작한지 1년 반 정도 시간이 지났다. 타지에서 살아남는 것도, 생경한 분야에서 전문가로 자리 잡아가는 일도 쉽지가 않다. 아이디어를 제안하고 깐깐한 선배들을 설득해나가는 과정, 제안한 방법을 뒷받침할 실험결과를 만들어 가는 과정이 주는 피로감은 이제 하루 이틀의 휴식으로는 해소되지 않을만큼 쌓여버린 것 같다. 더 이상 버틸 힘이 없다고 느낄 때에, 감사하게도 한 달정도의 휴식 기간을 얻게 되었고, 일의 노예로 지내는 동안 멀리했던 독서와 사색을 즐길 수 있는 시간을 갖게 되었다. 이 귀중한 시간을 어떤 책으로 시작할까하고 생각해보았는데, ‘지옥’이라는 단어가 계속해서 머리 속을 맴돌았다. 지옥이라는 가상 공간에서 고통받고 있을 등장인물과 공감을 나누고 싶기 때문인지, 찐 고통을 간접 체험하고 담력을 기르기 위함인지는 확실하지 않지만, 지옥 구경 한번 하고 오면 왠지 정신을 차릴 수 있을 것 같은 기분에 단테의 신곡을 펼쳐보았다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://jonghoon.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jonghoon.blog/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-31T12:56:19-04:00</updated><id>https://jonghoon.blog/feed.xml</id><title type="html">jonghoon.blog</title><subtitle>Welcome to Jong Hoon's blog
+</subtitle><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><entry><title type="html">Invent and Wander</title><link href="https://jonghoon.blog/blog/book/2021-05-23-invent_and_wander/" rel="alternate" type="text/html" title="Invent and Wander" /><published>2021-05-23T00:00:00-04:00</published><updated>2021-05-24T22:27:39-04:00</updated><id>https://jonghoon.blog/blog/book/invent_and_wander</id><content type="html" xml:base="https://jonghoon.blog/blog/book/2021-05-23-invent_and_wander/">&lt;p class=&quot;lead&quot;&gt;That trifecta—humanities, technology, business—is what has made him one of our era’s most successful and influential innovators.&lt;/p&gt;
+
+&lt;p&gt;올해 초 한국을 다녀오면서 오랜만에 친한 친구들을 만났다. 그간의 근황과 앞으로 계획하는 일들에 대해서 이야기를 나누었는데, 신기하게도 ‘스타트-업’이 이야기의 중심 주제였다. 몇몇 친구들은 스타트업 관련 업무를 업으로 삼고 있었고, 또 다른 몇몇은 구체적으로 사업화할 수 있는 서비스를 구상하고 있었다. 생각보다 대담하게 준비하고 있는 모습을 보고 많이 놀랐는데, 가만 생각해보면 자연스러운 흐름일 수도 있겠단 생각이 들었다. 실력있는 친구들이 각자 자기 분야에서 경험과 네트워크를 쌓아가다보면, 기존의 기업들(특히 대기업들)이 미처 대응하지 못하는 시장을 발견하기 마련일테고, 충분한 준비 기간을 거친 뒤에 가치있는 일에 도전하는건 분명 멋진 일임에 틀림없다. 내가 몸담고 있는 deep learing acceleration 분야도 &lt;a href=&quot;https://www.forbes.com/sites/moorinsights/2019/10/07/ai-hardware-harder-than-it-looks/?sh=2f9677bd471f&quot;&gt;엄청나게 많은 회사&lt;/a&gt;들이 자신의 노하우를 담은 chip과 service를 내세우며 수백만불의 투자를 받고 있는 상황이고, 2000년 초에 있었던 소프트웨어 오픈소스 바람이 이제 하드웨어 쪽에도 불기 시작한 만큼, 생각보다 스타트업의 기회가 가까울수도 있겠단 생각이 들었다. 새로운 분야에 관심이 생기면 책부터 지르고 보는 습관 덕에, Jeff Bezos의 자서전 및 글모음집인 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Invent and Wander&lt;/code&gt; 와 스타트업 관련 서적에서 좋은 평가를 받고 있는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The Lean Startup&lt;/code&gt;를 사서 읽기 시작했다. 이번 포스트에서는 그 첫 번째 책, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Invent and Wander&lt;/code&gt;를 리뷰 해보려고 한다.&lt;/p&gt;
+
+&lt;p&gt;스타트업에 뛰어드는, 그리고 치열한 경쟁을 이겨내고 성공을 거둔 사람을 만나면 묻고 싶은 몇 가지 질문들이 있다. (1) 사업가, 혁신가라면 갖춰야할 개인적인 소양은 무엇인지, (2) 사업을 시작하기로 결심한 순간은 언제였는지, (3) 경쟁 기업들을 물리치고 성공할 수 있던 비결이 무엇인지, (4) 다양한 구성원으로 이뤄진 조직을 어떻게 한 방향으로 이끌어 갈 수 있는지, (5) 중요한 의사결정은 어떻게 하는지, (6) 지속적인 혁신의 비결은 무엇인지 등이다. 그리고, 이 책은 이 질문들에 대한 답변을 Jeff의 일생과 Amazon의 역사를 통해 들려준다. 책의 초반부는 Walter Isaacson이 introduction을 썼고, 서문 다음에 오는 1부는 아마존의 주주들에게 Jeff가 쓴 편지, 2부는 Jeff의 인터뷰, 아티클, 연설 등을 모은 글로 이루어져있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;혁신가로서의-뛰어남에-대하여&quot;&gt;혁신가로서의 뛰어남에 대하여&lt;/h2&gt;
+
+&lt;p&gt;Walter Isaacson의 소개글은 상당히 단호한 어조로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;혁신가로서의 뛰어남&lt;/code&gt;에 대해 정의한다. 알버트 아인슈타인, 레오나르도 다빈치, 스티브 잡스, 그리고 제프 베조스 같은 위대한 혁신가들은 어떤 공통점이 있을까. 월터는 그들의 뛰어남이 단순히 똑똑한데서 오는 것이 아니라 풍부한 상상력과 창의성에 근거한다고 단언한다. 구체적으로는 네 가지 특징을 들 수 있는데, 첫째는 무지막지하게 호기심이 풍부하다는 점, 둘째는 art와 science를 좋아하는데서 그치는게 아니라 그것들을 연결해 새로운 일을 만들어 내고 싶어한다는 점, 셋째는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Reality-distortion field&lt;/code&gt;라고 부를 수 있을 정도로 강력하게 일을 추진하는 멘탈 포스가 있다는 점 (우리말로 하면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;똥고집&lt;/code&gt;인건가?), 그리고 정말로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Think different&lt;/code&gt;하다는 점 등이 그것이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Smart people are a dime a dozen and often don’t amount to much. What counts is being creative and imaginative.&lt;/p&gt;
+
+  &lt;p&gt;The first is to be curious, passionately curious.&lt;/p&gt;
+
+  &lt;p&gt;A second key trait is to love and to connect the arts and sciences.&lt;/p&gt;
+
+  &lt;p&gt;People who love all fields of knowledge are the ones who can best spot the patterns that exist across nature.&lt;/p&gt;
+
+  &lt;p&gt;Another characteristic of truly innovative and creative people is that they have a reality-distortion field, a phrase that was used about Steve Jobs and comes from a Star Trek episode in which aliens create an entire new world through sheer mental force. When his colleagues protested that one of Jobs’s ideas or proposals would be impossible to implement, he would use a trick he learned from a guru in India: he would stare at them without blinking and say, “Don’t be afraid. You can do it.”&lt;/p&gt;
+
+  &lt;p&gt;Related to that is the ability to “think different,” as Jobs put it in a memorable set of Apple ads.&lt;/p&gt;
+
+  &lt;p&gt;One final trait shared by all my subjects is that they retained a childlike sense of wonder.&lt;/p&gt;
+
+  &lt;p&gt;Jeff Bezos embodies these traits.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이런 특징을 갖추고 있다는 것은 어쩌면, 반대로 대단히 스마트한 천재일 필요는 없다는 말로 읽히기도 한다. 실제로 제프는 물리학자가 될 꿈을 품고 입학한 프린스턴에서 양자역학 문제가 너무 어려워서 꿈을 포기하고 computer science로 진로를 바꿨다고 한다. 그 날의 절망이 오늘날 아마존의 밑거름이 되었다는 아이러니 뒤에는, 자신의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부족한 물리학 실력&lt;/code&gt;을 객관적으로 판단하고 짧은 시간동안 새로운 방향으로 진로를 설계해낸 제프의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;의사결정 능력&lt;/code&gt;이 빛을 발하고 있는 것이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He went to Princeton with the goal of studying physics. It sounded like a smart plan until he smashed into a course on quantum mechanics.&lt;/p&gt;
+
+  &lt;p&gt;We show him this problem, and he looks at it. He stares at it for a while and says, “Cosign.” I’m, like, “What do you mean,” and Yosanta says, “That’s the answer.” And I’m, like, “That’s the answer?” “Yeah, let me show you.” He sits us down. He writes out three pages of detailed algebra. Everything crosses out, and the answer is cosign, and I say, “Listen, Yosanta, did you just do that in your head?” And he says, “No, that would be impossible. Three years ago I solved a very similar problem, and I was able to map this problem onto that problem, and then it was immediately obvious that the answer was cosign.” That was an important moment for me because it was the very moment when I realized I was never going to be a great theoretical physicist, and so I started doing some soul-searching. In most occupations, if you’re in the ninetieth percentile or above, you’re going to contribute. In theoretical physics, you’ve got to be, like, one of the top fifty people in the world, or you’re really just not helping out much. It was very clear. I saw the writing on the wall and changed my major very quickly to electrical engineering and computer science.&lt;/p&gt;
+
+  &lt;p&gt;“That was the very moment when I realized I was never going to be a great theoretical physicist,” Bezos says. “I saw the writing on the wall, and I changed my major very quickly to electrical engineering and computer science.” It was a difficult realization. His heart had been set on becoming a physicist, but finally he had confronted his own limits.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;뉴욕의 헤지펀드에서 일하던 중, 그 좋은 직장을 때려치고 스타트업을 시작하기로 결정한 순간에도 그의 탁월한 의사결정 능력을 발휘한다. 제프는 자신이 의사결정하는 과정을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;regret minimization framework (후회 최소화 기법)&lt;/code&gt;으로 설명하는데, 중요한 의사결정을 해야할 때면, 먼 미래에 후회가 되지 않는 방향으로 결정한다는 방법이다. 이 설명을 듣고나면 누구나 공감할 만한 이야기지만, 먼 미래에 후회하지 않기 위해 현재의 기회를 포기해야하는 용기를 갖추지 않고선 따르기 쉽지 않은 기법이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To make the decision, Bezos used a mental exercise that would become a famous part of his risk-calculation process. He called it a “regret minimization framework.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;아마존-운영의-원칙&quot;&gt;아마존 운영의 원칙&lt;/h2&gt;
+
+&lt;p&gt;아마존 운영의 원칙은 다음 다섯가지로 요약할 수 있다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Focus on the long term. “It’s All About the Long Term,” he said in the italicized initial headline in his first shareholder letter in 1997. (…) Bezos advised his team, “Be the tortoise and not the hare.” Blue Origin’s company shield has a Latin motto, Gradatim Ferociter: “Step by Step, Ferociously.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(1) &lt;strong&gt;장기적 안목에 집중하기.&lt;/strong&gt; 제프는 이런 장기적 안목에 집중하기 위해, 그리고 지속적인 혁신을 자극하기 위해 반복적으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;It's still Day 1&lt;/code&gt;는 문구를 사용한다. 오늘은 아직 회사의 첫번째 날이고, 따라서 장기적으로 회사를 어떻게 키워나갈지 생각하고 혁신해야한다는 경영철학을 직원들과 주주들에게 공유하는 방식인 것이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Focus relentlessly and passionately on the customer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(2) &lt;strong&gt;지나칠 정도로 고객에 집중하기.&lt;/strong&gt; 단순히 고객한테 잘 한다는 원칙이 아니라, 고객을 중심으로 모든 의사결정이 이루어져야한다는 것이다. 그 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;고객중심&lt;/code&gt;의 반대편에는 기술이 있을 수도 있고, 경쟁사가 있을 수도 있다. 이러한 원칙은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;나는 이런 좋은 기술이 있으니깐, 이 기술로 제품을 만들어야해&lt;/code&gt;, 혹은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;경쟁사가 이 정도 수준의 서비스를 제공하니깐 나는 쟤네들 보다 조금 더 낫게 만들면 경쟁우위를 점할 수 있어&lt;/code&gt;라는 식으로 사업을 진행하는 방식을 반대한다. 특히 기술 중심의 의사결정에 대한 이런 태도는 &lt;a href=&quot;https://youtu.be/Ew53EGl0rXo&quot;&gt;OpenDoc에 대한 스티브 잡스의 답변&lt;/a&gt;에서도 볼 수 있다. 엔지니어로서는 서운한 원칙이기는 하지만, 시장의 수많은 플레이어들이 확인해 준 원칙이니 받아 들이는 수 밖에.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Avoid PowerPoint and slide presentations. This is a maxim that Steve Jobs also followed. Bezos’s belief in the power of storytelling means that he thinks that his colleagues should be able to create a readable narrative when they pitch an idea. “We don’t do PowerPoint (or any other slide-oriented) presentations at Amazon,”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(3) &lt;strong&gt;파워포인트가 아닌 스토리를 담은 글로 의사소통하기.&lt;/strong&gt; 이 부분이 좀 독특한 부분인데, 아마존은 누군가 자기 아이디어를 공유하려고 마음 먹으면 파워포인트를 만드는 것이 아니라, 6 페이지의 노트를 작성해야한다고 한다. 미팅이 시작되면, 발표자는 그 6장짜리 노트를 미팅 참여자들에게 나눠주고 각자 조용히 글을 읽은 다음 토론을 시작한다는 것이다. 이 방식을 고수하면, 발표자는 자연스럽게 2주 정도의 시간을 들여 글과 아이디어를 가다듬고 구조화하는 과정에서 아이디어의 질을 상당한 수준으로 높일 수 있다는 것이 제프의 생각이다. 아마존 직원들이 정말로 이렇게 일하는지는 알 수 없지만, 꽤 괜찮은 방식인 것 같다. 파워포인트가 이미지를 통해 파편적인 아이디어 전달 면에선 좋은 매체지만, 서사적 혹은 구조적인 아이디어를 전달하는데는 분명히 한계가 있는 것 같다. 큰 그림을 보게 하기 보다는, 작은 그림의 연속을 보게 하는 툴이라서 그런 한계가 생기는 듯.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Focus on the big decisions. “As a senior executive, what do you really get paid to do?” he asks. “You get paid to make a small number of high-quality decisions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(4) &lt;strong&gt;큰 결정에 집중하기.&lt;/strong&gt; 회사에서 회의를 하다보면, 일의 우선순위 보다도 가지가 뻗어나가는 식으로 의사결정이 되는 경우들이 많다. 제프는 의사결정에 대한 몇 가지 원칙들을 가지고 있는데, 의사결정을 우선수위에 집중하는 것, 의사결정을 위해 필요한 정보의 양과 질보다는 의사결정 속도를 더 중요시 여길 것, 가역적 의사결정과 빠른 평가를 통해 결정사항을 빠른 시일내 번복할 수 있도록 할 것 등이 있다. 빠른 의사결정과 실행, 속도를 위해 포기한 정보의 양과 질을 가역적 실행을 통해 보상하는 방식인데, (정말 이대로 운영된다면) 20년이 지난 지금도 아마존에는 스타트업 때 자리잡은 문화가 계속 유지하는데 성공한 것 같다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hire the right people. “We will continue to focus on hiring and retaining versatile and talented employees,”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(5) &lt;strong&gt;훌륭한 직원을 놓치지 않기.&lt;/strong&gt; (크게 공감이 가는 부분은 없어서 이 부분은 패스.)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;quotations&quot;&gt;Quotations&lt;/h2&gt;
+
+&lt;h3 id=&quot;its-all-about-the-long-term&quot;&gt;It’s All About the Long Term.&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;LONG-TERM THINKING IS both a requirement and an outcome of true ownership. Owners are different from tenants.&lt;/p&gt;
+
+  &lt;p&gt;“You make money when you sell things—why would you allow negative reviews on your website?” Speaking as a focus group of one, I know I’ve sometimes changed my mind before making purchases on Amazon.com as a result of negative or lukewarm customer reviews. Though negative reviews cost us some sales in the short term, helping customers make better purchase decisions ultimately pays off for the company.&lt;/p&gt;
+
+  &lt;p&gt;We have strong conviction that that approach—in the long term—is every bit as good for owners as it is for customers. It’s still Day 1.&lt;/p&gt;
+
+  &lt;p&gt;Amazonians are leaning into the future, with radical and transformational innovations that create value for thousands of authors, entrepreneurs, and developers. Invention has become second nature at Amazon, and in my view the team’s pace of innovation is even accelerating—I can assure you it’s very energizing. I’m extremely proud of the whole team and feel lucky to have a front row seat. It’s still Day 1!&lt;/p&gt;
+
+  &lt;p&gt;As I write this, our recent stock performance has been positive, but we constantly remind ourselves of an important point—as I frequently quote famed investor Benjamin Graham in our employee all-hands meetings—“In the short run, the market is a voting machine but in the long run, it is a weighing machine.” We don’t celebrate a 10 percent increase in the stock price like we celebrate excellent customer experience. We aren’t 10 percent smarter when that happens and conversely aren’t 10 percent dumber when the stock goes the other way. We want to be weighed, and we’re always working to build a …more&lt;/p&gt;
+
+  &lt;p&gt;The outside world can push you into Day 2 if you won’t or can’t embrace powerful trends quickly. If you fight them, you’re probably fighting the future. Embrace them and you have a tailwind. These big trends are not that hard to spot (they get talked and written about a lot), but they can be strangely hard for large organizations to embrace. We’re in the middle of an obvious one right now: machine learning and artificial intelligence.&lt;/p&gt;
+
+  &lt;p&gt;Day 2 companies make high-quality decisions, but they make high-quality decisions slowly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;decision-making-process&quot;&gt;Decision-Making Process&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;First, never use a one-size-fits-all decision-making process. Many decisions are reversible, two-way doors. Those decisions can use a light-weight process. For those, so what if you’re wrong? I wrote about this in more detail in last year’s letter. Second, most decisions should probably be made with somewhere around 70 percent of the information you wish you had. If you wait for 90 percent, in most cases, you’re probably being slow. Plus, either way, you need to be good at quickly recognizing and correcting bad decisions. If you’re good at course correcting, being wrong may be less costly than …more&lt;/p&gt;
+
+  &lt;p&gt;Fourth, recognize true misalignment issues early and escalate them immediately. Sometimes teams have different objectives and fundamentally different views. They are not aligned. No amount of discussion, no number of meetings will resolve that deep misalignment. Without escalation, the default dispute resolution mechanism for this scenario is exhaustion. Whoever has more stamina carries the decision.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;working-backward&quot;&gt;Working Backward&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Working backward” from customer needs can be contrasted with a “skills-forward” approach where existing skills and competencies are used to drive business opportunities. The skills-forward approach says, “We are really good at X. What else can we do with X?” That’s a useful and rewarding business approach. However, if used exclusively, the company employing it will never be driven to develop fresh skills. Eventually the existing skills will become outmoded.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;amazon-as-long-term-business-platform&quot;&gt;Amazon as Long-Term Business Platform&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Because of Kindle Direct Publishing, I earn more royalties in one month than I ever did in a year of writing for a traditional house. I have gone from worrying about if I will be able to pay the bills—and there were many months when I couldn’t—to finally having real savings, even thinking about a vacation; something I haven’t done in years.… Amazon has allowed me to really spread my wings.&lt;/p&gt;
+
+  &lt;p&gt;“Amazon has made it possible for authors like me to get their work in front of readers and has changed my life.&lt;/p&gt;
+
+  &lt;p&gt;Invention comes in many forms and at many scales. The most radical and transformative of inventions are often those that empower others to unleash their creativity—to pursue their dreams. That’s a big part of what’s going on with Amazon Web Services, Fulfillment by Amazon, and Kindle Direct Publishing. With AWS, FBA, and KDP, we are creating powerful self-service platforms that allow thousands of people to boldly experiment and accomplish things that would otherwise be impossible or impractical. These innovative, large-scale platforms are not zero-sum—they create win-win situations and create …more&lt;/p&gt;
+
+  &lt;p&gt;SOMETHING STRANGE AND remarkable has happened over the last twenty years. Take a look at these numbers: 1999 3 percent 2000 3 percent 2001 6 percent 2002 17 percent 2003 22 percent 2004 25 percent 2005 28 percent 2006 28 percent 2007 29 percent 2008 30 percent 2009 31 percent 2010 34 percent 2011 38 percent 2012 42 percent 2013 46 percent 2014 49 percent 2015 51 percent 2016 54 percent 2017 56 percent 2018 58 percent The percentages represent the share of physical gross merchandise sales sold on Amazon by independent third-party sellers—mostly small and medium-sized businesses—as opposed to Amazon retail’s own first party sales. Third-party sales have grown from 3 percent of the total to 58 percent. To put it bluntly: Third-party sellers are kicking our first-party butt. Badly.&lt;/p&gt;
+
+  &lt;p&gt;We helped independent sellers compete against our first-party business by investing in and offering them the very best selling tools we could imagine and build. There are many such tools, including tools that help sellers manage inventory, process payments, track shipments, create reports, and sell across borders—and we’re inventing more every year. But of great importance are Fulfillment by Amazon and the Prime membership program. In combination, these two programs meaningfully improved the customer experience of buying from independent sellers. With the success of these two programs now so well established, it’s difficult for most people to fully appreciate today just how radical those two offerings were at the time we launched them. We invested in both of these programs at significant financial risk and after much internal debate. We had to continue investing significantly over time as we experimented with different ideas and iterations. We could not foresee with certainty what those programs would eventually look like, let alone whether they would succeed, but they were pushed forward with intuition and heart, and nourished with optimism.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><category term="biography" /><category term="history" /><summary type="html">That trifecta—humanities, technology, business—is what has made him one of our era’s most successful and influential innovators.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/img/posts/invent_and_wander/2021-05-23-invent_and_wander/001_1500.png" /><media:content medium="image" url="https://jonghoon.blog/assets/img/posts/invent_and_wander/2021-05-23-invent_and_wander/001_1500.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">단테-신곡</title><link href="https://jonghoon.blog/blog/book/2021-02-11-tistory352/" rel="alternate" type="text/html" title="단테-신곡" /><published>2021-02-11T00:00:00-05:00</published><updated>2021-05-09T22:31:24-04:00</updated><id>https://jonghoon.blog/blog/book/tistory352</id><content type="html" xml:base="https://jonghoon.blog/blog/book/2021-02-11-tistory352/">&lt;p&gt;학업을 마치고 일을 시작한지 1년 반 정도 시간이 지났다. 타지에서 살아남는 것도, 생경한 분야에서 전문가로 자리 잡아가는 일도 쉽지가 않다. 아이디어를 제안하고 깐깐한 선배들을 설득해나가는 과정, 제안한 방법을 뒷받침할 실험결과를 만들어 가는 과정이 주는 피로감은 이제 하루 이틀의 휴식으로는 해소되지 않을만큼 쌓여버린 것 같다. 더 이상 버틸 힘이 없다고 느낄 때에, 감사하게도 한 달정도의 휴식 기간을 얻게 되었고, 일의 노예로 지내는 동안 멀리했던 독서와 사색을 즐길 수 있는 시간을 갖게 되었다. 이 귀중한 시간을 어떤 책으로 시작할까하고 생각해보았는데, ‘지옥’이라는 단어가 계속해서 머리 속을 맴돌았다. 지옥이라는 가상 공간에서 고통받고 있을 등장인물과 공감을 나누고 싶기 때문인지, 찐 고통을 간접 체험하고 담력을 기르기 위함인지는 확실하지 않지만, 지옥 구경 한번 하고 오면 왠지 정신을 차릴 수 있을 것 같은 기분에 단테의 신곡을 펼쳐보았다.&lt;/p&gt;
 
 &lt;p&gt;저자이자 신곡 속 화자인 단테는 한 때 사랑했지만 지금은 천국에 자리잡은 여인 베아트리체의 초대를 받아, 로마의 대시인 베르길리우스의 안내를 받으며 지옥과 연옥, 그리고 천국을 구경하게 된다. 산드로 보티첼리는 단테가 묘사한 지옥세계를 지옥도에 그려냈다. 죄를 짓지는 않았지만 예수를 믿지 않아 무성영화같은 삶을 살아가는 림보를 시작으로, 마왕 루시퍼가 지배하는 9층 지옥까지가 묘사되어있다. (지옥의 구조는 &lt;a href=&quot;https://namu.wiki/w/%EC%8B%A0%EA%B3%A1/%EC%A7%80%EC%98%A5%ED%8E%B8&quot;&gt;이곳&lt;/a&gt;에 잘 정리되어있으므로 참고 하시면 좋을 듯.) 단테가 구경한 여러 지옥들 가운데 유독 눈길이 가는 지옥이 있었는데, 바로 4층에 있는 인색과 낭비 지옥이었다. 재물에 집착하여 죄를 지은 죄인들이 가는 곳으로, 낭비가 심했던 자들과 인색했던 자들이 서로의 방향으로 짐을 굴리며 서로 방해하고 비난하는 지옥이었다. 두 상반된 성향의 죄인들이 만들어낸 무한한 일감 덕분에 이 노동 형벌은 영원히 지속된다. &lt;/p&gt;
 
@@ -11,7 +139,7 @@
 
 &lt;p&gt; &lt;/p&gt;
 
-&lt;p&gt;이런 궤로 글을 읽다보니, 신곡 속 지옥, 연옥, 천국은 사실 우리가 살아가며 겪는 극악부터 극락까지의 경험들을 체계적으로 분류해놓은 것이 아닌가 하는 생각이 든다. 어쩌면 우리 일상은 림보와 지옥9층사이 어딘가에서 오르락 내리락 하고 있다가, 어떤 계기로 인해 고통과 희망이 공존하는 연옥, 혹은 삶의 궁극적인 지향을 현실에서 체험하는 천국을 맛보기도 하는 것은 아닌가 하고 말이다. 이런 관점으로 보면, 신곡은 좋은 질문 하나를 얻어갈 수 있는 책인 것 같다. “지금 내 삶은 지옥, 연옥, 천국 그리고 그 속 몇 층 쯤에 놓여있는가?” 하는 질문 말이다.&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><summary type="html">학업을 마치고 일을 시작한지 1년 반 정도 시간이 지났다. 타지에서 살아남는 것도, 생경한 분야에서 전문가로 자리 잡아가는 일도 쉽지가 않다. 아이디어를 제안하고 깐깐한 선배들을 설득해나가는 과정, 제안한 방법을 뒷받침할 실험결과를 만들어 가는 과정이 주는 피로감은 이제 하루 이틀의 휴식으로는 해소되지 않을만큼 쌓여버린 것 같다. 더 이상 버틸 힘이 없다고 느낄 때에, 감사하게도 한 달정도의 휴식 기간을 얻게 되었고, 일의 노예로 지내는 동안 멀리했던 독서와 사색을 즐길 수 있는 시간을 갖게 되었다. 이 귀중한 시간을 어떤 책으로 시작할까하고 생각해보았는데, ‘지옥’이라는 단어가 계속해서 머리 속을 맴돌았다. 지옥이라는 가상 공간에서 고통받고 있을 등장인물과 공감을 나누고 싶기 때문인지, 찐 고통을 간접 체험하고 담력을 기르기 위함인지는 확실하지 않지만, 지옥 구경 한번 하고 오면 왠지 정신을 차릴 수 있을 것 같은 기분에 단테의 신곡을 펼쳐보았다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/352_1.jpeg" /><media:content medium="image" url="/assets/img/posts/from_tistory/352_1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">여덟 단어-박웅현</title><link href="/blog/book/2020-06-10-tistory199/" rel="alternate" type="text/html" title="여덟 단어-박웅현" /><published>2020-06-10T00:00:00-04:00</published><updated>2021-04-30T00:28:22-04:00</updated><id>/blog/book/tistory199</id><content type="html" xml:base="/blog/book/2020-06-10-tistory199/">&lt;blockquote&gt;
+&lt;p&gt;이런 궤로 글을 읽다보니, 신곡 속 지옥, 연옥, 천국은 사실 우리가 살아가며 겪는 극악부터 극락까지의 경험들을 체계적으로 분류해놓은 것이 아닌가 하는 생각이 든다. 어쩌면 우리 일상은 림보와 지옥9층사이 어딘가에서 오르락 내리락 하고 있다가, 어떤 계기로 인해 고통과 희망이 공존하는 연옥, 혹은 삶의 궁극적인 지향을 현실에서 체험하는 천국을 맛보기도 하는 것은 아닌가 하고 말이다. 이런 관점으로 보면, 신곡은 좋은 질문 하나를 얻어갈 수 있는 책인 것 같다. “지금 내 삶은 지옥, 연옥, 천국 그리고 그 속 몇 층 쯤에 놓여있는가?” 하는 질문 말이다.&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><category term="fiction" /><category term="philosophy" /><summary type="html">학업을 마치고 일을 시작한지 1년 반 정도 시간이 지났다. 타지에서 살아남는 것도, 생경한 분야에서 전문가로 자리 잡아가는 일도 쉽지가 않다. 아이디어를 제안하고 깐깐한 선배들을 설득해나가는 과정, 제안한 방법을 뒷받침할 실험결과를 만들어 가는 과정이 주는 피로감은 이제 하루 이틀의 휴식으로는 해소되지 않을만큼 쌓여버린 것 같다. 더 이상 버틸 힘이 없다고 느낄 때에, 감사하게도 한 달정도의 휴식 기간을 얻게 되었고, 일의 노예로 지내는 동안 멀리했던 독서와 사색을 즐길 수 있는 시간을 갖게 되었다. 이 귀중한 시간을 어떤 책으로 시작할까하고 생각해보았는데, ‘지옥’이라는 단어가 계속해서 머리 속을 맴돌았다. 지옥이라는 가상 공간에서 고통받고 있을 등장인물과 공감을 나누고 싶기 때문인지, 찐 고통을 간접 체험하고 담력을 기르기 위함인지는 확실하지 않지만, 지옥 구경 한번 하고 오면 왠지 정신을 차릴 수 있을 것 같은 기분에 단테의 신곡을 펼쳐보았다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/img/posts/from_tistory/352_1.png" /><media:content medium="image" url="https://jonghoon.blog/assets/img/posts/from_tistory/352_1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">여덟 단어-박웅현</title><link href="https://jonghoon.blog/blog/book/2020-06-10-tistory199/" rel="alternate" type="text/html" title="여덟 단어-박웅현" /><published>2020-06-10T00:00:00-04:00</published><updated>2021-05-09T22:31:24-04:00</updated><id>https://jonghoon.blog/blog/book/tistory199</id><content type="html" xml:base="https://jonghoon.blog/blog/book/2020-06-10-tistory199/">&lt;blockquote&gt;
   &lt;p&gt;제가 강의에서 이야기했던 여덟 개의 키워드는 ‘자존, 본질, 고전, 견(見), 현재, 권위, 소통, 인생’입니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -50,7 +178,1128 @@
   &lt;p&gt;Everything Changes but Nothing Changes - HERMES&lt;/p&gt;
 
   &lt;p&gt;현상은 복잡하다. 법칙은 단순하다. … 버릴 게 무엇인지 알아내라. - &amp;lt;생각의 탄생&amp;gt;, 리처드 파인만&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><summary type="html">제가 강의에서 이야기했던 여덟 개의 키워드는 ‘자존, 본질, 고전, 견(見), 현재, 권위, 소통, 인생’입니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/199.jpg" /><media:content medium="image" url="/assets/img/posts/from_tistory/199.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">홈스테이</title><link href="/blog/note/2020-04-29-Lohr/" rel="alternate" type="text/html" title="홈스테이" /><published>2020-04-29T00:00:00-04:00</published><updated>2021-04-30T01:00:37-04:00</updated><id>/blog/note/Lohr</id><content type="html" xml:base="/blog/note/2020-04-29-Lohr/">&lt;p&gt;&lt;img src=&quot;/assets/img/posts/lorh/0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><category term="self_development" /><summary type="html">제가 강의에서 이야기했던 여덟 개의 키워드는 ‘자존, 본질, 고전, 견(見), 현재, 권위, 소통, 인생’입니다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/img/posts/from_tistory/199.png" /><media:content medium="image" url="https://jonghoon.blog/assets/img/posts/from_tistory/199.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">On-Chip Network</title><link href="https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/" rel="alternate" type="text/html" title="On-Chip Network" /><published>2020-06-01T00:00:00-04:00</published><updated>2021-05-07T20:15:51-04:00</updated><id>https://jonghoon.blog/blog/scitech/OnChipNetwork</id><content type="html" xml:base="https://jonghoon.blog/blog/scitech/2020-06-01-OnChipNetwork/">&lt;ul class=&quot;large-only&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#chapter-1-introduction&quot; id=&quot;markdown-toc-chapter-1-introduction&quot;&gt;Chapter 1. Introduction&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#network-basics-a-quick-primer&quot; id=&quot;markdown-toc-network-basics-a-quick-primer&quot;&gt;Network Basics: A quick primer&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#chapter-2-interface-with-system-architecture&quot; id=&quot;markdown-toc-chapter-2-interface-with-system-architecture&quot;&gt;Chapter 2. Interface with System Architecture&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#shared-memory-networks-in-chip-multiprocessors&quot; id=&quot;markdown-toc-shared-memory-networks-in-chip-multiprocessors&quot;&gt;Shared memory networks in chip multiprocessors&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#impact-of-coherence-protocol-on-network-performance&quot; id=&quot;markdown-toc-impact-of-coherence-protocol-on-network-performance&quot;&gt;Impact of coherence protocol on network performance&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#protocol-level-network-deadlocks&quot; id=&quot;markdown-toc-protocol-level-network-deadlocks&quot;&gt;Protocol-level network deadlocks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#impact-of-cache-hierarchy-implementation&quot; id=&quot;markdown-toc-impact-of-cache-hierarchy-implementation&quot;&gt;Impact of cache hierarchy implementation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#home-node-and-memory-controller-design-issues&quot; id=&quot;markdown-toc-home-node-and-memory-controller-design-issues&quot;&gt;Home node and memory controller design issues&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#miss-and-transaction-status-holding-registers&quot; id=&quot;markdown-toc-miss-and-transaction-status-holding-registers&quot;&gt;Miss and transaction status holding registers&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#synthesized-nocs-in-mpsocs&quot; id=&quot;markdown-toc-synthesized-nocs-in-mpsocs&quot;&gt;Synthesized NOCs in MPSOCs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#chapter-3-topology&quot; id=&quot;markdown-toc-chapter-3-topology&quot;&gt;Chapter 3. Topology&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#metrics-for-comparing-topologies&quot; id=&quot;markdown-toc-metrics-for-comparing-topologies&quot;&gt;Metrics for comparing Topologies&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#direct-topologies&quot; id=&quot;markdown-toc-direct-topologies&quot;&gt;Direct Topologies&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#indirect-topologies&quot; id=&quot;markdown-toc-indirect-topologies&quot;&gt;Indirect Topologies&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#irregular-topologies&quot; id=&quot;markdown-toc-irregular-topologies&quot;&gt;Irregular topologies&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#topology-synthesis-algorithm-example&quot; id=&quot;markdown-toc-topology-synthesis-algorithm-example&quot;&gt;Topology Synthesis Algorithm Example&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#layout-and-implementation&quot; id=&quot;markdown-toc-layout-and-implementation&quot;&gt;Layout and Implementation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#concentrator&quot; id=&quot;markdown-toc-concentrator&quot;&gt;Concentrator&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#implication-of-abstract-metrics-on-on-chip-implementation&quot; id=&quot;markdown-toc-implication-of-abstract-metrics-on-on-chip-implementation&quot;&gt;Implication of abstract metrics on on-chip implementation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#chapter-4-routing&quot; id=&quot;markdown-toc-chapter-4-routing&quot;&gt;Chapter 4. Routing&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#types-of-routing-algorithms&quot; id=&quot;markdown-toc-types-of-routing-algorithms&quot;&gt;TYPES OF ROUTING ALGORITHMS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#deadlock-avoidance&quot; id=&quot;markdown-toc-deadlock-avoidance&quot;&gt;DEADLOCK AVOIDANCE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#deterministic-dimension-ordered-routing&quot; id=&quot;markdown-toc-deterministic-dimension-ordered-routing&quot;&gt;DETERMINISTIC DIMENSION-ORDERED ROUTING&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#oblivious-routing&quot; id=&quot;markdown-toc-oblivious-routing&quot;&gt;OBLIVIOUS ROUTING&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#adaptive-routing&quot; id=&quot;markdown-toc-adaptive-routing&quot;&gt;ADAPTIVE ROUTING&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#adaptive-turn-model-routing&quot; id=&quot;markdown-toc-adaptive-turn-model-routing&quot;&gt;ADAPTIVE TURN MODEL ROUTING&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#implementation&quot; id=&quot;markdown-toc-implementation&quot;&gt;IMPLEMENTATION&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#source-routing&quot; id=&quot;markdown-toc-source-routing&quot;&gt;SOURCE ROUTING&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#node-table-based-routing&quot; id=&quot;markdown-toc-node-table-based-routing&quot;&gt;NODE TABLE-BASED ROUTING&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#combinational-circuits&quot; id=&quot;markdown-toc-combinational-circuits&quot;&gt;COMBINATIONAL CIRCUITS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#adaptive-routing-1&quot; id=&quot;markdown-toc-adaptive-routing-1&quot;&gt;ADAPTIVE ROUTING&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#routing-on-irregular-topologies&quot; id=&quot;markdown-toc-routing-on-irregular-topologies&quot;&gt;ROUTING ON IRREGULAR TOPOLOGIES&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#chapter-5-flow-control&quot; id=&quot;markdown-toc-chapter-5-flow-control&quot;&gt;Chapter 5. Flow Control&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#messages-packets-flits-and-phits&quot; id=&quot;markdown-toc-messages-packets-flits-and-phits&quot;&gt;MESSAGES, PACKETS, FLITS, AND PHITS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#message-based-flow-control&quot; id=&quot;markdown-toc-message-based-flow-control&quot;&gt;MESSAGE-BASED FLOW CONTROL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#packet-based-flow-control&quot; id=&quot;markdown-toc-packet-based-flow-control&quot;&gt;PACKET-BASED FLOW CONTROL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#flit-based-flow-control&quot; id=&quot;markdown-toc-flit-based-flow-control&quot;&gt;FLIT-BASED FLOW CONTROL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#virtual-channels&quot; id=&quot;markdown-toc-virtual-channels&quot;&gt;VIRTUAL CHANNELS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#deadlock-free-flow-control&quot; id=&quot;markdown-toc-deadlock-free-flow-control&quot;&gt;DEADLOCK-FREE FLOW CONTROL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#buffer-backpressure&quot; id=&quot;markdown-toc-buffer-backpressure&quot;&gt;BUFFER BACKPRESSURE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#implementation-1&quot; id=&quot;markdown-toc-implementation-1&quot;&gt;IMPLEMENTATION&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#chapter-6-router-microarchitecture&quot; id=&quot;markdown-toc-chapter-6-router-microarchitecture&quot;&gt;Chapter 6. Router Microarchitecture&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#virtual-channel-router-microarchitecture&quot; id=&quot;markdown-toc-virtual-channel-router-microarchitecture&quot;&gt;VIRTUAL CHANNEL ROUTER MICROARCHITECTURE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#buffers-and-virtual-channels&quot; id=&quot;markdown-toc-buffers-and-virtual-channels&quot;&gt;BUFFERS AND VIRTUAL CHANNELS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#switch-design&quot; id=&quot;markdown-toc-switch-design&quot;&gt;SWITCH DESIGN&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#allocators-and-arbiters&quot; id=&quot;markdown-toc-allocators-and-arbiters&quot;&gt;ALLOCATORS AND ARBITERS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pipeline&quot; id=&quot;markdown-toc-pipeline&quot;&gt;PIPELINE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#low-power-microarchitecture&quot; id=&quot;markdown-toc-low-power-microarchitecture&quot;&gt;LOW-POWER MICROARCHITECTURE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#physical-implementation&quot; id=&quot;markdown-toc-physical-implementation&quot;&gt;PHYSICAL IMPLEMENTATION&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;written by &lt;em&gt;Natalie Enright Jerger&lt;/em&gt;, University of Toronto and &lt;em&gt;Li-Shiuan Peh&lt;/em&gt;, Princeton University, 2nd edition, 2017&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;from Synthesis Lectures on Computer Architecture&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;chapter-1-introduction&quot;&gt;Chapter 1. Introduction&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;High-bandwidth communication&lt;/strong&gt; will be required for these throughput-oriented applications. &lt;strong&gt;Communication latency&lt;/strong&gt; can have a significant impact on the performance of multi-threaded workloads; &lt;strong&gt;synchronization between threads&lt;/strong&gt; will require low-overhead communication in order to scale to a large number of cores. In MPSoCs, leveraging an on-chip network can help enable &lt;strong&gt;design isolation&lt;/strong&gt;: MPSoCs utilize heterogeneous IP blocks from a variety of vendors; with &lt;strong&gt;standard interfaces&lt;/strong&gt;, these blocks can communicate through an on-chip network in &lt;strong&gt;a plug-and-play fashion&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;ON-chip vs Off-chip:
+    &lt;ul&gt;
+      &lt;li&gt;More abundant on-chip wiring &amp;gt; I/O bottleneck of multi-chassis interconnection networks such as supercomputers, clusters of workstations, internet routers.&lt;/li&gt;
+      &lt;li&gt;On-chip networks targeting high-performance multi-core processors must supply high bandwidth at ultra-low latencies, with a &lt;strong&gt;tight power envelope&lt;/strong&gt; and &lt;strong&gt;area budget&lt;/strong&gt;. (e.g. Sun Niagara 2’s flat 8x9 crossbar had similar area to its core)&lt;/li&gt;
+      &lt;li&gt;Power consumption of Intel’s 80core TeraFlops net ~ 30%&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Commercial on-chip network chips
+    &lt;ul&gt;
+      &lt;li&gt;IBM Cell: 1 IBM power arch core + 8 synergsitic processing elements, Element Interconnect Bus (EIB)  with max BW &amp;gt; 300 GB/s&lt;/li&gt;
+      &lt;li&gt;Intel TeraFLOPS: 80 tiles (tile = PE + router) with max BW 320GB/s&lt;/li&gt;
+      &lt;li&gt;Tilera TILE64 and TILE64Pro: 64 tiles, max BW ~ 2Tb/s, E &amp;lt;300mW&lt;/li&gt;
+      &lt;li&gt;STMicroelectronis STNoC: MPSoC target OCN&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;network-basics-a-quick-primer&quot;&gt;Network Basics: A quick primer&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;NoC (network-on-chip), OCIN (on-chip interconnection network) and OCN (on-
+chip network)&lt;/li&gt;
+  &lt;li&gt;An on-chip network, as a subset of a broader class of interconnection networks, can be viewed as &lt;strong&gt;a programmable system that facilitates the transporting of data between nodes&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ad-hoc wiring&lt;/strong&gt; for small number of nodes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bus-based systems&lt;/strong&gt; scale only to a modest number of processors due to its ealry traffic saturation and arbitration latency
+    &lt;ul&gt;
+      &lt;li&gt;sophisticated bus designs incorporate &lt;strong&gt;segmentation&lt;/strong&gt;, &lt;strong&gt;distributed arbitration&lt;/strong&gt;, &lt;strong&gt;split transactions&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;and increasingly resemble &lt;strong&gt;switched on-chip networks&lt;/strong&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Crossbars&lt;/strong&gt; with high bandwidth, poor scalability
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;hierarchical crossbars&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;resemble &lt;strong&gt;multi-hop on-chip networks&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Benfits&lt;/strong&gt; of On-chip networks :
+    &lt;ul&gt;
+      &lt;li&gt;A scalable solution&lt;/li&gt;
+      &lt;li&gt;Very efficient in their use of wiring and multiplexing&lt;/li&gt;
+      &lt;li&gt;Regular topologies have local, short interconnects&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OCN building blocks&lt;/strong&gt; :
+    &lt;ul&gt;
+      &lt;li&gt;Topology&lt;/li&gt;
+      &lt;li&gt;Routing&lt;/li&gt;
+      &lt;li&gt;Flow Control&lt;/li&gt;
+      &lt;li&gt;Router microarchitecture : input buffers, router state, routing logic, allocators, and a crossbar (or switch)&lt;/li&gt;
+      &lt;li&gt;Link architecture&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OCN Performance and cost&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_1_1.png&quot; alt=&quot;fig1.1&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig1.1: Latency vs Throughput for on-chip network&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;chapter-2-interface-with-system-architecture&quot;&gt;Chapter 2. Interface with System Architecture&lt;/h2&gt;
+
+&lt;h3 id=&quot;shared-memory-networks-in-chip-multiprocessors&quot;&gt;Shared memory networks in chip multiprocessors&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Shared memory and a partitioned global address space (PGAS)&lt;/li&gt;
+  &lt;li&gt;With the shared-memory model, communication occurs implicitly through the loading and storing of data and the accessing of instructions. As a result, the shared-memory model is an intuitive way to realize this sharing.&lt;/li&gt;
+  &lt;li&gt;Two key characteristics due to mem hierarchy for shared memory :
+    &lt;ul&gt;
+      &lt;li&gt;the &lt;strong&gt;cache coherence protocol&lt;/strong&gt; that makes sure nodes receive the correct up-to-date copy of a cache line, and&lt;/li&gt;
+      &lt;li&gt;the &lt;strong&gt;cache hierarchy&lt;/strong&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_1.png&quot; alt=&quot;fig2.1&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.1: Shared Memory Chip Multiprocessors Arhictecture&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;impact-of-coherence-protocol-on-network-performance&quot;&gt;Impact of coherence protocol on network performance&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Any number of nodes may cache a copy of memory to read from; if a node wishes to write to that memory address, it must ensure that &lt;strong&gt;no other nodes are caching that address&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Broadcast protocol&lt;/strong&gt;: coherence request are sent to all nodes
+    &lt;ul&gt;
+      &lt;li&gt;One interconnect for ordering and a higher bandwidth&lt;/li&gt;
+      &lt;li&gt;Unordered interconnect for data transfers&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Diectory protocal&lt;/strong&gt;: point-to-point messages&lt;/li&gt;
+  &lt;li&gt;Type of message : (1) Unicast (2) Multicast (3) Broadcast&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_2.png&quot; alt=&quot;fig2.2&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.2: Coherence protocol network request examples&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;protocol-level-network-deadlocks&quot;&gt;Protocol-level network deadlocks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Network needs to be free from protocol-level deadlock&lt;/li&gt;
+  &lt;li&gt;If both processors generate a burst of requests tha fill the network resources, both processors will be stalled waiting for remote replies before they can consume additional outstanding requests. If replies utilize the same network resources as requests, those replies cannot make forward progress resulting in &lt;strong&gt;deadlock&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Mutliple &lt;strong&gt;virtual channels&lt;/strong&gt; can be used to prevent deadlock.(See Chapter 5) In short, use different virtual channels for different message classes =&amp;gt; the cyclic dependence between requests and responses is broken in the networks.&lt;/li&gt;
+  &lt;li&gt;Three typical classes:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Requests&lt;/strong&gt;: loads, stores, upgrades, writebacks&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Intervensions&lt;/strong&gt;: messages sent from directory to request modified data be transferred to a new node&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Responses&lt;/strong&gt;: invalidataion acknowledgements, negative acknowledgements, data messages&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_3.png&quot; alt=&quot;fig2.3&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.3: Coherence protocol network request examples&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;impact-of-cache-hierarchy-implementation&quot;&gt;Impact of cache hierarchy implementation&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_4.png&quot; alt=&quot;fig2.4&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.4: Private and Shared Caches&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Private vs Shared L2 Caches&lt;/strong&gt; : With a private L2 cache, ‘L1 miss’ will only be sent to the local L2 cache. Then, the reqeust could hit, or be forwarded to a remote L2 cache that hold its directory, or access to off-chip memory. On the otherhand, with shared L2 cache, L1 miss will be sent to an L2 bannk determined by the miss address (not necessarily the local L2 bank).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Drawback of private cache&lt;/strong&gt;: (1) Need to replicate data, and (2) increased L2 miss rate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_5.png&quot; alt=&quot;fig2.5&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.5: &lt;strong&gt;Private L2 caches&lt;/strong&gt; walk-through example. (a) Private L2 Hit case. (b) Private L2 miss case. Then, the load of A misses in the private L2 cache and must be sent to the network interface(4), sent through the network to the memory controller (5), sent off-chip and finally re-traverse the network back to the the requestor (6)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_6.png&quot; alt=&quot;fig2.6&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.6: &lt;strong&gt;Shared L2 cache&lt;/strong&gt; walk-through example. (a) Private L2 Hit case. If L1 misses, the router will format the request message and send it to the one of the remote shared nodes. if the shared L2 hit, the date will be sent to the requsetor. (b) If shared L2 cache in a remote node misses, the remote node will generate request for data to the off-chip memory, and send the acquired date to the original requestor&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;home-node-and-memory-controller-design-issues&quot;&gt;Home node and memory controller design issues&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Home node&lt;/strong&gt; : With a directory protocol, each address statically maps to a home node. The directory information resides at the home node which is responsible for ordering requests to all addresses that map to this home node.The directory either supplies the data from off-chip, either from memory or from another socket, or sends intervention messages on-chip to acquire data and/or permissions for the coherence request. For a shared L2 cache, the home node with directory information is the cache bank that the address maps to. From the example in Figure 2.6, the directory is located at the tile marked A for address A. If remote L1 cache copies need to be invalidated (for a write request to A), the directory will send those requests through the network. With a private L2 cache conﬁguration, there does not need to be a one-to-one correspondence between the number of home nodes and the number of tiles. Every tile can house a portion of the directory (n home nodes), there can be a single centralized directory, or there can be a number of home nodes in between 1 and n. Broadcast protocols such as the Opteron protocol [41] require an ordering point similar to a home node from which to initiate the broadcast request.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Memory controller&lt;/strong&gt;: Handle the data request from the network to memory outside the chip.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_7.png&quot; alt=&quot;fig2.7&quot; /&gt;
+&lt;em&gt;Fig2.7: Memory controller inside/outside the core&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;miss-and-transaction-status-holding-registers&quot;&gt;Miss and transaction status holding registers&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Processor-to-Network interface&lt;/strong&gt; is responsible fro formatting network messages to handle cache misses (due to a load or store), cache line permission upgrads, and cache line evictions.&lt;/li&gt;
+  &lt;li&gt;MSHR: Miss status handling register&lt;/li&gt;
+  &lt;li&gt;cache miss =&amp;gt; MSHR =&amp;gt; send message to the network&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;recieve message from the network =&amp;gt; MSHR matching =&amp;gt; complete cache miss actions.
+&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_8.png&quot; alt=&quot;fig2.8&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.8: Processor-to-Network Interface (adapted from Dally and Towles [47])&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Memory-to-Network interface&lt;/strong&gt; is responsible for receiving memory request messages from processors (caches) and initiating replies.&lt;/li&gt;
+  &lt;li&gt;TSHR: Transaction status handling registers
+&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_9.png&quot; alt=&quot;fig2.9&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.9: Memory-to-Network Interface (adapted from Dally and Towles [47])&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;synthesized-nocs-in-mpsocs&quot;&gt;Synthesized NOCs in MPSOCs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Holy grail in NoC design in MPSoCs is to allow designers to feed in NoC traffic characterziation to a design tool, which will then automaticallly generate a fully sythesizable NoC design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_10.png&quot; alt=&quot;fig2.10&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.10: VOPD (video decoder) task graph example from [104, 30]. The peak/average communication bandwidth between cores are characterized and marked on the links between cores&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_11.png&quot; alt=&quot;fig2.11&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.11: Synthesis flow from [183]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_13.png&quot; alt=&quot;fig2.13&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.13: AXI read (addresss, data) and write (address, data, response) channel&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_2_14.png&quot; alt=&quot;fig2.14&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig2.14: The AXI Protocol allows messages to complete out of order: D21 returns data prior to D11 even though A11 occurred prior to A21.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;chapter-3-topology&quot;&gt;Chapter 3. Topology&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The on-chip network &lt;strong&gt;topology&lt;/strong&gt; determines the physical layout and connections between nodes and channels in the network.&lt;/li&gt;
+  &lt;li&gt;The implementation complexity cost of a topology depends on two factors: the number of links at each node (&lt;strong&gt;node degree&lt;/strong&gt;) and the &lt;strong&gt;ease of laying out&lt;/strong&gt; a topology on a chip (wire lengths and the number of metal layers required).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;metrics-for-comparing-topologies&quot;&gt;Metrics for comparing Topologies&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Question: How to compare the characteristics of different topologies?&lt;/li&gt;
+  &lt;li&gt;Bisection bandwidth: a metric for off-chip networks. Not proper for NoC because of large number of wires in NoC.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_1.png&quot; alt=&quot;fig3.1&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.1: Common on-chip network topologies.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Degree a topology&lt;/strong&gt; : ~ the number of ports at routers. e.g. ring = 2, torus = 4, mesh = 2~4 (not uniform)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hop count&lt;/strong&gt; : ~ network latency&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Maximum channel load&lt;/strong&gt; : maximum number of bits per second (bps) that can be injected by every node into the network before it saturates&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Path diversity&lt;/strong&gt; : A topology that provides multiple shortest paths (&lt;/td&gt;
+          &lt;td&gt;R_(src−dst)&lt;/td&gt;
+          &lt;td&gt;&amp;gt; 1, where R represents the path diversity) between a given source and destination pair has greater path diversity than a topology where there is only a single path between a source and destination pair (&lt;/td&gt;
+          &lt;td&gt;R_(src−dst)&lt;/td&gt;
+          &lt;td&gt;= 1).&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_2.png&quot; alt=&quot;fig3.2&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.2: Channel load example with 2 rings connected via a single channel. The max channel load for the bottleneck channel = 4 = 8x1/2&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;direct-topologies&quot;&gt;Direct Topologies&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ring&lt;/strong&gt; : Rings fall into the torus family of network topologies as k-ary 1-cubes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mesh&lt;/strong&gt; : Mesh and torus networks can be described as &lt;em&gt;k-ary n-cubes&lt;/em&gt; , where k is the number of nodes along each dimension, and n is the number of dimensions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tori&lt;/strong&gt; : With a torus, all nodes have the same degree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;indirect-topologies&quot;&gt;Indirect Topologies&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;BUTTERFLIES&lt;/strong&gt; : Butterﬂy networks can be described as k-ary n-ﬂies. Such a network would consist of k^n terminal nodes (e.g.cores,memory),and comprises n stages of k^(n−1) k×k intermediate switch nodes. The primary disadvantages of a butterﬂy network are the lack of path diversity and the inability of these networks to exploit locality. (Poor for unbalanced traffic patterns)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_3.png&quot; alt=&quot;fig3.3&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.3: A 2-ary 3-ﬂy butterﬂy network.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CLOS NETWORKS&lt;/strong&gt; : a three-stage network characterized by the triple, (m,n,r) where m is the number of middle stage switches, n is the number of input/output ports on each input/output switch (ﬁrst and last stage switches), and r is the number of ﬁrst/last stage switches. When m &amp;gt; (2n−1), a Clos network is strictly non-blocking. A disadvantage of a Clos network is its inability to exploit locality between source and destination pairs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_4.png&quot; alt=&quot;fig3.4&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.4: An (m = 5, n = 3, r = 4) symmetric Clos network with r = 4n × m input-stage switches, m = 5r × r middle-stage switches, and r = 4m × n output-stage switches. Crossbars form all switches.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;FAT TREES&lt;/strong&gt; : a binary tree network in which wiring resources increase for stages closer to the root node (Figure 3.5a). A fat tree can be constructed from a folded Clos network, as shown in Figure 3.5b giving path diversity over the tree network in Figure 3.5a.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_5.png&quot; alt=&quot;fig3.5&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.5: A fat tree network. (b) A Clos network can be folded along the middle set of switches so that the input and output switches are shared. A 5-stage folded Clos network characterized by the triple (2, 2, 4) is depicted. The center stage is realized with another 3-stage Clos formed using (2, 2, 2) Clos network. This Clos network is folded along the top row of switches.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;irregular-topologies&quot;&gt;Irregular topologies&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_6.png&quot; alt=&quot;fig3.6&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.6: A regular (mesh) topology and a custom topology for a video object plane decoder (VOPD) (from [30]).&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Splitting&lt;/strong&gt;: With splitting, a large crossbar connecting all nodes is ﬁrst created and then iteratively split into multiple small switches to accommodate a set of design constraints.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Merging&lt;/strong&gt;: Alternatively, a network with a larger number of switches such as a mesh or torus can be used as a starting point. From this starting point, switches are merged together to reduce area and power.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;topology-synthesis-algorithm-example&quot;&gt;Topology Synthesis Algorithm Example&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finding optimal topology? An &lt;strong&gt;NP-hard problem&lt;/strong&gt;! -&amp;gt; several heuristics have been proposed to ﬁnd the best topology in an efﬁcient manner like…&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;strong&gt;min-cut partition&lt;/strong&gt; is performed so that the edges of the graph that cross partitions have lower weights than the edges within partitions. Additionally, the number of nodes assigned to each partition remains nearly the same. Such a min-cut partition will ensure that trafﬁc ﬂows with high bandwidth will use the same switch for communication.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_7.png&quot; alt=&quot;fig3.7&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.7: Topology Synthesis Algorithm example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;layout-and-implementation&quot;&gt;Layout and Implementation&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_8.png&quot; alt=&quot;fig3.8&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.8: Layout of a 8x8 folded torus.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;concentrator&quot;&gt;Concentrator&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Up to this point, we have assumed a one-to-one correspondence between network nodes and terminal nodes. However, this need not be the case. Frequently, multiple cores that do not require the bandwidth of a single network node will share a node by using &lt;strong&gt;concentrators&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_9.png&quot; alt=&quot;fig3.9&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.9: A mesh where four nodes are sharing bandwidth through a concentrator.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;implication-of-abstract-metrics-on-on-chip-implementation&quot;&gt;Implication of abstract metrics on on-chip implementation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;High node degree&lt;/strong&gt; : high port count, additional input buffer queue(s), additional requestors to the allocators, additional ports to the crossbar switch, (= all major contributors to a router’s critical path delay, area footprint, and power).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Link complexity&lt;/strong&gt; depends on the link width, as link area and power overheads correlate more closely with the number of wires than the number of ports.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hop count&lt;/strong&gt; : Overall network latency and power. However, hop count does not always correlate with network latency in practice, as it depends heavily on the router pipeline length and the link propagation delay.
+    &lt;ul&gt;
+      &lt;li&gt;For instance, a network with only &lt;strong&gt;2 hops&lt;/strong&gt;, router pipeline depths of 5 cycles, and long inter-router distances requiring 4 cycles for link traversal, will have an actual network latency of &lt;strong&gt;18 cycles&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;Conversely, a network with &lt;strong&gt;3 hops&lt;/strong&gt; where each router has a single-cycle pipeline and the link delay is a single cycle, will have a total network latency of only &lt;strong&gt;6 cycles&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;However, unfortunately, factors such as &lt;strong&gt;router pipeline depth&lt;/strong&gt; are typically &lt;em&gt;not known until later in the design cycle&lt;/em&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Maximum channel load&lt;/strong&gt; : A good proxy for network saturation throughput (congestion) and maximum power. Since it is a good proxy for saturation, it is also very useful for estimating &lt;strong&gt;peak power&lt;/strong&gt;, as dynamic power is highest with peak switching activity and utilization in the network.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_10.png&quot; alt=&quot;fig3.10&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.10: Various Spidergon Topologies.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_3_11.png&quot; alt=&quot;fig3.11&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Fig3.11: 12 Node Full Spidergon Layout for the logical Spidergon depicted in Figure 3.10c.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;chapter-4-routing&quot;&gt;Chapter 4. Routing&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The goal of the routing algorithm is to distribute trafﬁc evenly among the paths supplied by the network topology, so as to avoid hotspots and minimize contention,thus improving network latency and throughput.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;types-of-routing-algorithms&quot;&gt;TYPES OF ROUTING ALGORITHMS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Three classes:
+    &lt;ul&gt;
+      &lt;li&gt;deterministic: dimension-ordered routing (DOR)&lt;/li&gt;
+      &lt;li&gt;oblivious : randomly choose path&lt;/li&gt;
+      &lt;li&gt;adaptive : the path depends on network trafﬁc situation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Other two classes:
+    &lt;ul&gt;
+      &lt;li&gt;minimal&lt;/li&gt;
+      &lt;li&gt;non-minimal&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_1.png&quot; alt=&quot;fig4.1&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.1: DOR illustrates an X-Y route from (0,0) to (2,3) in a mesh, while Oblivious shows two alternative routes (X-Y and Y-X) between the same source-destination pair that can be chosen obliviously prior to message transmission. Adaptive shows a possible adaptive route that branches away from the X-Y route if congestion is encountered at (1,0)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;deadlock-avoidance&quot;&gt;DEADLOCK AVOIDANCE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A deadlock occurs when a cycle exists among the paths of multiple messages&lt;/li&gt;
+  &lt;li&gt;Deadlock freedom can be ensured in the routing algorithm by preventing cycles among the routes generated by the algorithm, or in the ﬂow control protocol by preventing router buffers from being acquired and held in a cyclic manner&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_2.png&quot; alt=&quot;fig4.2&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.2: A classic network deadlock where four packets cannot make forward progress as they are waiting for links that other packets are holding on to.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;deterministic-dimension-ordered-routing&quot;&gt;DETERMINISTIC DIMENSION-ORDERED ROUTING&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_3.png&quot; alt=&quot;fig4.3&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.3: Possible routing turns for a 2D Mesh.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;oblivious-routing&quot;&gt;OBLIVIOUS ROUTING&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_4.png&quot; alt=&quot;fig4.4&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.4: Oblivious Routing Examples.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;adaptive-routing&quot;&gt;ADAPTIVE ROUTING&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_5.png&quot; alt=&quot;fig4.5&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.5: Adaptive Routing Example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If adaptive routing allows misrouting -&amp;gt; Livelock -&amp;gt; limit the maximum number of misroutes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;adaptive-turn-model-routing&quot;&gt;ADAPTIVE TURN MODEL ROUTING&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_6.png&quot; alt=&quot;fig4.6&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.6: Turn Model Routing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_7.png&quot; alt=&quot;fig4.7&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.7: Turn Model Deadlock.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_8.png&quot; alt=&quot;fig4.8&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.8: Negative-First Routing example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;implementation&quot;&gt;IMPLEMENTATION&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_1_Table.png&quot; alt=&quot;fig4.T1&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Table 4.1: Routing Algorithm and Implementation Options .&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;source-routing&quot;&gt;SOURCE ROUTING&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The route can be embedded in the packet header at the source, known as source routing. For instance, the X-Y route in Figure 4.1 can be encoded as &amp;lt; E, E, N, N, N, Eject &amp;gt;, while the Y-X route can be encoded as &amp;lt; N, N, N, E, E, Eject &amp;gt;. At each hop, the router will read the leftmost direction off the route header, send the packet towards the speciﬁed outgoing link, and strip off the portion of the header corresponding to the current hop.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_2_Table.png&quot; alt=&quot;fig4.T2&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Table 4.2: Source routing table at Node (0,0) for the 2x3 mesh in Figure 4.1&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;node-table-based-routing&quot;&gt;NODE TABLE-BASED ROUTING&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_3_Table.png&quot; alt=&quot;fig4.T3&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Table 4.3: Table-based routing for a 3x3 mesh with West-First Turn Model Algorithm&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;combinational-circuits&quot;&gt;COMBINATIONAL CIRCUITS&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_9.png&quot; alt=&quot;fig4.9&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 4.9: Combinational Routing Circuit for 2-D Mesh.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;adaptive-routing-1&quot;&gt;ADAPTIVE ROUTING&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Route adjustments can be implemented by modifying the header,by employing combinational circuitry that accepts as input these congestion signals, or by updating entries in a routing table.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;routing-on-irregular-topologies&quot;&gt;ROUTING ON IRREGULAR TOPOLOGIES&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Common routing implementations for irregular networks rely on source table routing or node-table routing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/NoC_4_10.png&quot; alt=&quot;fig4.10&quot; /&gt;  &lt;br /&gt;
+&lt;em&gt;Figure 4.10: A 6 node Spidergon with the highlighted path from Node 0 to Node 4 using the Across-&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-5-flow-control&quot;&gt;Chapter 5. Flow Control&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Flow control governs the allocation of network buﬀers and links. It determines when buﬀers and links are assigned to messages, the granularity at which they are allocated, and how these resources are shared among the many messages using the network.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;messages-packets-flits-and-phits&quot;&gt;MESSAGES, PACKETS, FLITS, AND PHITS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Message -&amp;gt; Packets -&amp;gt; Flits -&amp;gt; Phits&lt;/li&gt;
+  &lt;li&gt;Head/Body/Tail filts contain cache line &amp;amp; cache coherence command&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_1.png&quot; alt=&quot;fig5.1&quot; /&gt;  &lt;br /&gt;
+&lt;em&gt;Figure 5.1: Composition of Message, Packets, Flits: Assuming 16-byte wide ﬂits and 64-byte cache lines, a cache line packet will be composed of 5 ﬂits and a coherence command will be a single-ﬂit packet. The sequence number (Seq#) is used to match incoming replies with outstanding requests, or to ensure ordering and detect lost packets.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;message-based-flow-control&quot;&gt;MESSAGE-BASED FLOW CONTROL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Circuit switching pre-allocates resources (links) across multiple hops to the entire message.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_2.png&quot; alt=&quot;fig5.2&quot; /&gt;  &lt;br /&gt;
+&lt;em&gt;Figure 5.2: Circuit-switching example from Core 0 to Core 8, with Core 2 being stalled. S: Setup ﬂit, A: Acknowledgement ﬂit,D: Data message,T:Tail (deallocation) ﬂit.Each D represents a message; multiple messages can be sent on a single circuit before it is deallocated. In cycles 12 and 16, the source node has no data to send.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;packet-based-flow-control&quot;&gt;PACKET-BASED FLOW CONTROL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Packet-based ﬂow control techniques ﬁrst break down messages into packets, then interleave these packets on the links, thus improving link utilization. Unlike circuit switching, the remaining techniques will require &lt;strong&gt;per-node buﬀerin&lt;/strong&gt; to store in-ﬂight packets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_3.png&quot; alt=&quot;fig5.3&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 5.3: Store and Forward Example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_4.png&quot; alt=&quot;fig5.4&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 5.4: Virtual Cut Through Example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;flit-based-flow-control&quot;&gt;FLIT-BASED FLOW CONTROL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To reduce the buﬀering requirements of packet-based techniques, ﬂit-based ﬂow control mechanisms exist. Low buﬀering requirements help routers meet tight area or power constraints on-chip.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_5.png&quot; alt=&quot;fig5.5&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 5.5: Wormhole Example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;virtual-channels&quot;&gt;VIRTUAL CHANNELS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Virtual channels have been explained as the “swiss-army knife” of interconnection networks&lt;/li&gt;
+  &lt;li&gt;Essentially, a virtual channel (VC) is basically a separate queue in the router; multiple VCs share the physical wires (physical link) between two routers. By associating multiple separate queues with each input port, head-of-line blocking can be reduced. Virtual channels arbitrate for physical link bandwidth on a cycle-by-cycle basis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_6.png&quot; alt=&quot;fig5.6&quot; /&gt; &lt;br /&gt;
+&lt;em&gt;Figure 5.6: Virtual Channel Flow Control Walk-through Example. Two packets A and B are broken into 4 ﬂits each (H: head, B: Body, T: Tail).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_1_table1.png&quot; alt=&quot;fig5.T1&quot; /&gt; &lt;br /&gt;
+&lt;em&gt;Table 5.1: Summary of ﬂow control techniques.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;deadlock-free-flow-control&quot;&gt;DEADLOCK-FREE FLOW CONTROL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DATELINE AND VC PARTITIONING, ESCAPE VCS, BUBBLE FLOW CONTROL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_7.png&quot; alt=&quot;fig5.7&quot; /&gt; &lt;br /&gt;
+&lt;em&gt;Figure 5.7: Two virtual channels with separate buﬀer queues denote with white and grey circles at each router are used to break the cyclic route deadlock in Figure 4.2.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_8.png&quot; alt=&quot;fig5.8&quot; /&gt; &lt;br /&gt;
+&lt;em&gt;Figure 5.8: Escape virtual channel example. Virtual Channel 1 serves as an escape virtual channel that is dimension order XY routed.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_9.png&quot; alt=&quot;fig5.9&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 5.9: Bubble ﬂow control example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;buffer-backpressure&quot;&gt;BUFFER BACKPRESSURE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;As most on-chip network designs cannot tolerate the dropping of packets, there must be buﬀer backpressure mechanisms for stalling ﬂits. Flits must not be transmitted when the next hop will not have buﬀers available to house them.&lt;/li&gt;
+  &lt;li&gt;Credit-based, On/off signal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;implementation-1&quot;&gt;IMPLEMENTATION&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BUFFER SIZING FOR TURNAROUND TIME&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_10.png&quot; alt=&quot;fig5.10&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 5.10: Throttling due to too few buﬀers. Flit pipeline stages discussed in Chapter 6. C: Credit send. C-LT: Credit link traversal. C-Up: Credit update.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_11.png&quot; alt=&quot;fig5.11&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 5.11: Buﬀer backpressure mechanisms time lines.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;REVERSE SIGNALING WIRES&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_5_12.png&quot; alt=&quot;fig5.12&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 5.12: Reverse signaling overhead.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-6-router-microarchitecture&quot;&gt;Chapter 6. Router Microarchitecture&lt;/h2&gt;
+
+&lt;h3 id=&quot;virtual-channel-router-microarchitecture&quot;&gt;VIRTUAL CHANNEL ROUTER MICROARCHITECTURE&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_1.png&quot; alt=&quot;fig6.1&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.1: A credit-based virtual channel router microarchitecture.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;buffers-and-virtual-channels&quot;&gt;BUFFERS AND VIRTUAL CHANNELS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Buffer organization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_2.png&quot; alt=&quot;fig6.2&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.2: Buﬀer and VC organizations.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Input VC state: Global, Rount, Output VC, Credit Count, Pointers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;switch-design&quot;&gt;SWITCH DESIGN&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The crossbar switch of a router is the heart of the router datapath. It switches bits from input ports to output ports, performing the essence of a router’s function.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Crossbar design&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_table1.png&quot; alt=&quot;table6.1&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Table 6.1: Verilog of a 4-bit 5-port crossbar&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_3.png&quot; alt=&quot;fig6.3&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.3: Crossbar composed of many multiplexers.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_4.png&quot; alt=&quot;fig6.4&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure6.4: A 5x5 crosspoint crossbar switch. Each horizontal and vertical line is w bits wide (1 phit width). The bold lines show a connection activated from the south input port to the east output port.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Crossbar speedup&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_5.png&quot; alt=&quot;fig6.5&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.5: Crossbars with diﬀerent speedups for a 5-port router. (a) No crossbar speedup, (b) crossbar with input speedup of 2, (c) crossbar with output speedup of 2, and (d) crossbar with input and output speedup of 2.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Crossbar slicing&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;allocators-and-arbiters&quot;&gt;ALLOCATORS AND ARBITERS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Round-robin arbiter&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_6.png&quot; alt=&quot;fig6.6&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.6: Round-robin arbiter.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_7.png&quot; alt=&quot;fig6.7&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.7: Request queues for arbiter examples.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Matrix arbiter&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_8.png&quot; alt=&quot;fig6.8&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.8: Matrix arbiter. The boxes w_ij represent priority bits. When bit w_ij is set, request i has a higher priority than request j .&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_9.png&quot; alt=&quot;fig6.9&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.9: Matrix arbiter priority update for the request stream from Figure 6.7.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Separable allocator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_10.png&quot; alt=&quot;fig6.10&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.10: A separable 3:4 allocator (3 requestors, 4 resources) which consists of four 3:1 arbiters in the ﬁrst stage and three 4:1 arbiters in the second. The 3:1 arbiters in the ﬁrst stage decides which of the 3 requestors win a speciﬁc resource, while the 4:1 arbiters in the second stage ensure a requestor is granted just 1 of the 4 resources.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_11.png&quot; alt=&quot;fig6.11&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.11: Separable allocator example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Wavefront allocator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_12.png&quot; alt=&quot;fig6.12&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.12: A 4 x 4 wavefront allocator. Diagonal priority groups are connected with bold lines. Connections for passing tokens are shown with grey lines.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_13.png&quot; alt=&quot;fig6.13&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.13: Wavefront allocator example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_14.png&quot; alt=&quot;fig6.14&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.14: Wavefront grant matrix.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Allocator Organization&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pipeline&quot;&gt;PIPELINE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A head ﬂit, upon arriving at an input port, is ﬁrst decoded and buﬀered according to its input VC in the buﬀer write (BW) pipeline stage. Next, the routing logic performs route computation (RC) to determine the output port for the packet. The header then arbitrates for a VC corresponding to its output port (i.e., the VC at the next router’s input port) in the VC allocation (VA) stage. Upon successful allocation of a VC, the header ﬂit proceeds to the switch allocation (SA) stage where it arbitrates for the switch input and output ports. On winning the output port, the ﬂit is then read from the buﬀer and proceeds to the switch traversal (ST) stage, where it traverses the crossbar. Finally, the ﬂit is passed to the next node in the link traversal (LT) stage. Body and tail ﬂits follow a similar pipeline except that they do not go through RC and VA stages, instead inheriting the route and the VC allocated by the head ﬂit. The tail ﬂit, on leaving the router, deallocates the VC reserved by the head ﬂit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_15.png&quot; alt=&quot;fig6.15&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.15: Router pipeline [BW: Buﬀer Write, RC: Route Computation, VA: Virtual Channel Allocation, SA: Switch Allocation, ST: Switch Traversal, LT: Link Traversal].&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pipeline optimization:
+    &lt;ul&gt;
+      &lt;li&gt;Lookahead Routing = Next route comput = Route pre-computation&lt;/li&gt;
+      &lt;li&gt;Low-load bypassing&lt;/li&gt;
+      &lt;li&gt;Speculative VA&lt;/li&gt;
+      &lt;li&gt;VC selection&lt;/li&gt;
+      &lt;li&gt;Lookahead bypass&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_16.png&quot; alt=&quot;fig6.16&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.16: Low-load bypass example.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_17.png&quot; alt=&quot;fig6.17&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.17: Lookahead bypass example—Lookahead_B wins and B bypasses, A gets buﬀered.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;low-power-microarchitecture&quot;&gt;LOW-POWER MICROARCHITECTURE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dynamic power vs leakage power&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_18.png&quot; alt=&quot;fig6.18&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.18: Power and area of a 1-cycle mesh router at 32 nm [64].&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;physical-implementation&quot;&gt;PHYSICAL IMPLEMENTATION&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Router floorplanning&lt;/li&gt;
+  &lt;li&gt;Buffer implementation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_NetworkOnChip/Noc_6_19.png&quot; alt=&quot;fig6.19&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Figure 6.19: Two router ﬂoorplans.&lt;/em&gt;&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="scitech" /><category term="computer" /><category term="hardware" /><category term="notebook" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/notes/note_NetworkOnChip/OnChipNetwork_cover.png" /><media:content medium="image" url="https://jonghoon.blog/assets/notes/note_NetworkOnChip/OnChipNetwork_cover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SystemC Tutorial Note</title><link href="https://jonghoon.blog/blog/scitech/2020-05-01-systemCTutorialNote/" rel="alternate" type="text/html" title="SystemC Tutorial Note" /><published>2020-05-01T00:00:00-04:00</published><updated>2021-05-07T20:15:51-04:00</updated><id>https://jonghoon.blog/blog/scitech/systemCTutorialNote</id><content type="html" xml:base="https://jonghoon.blog/blog/scitech/2020-05-01-systemCTutorialNote/">&lt;ul class=&quot;large-only&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-sc_cthreads&quot; id=&quot;markdown-toc-using-sc_cthreads&quot;&gt;Using SC_CTHREADs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#testbenches&quot; id=&quot;markdown-toc-testbenches&quot;&gt;Testbenches&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#handshaking&quot; id=&quot;markdown-toc-handshaking&quot;&gt;Handshaking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;source: &lt;a href=&quot;https://youtu.be/NCFxBGLB5xs&quot;&gt;Learn SystemC from Forte&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;systemC?
+    &lt;ul&gt;
+      &lt;li&gt;library of C++ classes&lt;/li&gt;
+      &lt;li&gt;hardware aware
+        &lt;ul&gt;
+          &lt;li&gt;concurrency&lt;/li&gt;
+          &lt;li&gt;bit accuracy&lt;/li&gt;
+          &lt;li&gt;simulation time advancement&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;systemc.h&amp;gt;
+&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;SC_MODULE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;//DT -&amp;gt; sc_uint&amp;lt;1&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;SC_CTOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//systemC constructor  &lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;//case1&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;SC_METHOD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;sensitivity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+          &lt;span class=&quot;c1&quot;&gt;//case2&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;SC_METHOD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;sensitive&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// or clk.neg()&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Threads
+    &lt;ul&gt;
+      &lt;li&gt;a function made to act like a hardware process
+        &lt;ul&gt;
+          &lt;li&gt;run concurrently&lt;/li&gt;
+          &lt;li&gt;sensitive to signals, clock edges or fixed amount of simulation time&lt;/li&gt;
+          &lt;li&gt;Not called by the user, always active&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;three types
+        &lt;ul&gt;
+          &lt;li&gt;SC_METHOD()
+            &lt;ul&gt;
+              &lt;li&gt;Executes once every sensitivity event&lt;/li&gt;
+              &lt;li&gt;runs continuously&lt;/li&gt;
+              &lt;li&gt;verilog’s @always block&lt;/li&gt;
+              &lt;li&gt;synthesizable
+                &lt;ul&gt;
+                  &lt;li&gt;useful for combinational expressions or simple sequential logic&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;SC_THREAD()
+            &lt;ul&gt;
+              &lt;li&gt;runs once at start of simulation, then suspends itself when done&lt;/li&gt;
+              &lt;li&gt;can contain an infinite loop to execute code at a fixed rate of time&lt;/li&gt;
+              &lt;li&gt;similar to @initial block&lt;/li&gt;
+              &lt;li&gt;NOT synthesizable
+                &lt;ul&gt;
+                  &lt;li&gt;uesful for testbenches to describe clocks or initial startup signal sequences&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;SC_CTHREAD()
+            &lt;ul&gt;
+              &lt;li&gt;“clocked thread”&lt;/li&gt;
+              &lt;li&gt;runs continuously&lt;/li&gt;
+              &lt;li&gt;references a clock edge&lt;/li&gt;
+              &lt;li&gt;synthesizable&lt;/li&gt;
+              &lt;li&gt;can take one or more clock cycles to execute a single iteration&lt;/li&gt;
+              &lt;li&gt;used in 99% of all high-level behavioral designs&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Integer datatypes:
+    &lt;ul&gt;
+      &lt;li&gt;bit-accurate
+        &lt;ul&gt;
+          &lt;li&gt;fixed width&lt;/li&gt;
+          &lt;li&gt;always 32bits&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Unsigned and signed
+        &lt;ul&gt;
+          &lt;li&gt;sc_uint&lt;N&gt; where N is the bitwidth&lt;/N&gt;&lt;/li&gt;
+          &lt;li&gt;sc_int&lt;N&gt;&lt;/N&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;using-sc_cthreads&quot;&gt;Using SC_CTHREADs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;SC_METHODs
+    &lt;ul&gt;
+      &lt;li&gt;Limited to one cycle&lt;/li&gt;
+      &lt;li&gt;fine for counters or simple sequential designs&lt;/li&gt;
+      &lt;li&gt;not much different than hand coded RTL&lt;/li&gt;
+      &lt;li&gt;can’t handle multi-cycle algorithms&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SC_CTHREADs
+    &lt;ul&gt;
+      &lt;li&gt;not limted to one cycle&lt;/li&gt;
+      &lt;li&gt;can contain continous loops&lt;/li&gt;
+      &lt;li&gt;can contain large blocks of code with operations or control&lt;/li&gt;
+      &lt;li&gt;great for behavior synthesis&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;FIR Filter
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fir.h&lt;/code&gt;: module and thread declaration&lt;br /&gt;
+  ``` cpp
+  #include &lt;systemc.h&gt;
+  SC_MODULE( fir ){
+  sc_in&amp;lt; bool &amp;gt; clk;
+  sc_in&amp;lt; bool &amp;gt; rst;
+  sc_in&amp;lt; sc_int&amp;lt;16&amp;gt; &amp;gt; inp;
+  sc_out&amp;lt; sc_int&amp;lt;16&amp;gt; &amp;gt; outp;&lt;/systemc.h&gt;&lt;/p&gt;
+
+        &lt;p&gt;void fir_main(); //just declaration here&lt;/p&gt;
+
+        &lt;p&gt;SC_CTOR( fir ){ //systemC constructor&lt;br /&gt;
+      SC_CTHREAD( fir_main, clk.pos() );
+      reset_signal_is(rst, true );
+  }
+  }&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;// Coefficients for each FIR
+  const sc_unint&amp;lt;8&amp;gt; coef[5] = {18,77,107,77,18};&lt;/p&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  * `fir.cc`: thread definition  
+
+  ```cpp
+  // FIR Main thread
+  #include &quot;fir.h&quot;
+
+  void fir::fir_main(void)
+  {
+      // Reset code
+      // Reset internal variables
+      // Reset outputs
+      sc_int&amp;lt;16&amp;gt; taps[5]; // set coefficients
+      outp.write( 0 ); // initialize
+      wait();
+
+      while( true ){
+          // Read inputs
+          // Algorithm code
+          // Write outputs
+
+          for(int i = 4; i &amp;gt; 0; i--){
+              taps[i] = taps[i-1];
+          }
+          taps[0]=inp.read();
+
+          sc_int&amp;lt;16&amp;gt; val;
+          for(int i=0; i &amp;lt; 5; i++){
+              val += coef[i]*taps[i];
+          }
+          outp.write(val);
+          wait(); // Associated with 'clk' class
+      }
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;testbenches&quot;&gt;Testbenches&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Verification
+    &lt;ul&gt;
+      &lt;li&gt;Hierarchical test environment
+        &lt;ul&gt;
+          &lt;li&gt;top level test structure
+            &lt;ul&gt;
+              &lt;li&gt;instance of FIR module (DUT)&lt;/li&gt;
+              &lt;li&gt;instance of testbench module&lt;/li&gt;
+              &lt;li&gt;connectivity&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;tentbench module&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_systemCTutorial/firSystem.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test environment
+    &lt;ul&gt;
+      &lt;li&gt;In a host module &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;System&lt;/code&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Module &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fir0&lt;/code&gt;
+            &lt;ul&gt;
+              &lt;li&gt;clk, rst, inp, outp&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Testbench &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tb0&lt;/code&gt;
+            &lt;ul&gt;
+              &lt;li&gt;clk, rst, inp, outp&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clk&lt;/code&gt; is generated from systemC&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Basic &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SYSTEM&lt;/code&gt; structure
+    &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;n&quot;&gt;SC_MODULE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// Module declarations&lt;/span&gt;
+
+      &lt;span class=&quot;c1&quot;&gt;// Local signal declarations&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;SC_CTOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Constructor&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;// Module instance signal connections&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// Destructor&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main.cc&lt;/code&gt;
+    &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;systemc.h&amp;gt;
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#include &quot;fir.h&quot;
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#include &quot;tb.h&quot;
+&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SC_MODULE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tb0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// declare a pointer(*) to its reference name(tb0)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;fir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fir0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;sc_signal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;rst_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_signal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sc_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;inp_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_signal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sc_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;outp_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;sc_clock&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;SC_CTOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk_sig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clk_sig&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SC_NS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;tb0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tb0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;tb0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk_sig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// remind that tb0 is a pointer&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;tb0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rst_sig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;tb0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inp_sig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;tb0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;outp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;outp_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+          &lt;span class=&quot;n&quot;&gt;fir0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fir0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;fir0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clk_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;fir0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rst_sig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;fir0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inp_sig&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;fir0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;outp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;outp_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tb0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fir0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// SYSTEM instantiation&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;top&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sc_main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]){&lt;/span&gt; 
+      &lt;span class=&quot;c1&quot;&gt;// acgc = arg count, argv = arg vector&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;top&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SYSTEM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;top&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tb.h&lt;/code&gt;
+    &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;systemc.h&amp;gt;
+&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;SC_MODULE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;//opposit to fir module&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//opposit to fir module&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;outp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//opposit to fir module&lt;/span&gt;
+
+      &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;SC_CTOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;SC_CTHREAD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;SC_CTHREAD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tb.cc&lt;/code&gt;
+    &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cp&quot;&gt;#include &quot;tb.h&quot;
+&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;//reset&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;rst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;wait&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;rst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;wait&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+
+      &lt;span class=&quot;n&quot;&gt;sc_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;//send stimulus to FIR&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;23&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;29&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+              &lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+              &lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;wait&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;//Read output coming from DUT&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;indata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;outp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;wait&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; :&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;c1&quot;&gt;// End simulation&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_stop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// calls destructors&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;handshaking&quot;&gt;Handshaking&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In the folder …
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Makefile&lt;/code&gt; file and type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;make&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;golden&lt;/code&gt; folder&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_systemCTutorial/firSystem2.png&quot; alt=&quot;image2&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;If simulation fails… communication between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tb0&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fir0&lt;/code&gt; failed
+    &lt;ul&gt;
+      &lt;li&gt;Handshake: Add single bit (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bool&lt;/code&gt;) valid(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vld&lt;/code&gt;) and ready(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rdy&lt;/code&gt;) signals for both input/ouput like ..&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;/assets/notes/note_systemCTutorial/firSystem3.png&quot; alt=&quot;image2&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      &lt;span class=&quot;c1&quot;&gt;// Add below to SC_MODULE( SYSTEM )&lt;/span&gt;
+
+      &lt;span class=&quot;n&quot;&gt;sc_signal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;inp_sig_vld&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_signal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;inp_sig_rdy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        
+      &lt;span class=&quot;n&quot;&gt;sc_signal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;outp_sig_vld&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sc_signal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;outp_sig_rdy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+      &lt;span class=&quot;c1&quot;&gt;// Add to signal connection in constructor&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// Add valid/ready pins to 'tb.h' and 'fir.h' &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Modeling asynchronous communication at different levels of abstraction using systemC &lt;a href=&quot;http://www.imm.dtu.dk/SoC-Mobinet/material/doc/note-async-systemc-channels.pdf&quot;&gt;LINK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="scitech" /><category term="hardware" /><category term="notebook" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/notes/note_systemCTutorial/firSystem.png" /><media:content medium="image" url="https://jonghoon.blog/assets/notes/note_systemCTutorial/firSystem.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">홈스테이</title><link href="https://jonghoon.blog/blog/note/2020-04-29-Lohr/" rel="alternate" type="text/html" title="홈스테이" /><published>2020-04-29T00:00:00-04:00</published><updated>2021-04-30T01:00:37-04:00</updated><id>https://jonghoon.blog/blog/note/Lohr</id><content type="html" xml:base="https://jonghoon.blog/blog/note/2020-04-29-Lohr/">&lt;p&gt;&lt;img src=&quot;/assets/img/posts/lorh/0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/posts/lorh/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -68,7 +1317,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/posts/lorh/9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/lorh/10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="note" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/lorh/8.jpg" /><media:content medium="image" url="/assets/img/posts/lorh/8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">PRML001 - Pattern Recognition 들어가기</title><link href="/blog/scitech/2020-01-19-tistory106/" rel="alternate" type="text/html" title="PRML001 - Pattern Recognition 들어가기" /><published>2020-01-19T00:00:00-05:00</published><updated>2021-04-29T03:06:14-04:00</updated><id>/blog/scitech/tistory106</id><content type="html" xml:base="/blog/scitech/2020-01-19-tistory106/">&lt;p&gt;&lt;em&gt;A note on Pattern Recognition and Machine Learning by C. M. Bishop pp.1-4&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/lorh/10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="note" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/img/posts/lorh/8.jpg" /><media:content medium="image" url="https://jonghoon.blog/assets/img/posts/lorh/8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">PRML001 - Pattern Recognition 들어가기</title><link href="https://jonghoon.blog/blog/scitech/2020-01-19-tistory106/" rel="alternate" type="text/html" title="PRML001 - Pattern Recognition 들어가기" /><published>2020-01-19T00:00:00-05:00</published><updated>2021-05-09T22:31:24-04:00</updated><id>https://jonghoon.blog/blog/scitech/tistory106</id><content type="html" xml:base="https://jonghoon.blog/blog/scitech/2020-01-19-tistory106/">&lt;p&gt;&lt;em&gt;A note on Pattern Recognition and Machine Learning by C. M. Bishop pp.1-4&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;위 그림은 양자역학의 대부, 닐스보어가 제안한 양자가설을 설명해주는 그림이다. 고등학교 2학년 때 처음 배운 이 양자가설이 던져준 짜릿한 충격 덕분에, 한동안 보어와 아인슈타인 같은 물리학자들의 삶에 푹 빠져 살았다. 병은 점점 깊어지더니, 그로부터 수년간을 ‘나는 물리학자가 되겠다’는 신념으로 살았던 것 같다. 지금 돌이켜보면 참 귀여운 순간이었는데, 무엇 때문에 보어의 가설에 그리 반해버렸을까 하는 생각이 든다. 보어가 한 일은 사실 아주 간단한 일이었는데, 20세기 초에 물리학자들이 풀지 못하고 있던 &lt;strong&gt;수소 원자 스펙트럼의 ‘패턴’을 ‘이해’해낸 것&lt;/strong&gt; 뿐이었다. 수소 원자를 뜨겁게 달구면 불연속적인 색깔의 빛들이 나오는데, 이는 당시의 물리학 이론으로는 설명할 수 없는 현상이었다. 그 때 사람들이 할 수 있는 것은 오로지 여러번의 실험을 통해 얻은 데이터를 쳐다보고 앉아있는 것 뿐이었는데, 어느날 몇몇 사람들이 빛의 파장 데이터에 특정한 패턴( $\lambda^{-1} \propto (\frac{1}{n^2} -\frac{1}{m^2})$ )이 존재한다는 사실을 알아챘다. 물리학자가 복잡한 논리를 펼쳐 얻어낸 결론이 아니라, 데이터 덕후였던 몇 사람들이 얻어낸 이 패턴들은, 지금 21세기를 빛내고 있는 수많은 과학기술의 초석이 되었다. 그리고, 내가 이 작업들을 보며 감동받았던 이유는, 누구의 도움이 없이도 ‘직관’에 의해 자연의 섭리를 이해했던 선배들 같이 나 또한 세상을 이해할 수 있는 눈을 갖게 될수있으리란 희망 때문이었던듯 하다. &lt;strong&gt;자연현상을 유심히 지켜보고 얻어낸 통찰과 직관&lt;/strong&gt;만큼 귀한 자산이 또 있을까.&lt;/p&gt;
 
@@ -114,7 +1363,127 @@
 
 &lt;p&gt;PRML에는 이렇게 다양한 학습 방법들이 있고, 그래서 공부할 것도 숨막힐 정도로 많다. 앞으로 책을 읽어 나가면서 차근차근 알게 되겠지만, 너무 방대한 학문을 손대는 것이 아닌가하는 걱정이 들기도 한다. 학생들의 이런 걱정을 미리 아셨는지 비숍선생님은, 우리의 첫 질문이었던 &lt;strong&gt;‘인식’이란 무엇인가?&lt;/strong&gt; 그리고 &lt;strong&gt;인식을 ‘학습’하는 방법은 무엇인가?&lt;/strong&gt; 에 다시 초점을 맞추시고 &lt;strong&gt;Bayesian paradigm&lt;/strong&gt;을 소개한다. 조건부 확률을 구하기 위한 계산법에 불과한 Bayesian rule이 어떻게 ‘인식’과 ‘학습’의 비밀을 알려주는지를 소개함으로서, 앞으로 PRML학생들이 앞서 설명한 수많은 알고리즘들을 소화해낼 수 있는 기초체력을 길러주신다.&lt;/p&gt;
 
-&lt;p&gt;그럼, Bayesian paradigm에 대한 이야기는 다음 포스팅에서 계속 !&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="scitech" /><summary type="html">A note on Pattern Recognition and Machine Learning by C. M. Bishop pp.1-4</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/2020-01-19-PRML001/PRML001_02.png" /><media:content medium="image" url="/assets/img/posts/2020-01-19-PRML001/PRML001_02.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">서고 정리.</title><link href="/blog/note/2018-11-08-tistory103/" rel="alternate" type="text/html" title="서고 정리." /><published>2018-11-08T00:00:00-05:00</published><updated>2021-04-29T03:06:14-04:00</updated><id>/blog/note/tistory103</id><content type="html" xml:base="/blog/note/2018-11-08-tistory103/">&lt;p&gt;책읽기.&lt;/p&gt;
+&lt;p&gt;그럼, Bayesian paradigm에 대한 이야기는 다음 포스팅에서 계속 !&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="scitech" /><category term="AI" /><summary type="html">A note on Pattern Recognition and Machine Learning by C. M. Bishop pp.1-4</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/img/posts/2020-01-19-PRML001/PRML001_02.png" /><media:content medium="image" url="https://jonghoon.blog/assets/img/posts/2020-01-19-PRML001/PRML001_02.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Recent Advances in Physical Reservoir Computing: A review</title><link href="https://jonghoon.blog/blog/scitech/2019-01-01-Reservoir_Tanaka/" rel="alternate" type="text/html" title="Recent Advances in Physical Reservoir Computing: A review" /><published>2019-01-01T00:00:00-05:00</published><updated>2021-05-07T20:15:51-04:00</updated><id>https://jonghoon.blog/blog/scitech/Reservoir_Tanaka</id><content type="html" xml:base="https://jonghoon.blog/blog/scitech/2019-01-01-Reservoir_Tanaka/">&lt;ul&gt;
+  &lt;li&gt;A reservoir computing system consists of a reservoir for mapping inputs into a high-dimensional space and a readout for extracting features of the inputs. Further, training is carried out only in the readout.&lt;/li&gt;
+  &lt;li&gt;Another advantage is that the reservoir can be realized using physical systems, substrates, and devices, instead of recurrent neural networks.&lt;/li&gt;
+  &lt;li&gt;Our objective is to provide a comprehensive viewpoint with regard to interdisciplinary studies on physical RC by classifying them according to the type of the physical phenomenon in the reservoir. Toward this end, we summarize the characteristics of individual physical reservoirs. Our classification, which highlights the similarities and differences among different physical reservoirs, is useful for gaining insights into the further developments of physical RC.&lt;/li&gt;
+  &lt;li&gt;In the early 2000s, ESNs (Jaeger, 2001a; Jaeger and Haas, 2004) and LSMs (Maass et al., 2002; Maass, 2011) were independently proposed as seminal RC models.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_1.png&quot; alt=&quot;Fig1.RC schematic&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;echo-state-machine&quot;&gt;Echo state machine&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The ESN was proposed by Jaeger (Jaeger, 2001a; Jaeger and Haas, 2004).&lt;/li&gt;
+  &lt;li&gt;The performance of
+the ESN depends on the design of the RNN-based reservoir. To approximate the input signal, the RNN-based reservoir should have the echo state property, whereby it asymptotically eliminates any information from the initial conditions (Jaeger, 2001a).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;liquid-state-machine&quot;&gt;Liquid state machine&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The purpose of LSMs is to develop biologically
+relevant learning models using spiking neural networks with recurrent architectures
+(Fig. 1(a)). The spiking neurons are excitatory or inhibitory. Although
+they are principally modeled with integrate-and-fire neurons, other biologically
+plausible models can also be used&lt;/li&gt;
+  &lt;li&gt;The topology and connectivity of the RNN in the LSM follow the constraints
+of biological neural networks. Specifically, the probability that two
+neurons are connected depends on the distance between their positions. Such
+a reservoir is often called a liquid and the LSM operation is called liquid computing
+because it is similar to excitable media exhibiting ripples in response to external stimulation inputs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;recent-trend-of-rc&quot;&gt;Recent trend of RC&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_2.png&quot; alt=&quot;Table1. Examples of subjects in RC applications&quot; /&gt;
+&lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_3.png&quot; alt=&quot;Table2. Application of RC&quot; /&gt;
+Requirements for physical reservoir&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;high dimensionality&lt;/li&gt;
+  &lt;li&gt;nonlinearity&lt;/li&gt;
+  &lt;li&gt;fading memory (short-term memory)
+    - to ensure that the reservoir state is dependent on recent-past inputs but independent of distant-past inputs.(echo state property)&lt;/li&gt;
+  &lt;li&gt;seperation property
+    - distict signals into different classes
+    - insensitive to unessential small fluctuations (noise)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;dynamical-systems-models-for-rc&quot;&gt;Dynamical systems models for RC&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Delayed dynamical systems
+    &lt;ul&gt;
+      &lt;li&gt;The reservoirs in ESNs and LSMs generate high-dimensional signals using
+a network of interacting neuron nodes, which are regarded as a special class of
+high-dimensional dynamical systems. Another way to generate high-dimensional
+patterns is to use a time-delayed dynamical system
+  &lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_5.png&quot; alt=&quot;Delayed dynamical system form&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_4.png&quot; alt=&quot;The first RC using a single nonlinear node reservoir with time-delayed feedback (Appletant et. al. 2011&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fox.ino.it/home/arecchi//SezA/fis205.pdf&quot;&gt;Ref. Lepri, S., Giacomelli, G., Politi, A., Arecchi, F., 1994. High-dimensional chaos
+in delayed dynamical systems. Physica D: Nonlinear Phenomena 70, 235–249.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www-nature-com.proxy.lib.umich.edu/articles/srep03629&quot;&gt;Ref. Appeltant, L., Van der Sande, G., Danckaert, J., Fischer, I., 2014. Constructing
+optimized binary masks for reservoir computing with delay systems. Scientific
+reports 4, 3629.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://link-springer-com.proxy.lib.umich.edu/article/10.1007%2Fs12559-017-9463-7&quot;&gt;Ref. Reservoir Computing with an Ensemble of Time-Delay
+Reservoirs&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cellular automata
+    &lt;ul&gt;
+      &lt;li&gt;A cellular automaton (CA) is a simple dynamical system model where both
+state and time are discrete (Wolfram, 2018). The discrete states on the cells are
+updated according to a given (local) evolution rule. Depending on the rule, the
+CA can exhibit rich behavior, including ordered, critical (or the edge of chaos),
+and chaotic dynamics, in spite of its simplicity. It is heuristically conjectured
+that the computational capability of CA is maximized at the edge of chaos.&lt;/li&gt;
+      &lt;li&gt;This conjecture has been confirmed in a numerical study on RC based on a
+random Boolean network, which is an extended version of CA (Snyder et al.,
+2013). Other studies employed CA-based reservoirs as shown in Fig. 4 (Yilmaz,
+2014, 2015a,b).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_6.png&quot; alt=&quot;RC using cellular automata&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coupled oscillators&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_7.png&quot; alt=&quot;Coupled ODE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_8.png&quot; alt=&quot;RC using coupled oscillators&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Electronic RC
+    &lt;ul&gt;
+      &lt;li&gt;…&lt;/li&gt;
+      &lt;li&gt;Time-delay circuits&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;A simpler architecture is a single-node reservoir with delayed feedback, as described in Sec. 3.1. A single-node reservoir imposes less hardware requirements compared to a network-type reservoir consisting of a large number of units (Soriano et al., 2015a). An electronic implementation of a single-node reservoir with a delay line was demonstrated using analog circuits as shown in Fig. 6(b) (Soriano et al., 2015b). The eﬀect of the quantization noise generated by AD and DA conversion of the signals on the computational performance was investigated. A digital FPGA implementation of a single-node reservoir with delayed feedback was adopted for wave classiﬁcation and time series prediction (Alomar et al., 2015). In (Haynes et al., 2015), a single autonomous Boolean node reservoir was implemented on an FPGA and employed to reproduce a three-input XOR gate. In other studies, a single spike-based node with delayed feedback was implemented with analog circuits (Zhao et al., 2016; Li et al., 2017).&lt;/li&gt;
+      &lt;li&gt;Analog circuit (&lt;a href=&quot;https://doi-org.proxy.lib.umich.edu/10.3389/fncom.2015.00068&quot;&gt;Soriano et. al. 2015&lt;/a&gt;)
+ &lt;img src=&quot;/assets/notes/note_RCtanaka/tanaka_9.png&quot; alt=&quot;Soriano et. al.&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;FPGA (&lt;a href=&quot;https://ifisc.uib-csic.es/ingo/Pubs/IEEE-Alomar-FPGA-2015.pdf&quot;&gt;Alomar et. al. 2015&lt;/a&gt;)
+      - &lt;strong&gt;Memristive RC&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;memristive-rc&quot;&gt;Memristive RC&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Classification of memristive RC
+    &lt;ol&gt;
+      &lt;li&gt;neuromemristive reservoirs consisting of both neuron circuits and memristor synapses&lt;/li&gt;
+      &lt;li&gt;memristor-based reservoirs without neuron elements&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="scitech" /><category term="computer" /><category term="research" /><category term="notebook" /><summary type="html">A reservoir computing system consists of a reservoir for mapping inputs into a high-dimensional space and a readout for extracting features of the inputs. Further, training is carried out only in the readout. Another advantage is that the reservoir can be realized using physical systems, substrates, and devices, instead of recurrent neural networks. Our objective is to provide a comprehensive viewpoint with regard to interdisciplinary studies on physical RC by classifying them according to the type of the physical phenomenon in the reservoir. Toward this end, we summarize the characteristics of individual physical reservoirs. Our classification, which highlights the similarities and differences among different physical reservoirs, is useful for gaining insights into the further developments of physical RC. In the early 2000s, ESNs (Jaeger, 2001a; Jaeger and Haas, 2004) and LSMs (Maass et al., 2002; Maass, 2011) were independently proposed as seminal RC models.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/notes/note_RCtanaka/tanaka_1.png" /><media:content medium="image" url="https://jonghoon.blog/assets/notes/note_RCtanaka/tanaka_1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">서고 정리.</title><link href="https://jonghoon.blog/blog/note/2018-11-08-tistory103/" rel="alternate" type="text/html" title="서고 정리." /><published>2018-11-08T00:00:00-05:00</published><updated>2021-05-09T22:31:24-04:00</updated><id>https://jonghoon.blog/blog/note/tistory103</id><content type="html" xml:base="https://jonghoon.blog/blog/note/2018-11-08-tistory103/">&lt;p&gt;책읽기.&lt;/p&gt;
 
 &lt;p&gt;삶의 방향을 찾고, 지적 역량과 글쓰기 실력을 기르기 위해 책을 읽기 시작한지도 2년 정도가 흐른 것 같다.&lt;/p&gt;
 
@@ -266,7 +1635,7 @@
 
 &lt;p&gt;Big Magic: Creative Living Beyond Fear / Elizabeth GilbertMay 2, 2017&lt;/p&gt;
 
-&lt;p&gt;Ready Player One / Ernest ClineMarch 25, 2018&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="note" /><summary type="html">책읽기.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/103.jpeg" /><media:content medium="image" url="/assets/img/posts/from_tistory/103.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon Charts</title><link href="/blog/note/2018-03-17-tistory100/" rel="alternate" type="text/html" title="Amazon Charts" /><published>2018-03-17T00:00:00-04:00</published><updated>2021-04-29T03:06:14-04:00</updated><id>/blog/note/tistory100</id><content type="html" xml:base="/blog/note/2018-03-17-tistory100/">&lt;p&gt;한동안 책볼시간이 없었다. 앞으로도 없을듯 하지만…&lt;/p&gt;
+&lt;p&gt;Ready Player One / Ernest ClineMarch 25, 2018&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="note" /><category term="self_development" /><summary type="html">책읽기.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/img/posts/from_tistory/103.jpeg" /><media:content medium="image" url="https://jonghoon.blog/assets/img/posts/from_tistory/103.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon Charts</title><link href="https://jonghoon.blog/blog/note/2018-03-17-tistory100/" rel="alternate" type="text/html" title="Amazon Charts" /><published>2018-03-17T00:00:00-04:00</published><updated>2021-05-09T22:31:24-04:00</updated><id>https://jonghoon.blog/blog/note/tistory100</id><content type="html" xml:base="https://jonghoon.blog/blog/note/2018-03-17-tistory100/">&lt;p&gt;한동안 책볼시간이 없었다. 앞으로도 없을듯 하지만…&lt;/p&gt;
 
 &lt;p&gt;영어에 노출되는건 선택이 아니라 필수인고로 짜투리 시간 모아서 킨들에 올인하려 한다.&lt;/p&gt;
 
@@ -282,209 +1651,4 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/article/twib/ref=chrt_bk_dx_tn_twib\&quot;&gt;https://www.amazon.com/article/twib/ref=chrt_bk_dx_tn_twib\&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Read, Read!&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="note" /><summary type="html">한동안 책볼시간이 없었다. 앞으로도 없을듯 하지만…</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/100.png" /><media:content medium="image" url="/assets/img/posts/from_tistory/100.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">One Page 정리기술 - 다카하시 마사후미</title><link href="/blog/book/2018-01-23-tistory99/" rel="alternate" type="text/html" title="One Page 정리기술 - 다카하시 마사후미" /><published>2018-01-23T00:00:00-05:00</published><updated>2021-04-30T00:28:22-04:00</updated><id>/blog/book/tistory99</id><content type="html" xml:base="/blog/book/2018-01-23-tistory99/">&lt;p&gt;노트 필기와 정리는 일생동안 손에서 놓을 수 없는 중요한 일이다. 본 것, 들은 것, 생각한 것들을 나중에 쓸 수 있는 형태로 보존하기 위해 압축과정이 필요하다. 지금은 아무 의미 없어보이는 생각과 사건이라도, 언제 어떻게 귀중하게 쓰일지 알수 없기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;데이터 압축 과정(encoding)은 항상 압축을 해제하는 과정(decoding)을 고려해 진행해야한다. 올바른 encoding 방법을 정하기 위해선 ‘양질의 decoding/reconstruction’ 무엇인지를 생각해야 한다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;우선 decoding 결과물은 쓸모 있어야 한다. 원본 경험, 원본 데이터에서 쓸모있는 부분을 선별하지 않으면, 쓸데 없는 데이터들을 들여다보고 있어야 하기 때문이다. 수학수업 노트를 작성 할 때, 수학선생님의 옷 색깔을 적지 않는 이치다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;한편, 쓸모없는 부분은 최대한 줄여야 한다. 중요하지 않은 부분이 많을 수록 필기 내용을 해독하고, 필요한 정보를 가져오는데 많은 시간이 든다. 우리의 삶이 소중한 만큼, 우리의 시간도 소중하다. 낭비적 필기로 시간을 잃어선 안되겠다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;정리한 노트를 필요한 때 찾아보기 쉬워야 한다. 아무리 양질의 정보를 생산했다고 하더라도, 필요할 때 꺼내볼 수 없으면 없는 정보나 마찬가지다. 혹은, 필요하지 않은 순간이라도 잠깐씩이라도 눈에 들어와 어떤 정보들을 접했는지, 짧은 시간동안이나마 기억을 떠올림으로서 재학습 효과를 를 얻을 수 있어야 한다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;결국 가치있는 노트를 만들기 위해선, (1) 중요한 정보를 선별하는 방법 (2) 데이터에 쉽게 접근하는 방법. 이 두 가지 기술을 익혀야 한다. &lt;/p&gt;
-
-&lt;p&gt;그리고, 이 책 &amp;lt;One page 정리 기술&amp;gt;은 (1)번 기술을 공유하는 책이다. 어떻게 하면 중요한 정보를 빠른 시간안에 선별해, 정보의 양은 줄이고 정보의 질을 올릴 수 있는가?에 대해 답한다.&lt;/p&gt;
-
-&lt;p&gt;아래에 작가의 정신에 따라 원노트를 이용해 노트 필기를 하며 책을 정리해보았다. 짧고 간결하게.&lt;/p&gt;
-
-&lt;p&gt;작가가 추천하는 킬러 리딩처럼 15분안에 읽은 것은 아니지만, 1시간 정도에 책을 읽고 요점을 간추려 보았다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/from_tistory/099_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/from_tistory/099_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/from_tistory/099_3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;덧. 이 글은 단지 읽은 책을 간추리기 위해 적은 것입니다. 개인적으로 이 책을 추천하진 않습니다 :(&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><summary type="html">노트 필기와 정리는 일생동안 손에서 놓을 수 없는 중요한 일이다. 본 것, 들은 것, 생각한 것들을 나중에 쓸 수 있는 형태로 보존하기 위해 압축과정이 필요하다. 지금은 아무 의미 없어보이는 생각과 사건이라도, 언제 어떻게 귀중하게 쓰일지 알수 없기 때문이다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/099.jpeg" /><media:content medium="image" url="/assets/img/posts/from_tistory/099.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MacBook Python Environment</title><link href="/blog/scitech/2018-01-17-tistory98/" rel="alternate" type="text/html" title="MacBook Python Environment" /><published>2018-01-17T00:00:00-05:00</published><updated>2021-04-30T01:00:37-04:00</updated><id>/blog/scitech/tistory98</id><content type="html" xml:base="/blog/scitech/2018-01-17-tistory98/">&lt;p&gt;&lt;strong&gt;맥 터미널&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;iTerm2 : &lt;a href=&quot;https://www.iterm2.com/downloads.html\&quot;&gt;https://www.iterm2.com/downloads.html\&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;빠른 서치 앱&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Alfred : &lt;a href=&quot;https://www.alfredapp.com/\&quot;&gt;https://www.alfredapp.com/\&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;VirtualEnv 이용해서 파이선 버전 관리&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;pip install
-virtualenv (&amp;amp; virtualenvwrapper)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Brew 이용해서 편집기 vim / zshell / wget / git 다운&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;brew install
-neovim  (neovim download not necessary
-for  zsh though…)&lt;/p&gt;
-
-&lt;p&gt;brew install zsh
-zsh-completions  (download zsh and
-zsh-completions )&lt;/p&gt;
-
-&lt;p&gt;brew install wget&lt;/p&gt;
-
-&lt;p&gt;brew install git&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Oh-My-Zsh 다운로드&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;sh -c “$(curl
--fsSL &lt;a href=&quot;https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh\&quot;&gt;https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh\&lt;/a&gt;)”&lt;/p&gt;
-
-&lt;p&gt; ”Please look
-over .zshrc file to select plugins, themes, and options.”&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;터미널 활용앱 tmux / Zshell의 플러그인 매니저 Zplug 다운로드&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;brew install tmux&lt;/p&gt;
-
-&lt;p&gt;brew install zplug&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[ Installing
-Dotfiles ] : terminal/zsh/vim+a 설정&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt; - Weblink: &lt;a href=&quot;https://github.com/wookayin/dotfiles\&quot;&gt;https://github.com/wookayin/dotfiles\&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;git clone –recursive &lt;a href=&quot;https://github.com/wookayin/dotfiles.git\&quot;&gt;https://github.com/wookayin/dotfiles.git\&lt;/a&gt; ~/.dotfiles&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;cd ~/.dotfiles &amp;amp;&amp;amp; python install.py&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;python
- install.py –force (if need enforcement)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Update:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&amp;gt;&amp;gt;&amp;gt; dotfiles update&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[ Virtualenvwrapper ] : virtualenv 사용법&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create virtualenv&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&amp;gt;&amp;gt;&amp;gt; mkvirtualenv (env_name)
- –python=&amp;lt;python_version&amp;gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Remove virtualenv&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&amp;gt;&amp;gt;&amp;gt; rmvirtualenv (env_name)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Get into virtualenv&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&amp;gt;&amp;gt;&amp;gt; workon (env_name)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Get out of virtualenv&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&amp;gt;&amp;gt;&amp;gt; deactivate&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="scitech" /><summary type="html">맥 터미널</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/098.jpeg" /><media:content medium="image" url="/assets/img/posts/from_tistory/098.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">그리스인 이야기1-시오노 나나미</title><link href="/blog/book/2018-01-16-tistory97/" rel="alternate" type="text/html" title="그리스인 이야기1-시오노 나나미" /><published>2018-01-16T00:00:00-05:00</published><updated>2021-04-30T01:00:37-04:00</updated><id>/blog/book/tistory97</id><content type="html" xml:base="/blog/book/2018-01-16-tistory97/">&lt;p&gt;왜 그리스인은 그 전에는 아무도 생각하지 못한 민주정치를 만들었고 언제 누가 어떻게 민주정치가 작동하게 만들었는지, 또한 국가가 존망 위기에 처해있을 때 유권자는 어떻게 했으며 그것이 가능했는지, 그 이후에 어떤 결과를 낳았는지에 관해 다루려고 한다.&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;로마인 이야기&amp;gt;를 쓴 시오노 나나미가 새 책을 냈다. &amp;lt;그리스인 이야기1&amp;gt;는 총 세편에 걸쳐 그리스의 역사를 소개하는 그 첫 이야기다. &amp;lt;로마인이야기&amp;gt;보다는 호흡을 짧게 가져가는 탓에, 로마인 이야기만큼 인물 한명 한명에 집중하거나 감정이입하기는 힘든 편이다. 하지만, 민주주의와 올림픽의 시작인 그리스의 역사를 이해할 수 있는 기회를 얻은 점 만으로도 감사히 여기며 책을 읽어나갔다. &lt;/p&gt;
-
-&lt;p&gt;위에 인용한 글처럼, 그리스인들은 로마인들처럼 오랜시간동안 제도의 안팎을 정비하며 나가기 힘들었다. 지리적, 정치적 환경이 그들을 오랜시간 심사숙고하도록 제도를 고쳐가며 발전하도록 가만히 두지 않았기 때문이다. 그리스를 이해하기 위해서는, 그들의 지리적 환경을 이해할 필요가 있다. 에게해를 중심으로 하여 이곳 저곳에 흩어져있는 섬과 반도에 위치한 폴리스들이  그리스를 이루는만큼, 그들은 연합체로 행동한다. 폴리스들 간의 싸움도 빈번했지만 뭉칠때는 뭉치는 유연성을 보여주기도 한다. 올림픽은 그들의 연합을 상징하는 대표적인 행사다. 기원전 776년 1회 올림픽을 시작으로 4년에 한번씩, 올림피아의 ‘성스러운 숲’에 모여 신체의 아름다움과 뛰어남을 선보이는 경기를 치룬다. 한편, 그리스는 섬나라들의 모임인 만큼, 제국이 세워진다거나 중앙집중적인 왕을 세우기 힘든 환경이다. 그리고 그런 환경이 고스란히 반영되어 그리스인들은 용맹히 싸워 이기고, 모험을 통해 세상을 개척하는 일에 전문가가 된다.&lt;/p&gt;
-
-&lt;p&gt;그리스 역사의 ‘중세’를 특징짓는 지중해 각지로의 식민활동을 다루지 않고는 그 이후에 나타느느 ‘그리스 고전기’를 이야기 할 수 없다. 여하튼 그 좁은 그리스 안에서 티격태격하며 독립심은 강해도 협조정신은 어디서도 찾아볼 수 없는 그리스인이었기 때문에 어디론가 나가지 않으면 사태는 해결될 가망이 없었다. 이전투구의 내란 상태로 가지 않은 것은 불행중 다행이지만 그렇다고 그것이 그들의 식견이나 판단이 뛰어났기 때문은 아니었다. 무엇보다 ‘고졸기’ 그리스는 만사 제쳐놓고 스스로를 사수해야할 만큼 풍요롭지 못했다. 이런 이유로 일족을 거느리고 해외로 진출하는 것이 그리스 민족을 드높인다는 생각이 생겨났다.&lt;/p&gt;
-
-&lt;p&gt;세계 정복에 나섰던 용맹한 그리스인들인만큼, 그들의 정치체제도 독특하다. 특히 스파르타의 체제가 재미있는데, 이를 위해 리쿠르고스의 헌법을 볼 필요가 있다.  계급체제는 스파르타인-페리오이코이-헬롯, 세 단계가 있다. 시민에 해당하는 스파르타인이 하는 일은 정치에 참여하고, 군인으로서 전쟁에 나가는 것 외에는 없다. 페리오이코이는 수공업과 상업을, 헬롯은 농사, 목축, 옷감 짜는 등의 일을 맡았다. 이 책을 읽기 전부터 갖고 있던 스파르타에 대한 선입견이 그대로 맞아떨어지는 것이다. 스파르타인은 전쟁 민족인 것이다. 영화 ‘300’의 스토리, 즉 300명의 스파르타 정예군이 20만 페르시아 대군의 발목을 잡은 이야기는 역사적 사실이다. 스무살까지 군사훈련을 받다가 통과의례인 ‘일주일간 야산에서 생존한 후, 헬롯의 목베어오기’를 해낸 레오니다스왕의 이야기 또한 역사적 사실이다. &lt;/p&gt;
-
-&lt;p&gt;아네테의 정치는 현대 민주주의에 큰 영향을 미친만큼, 이미 알아버린 이야기들이라 흥미는 조금 떨어졌다. 솔론, 페이시스트라토스, 클레이스테네스의 개혁이 진행되면서 시민이 직접 정치에 참여할 수 있는 권리가 보장되었고, 도편추방법을 통해 권력이 한 사람에게 집중되는 현상을 줄였다. 중우정치의 약점을 안고 태어난 그리스의 민주주의는 테미스토클레스라는 걸출한 명장을 배출하며 페르시아 2차 전쟁을 승리로 마무리 할 수 있는 밑거름을 닦았다.&lt;/p&gt;
-
-&lt;p&gt;기원전 478년, 제 2차 페르시아 전쟁이 종료되면서 에게 해를 둘러싼 그리스 세계에서 페르시아 세력은 일소되었다. 그리고 기원전 334년부터 시작된 알렉산드로스 대왕의 동방원정까지 144년 동안 그리스와 페르시아 사이에는 전쟁이라고 할만한 규모의 싸움이 일어나지 않았다.&lt;/p&gt;
-
-&lt;p&gt;페르시아 대제국과의 전쟁에서 ‘테르모필레 전투’, ‘살라미스 해전’, ‘마라톤 전투’라는 전설을 만들어내며 자신의 영토를 지켜낸 그리스인들은 그 후로 100여년간의 평화시대를 맞이한다.  여기서 말하는 평화시대는 외부의 제국으로부터 침략을 받지 않는 평화를 말할 뿐, 그리스인들간의 싸움은 여전히 계속되었다.  스파르타를 중심으로한 펠로폰네소스 동맹과, 아테네를 중심으로 한 델로스 동맹이 붙은 펠로폰네소스 전쟁(BC431-404)이 그 것이다. &lt;/p&gt;
-
-&lt;p&gt;1권의 마지막은 역사가 투키디데스가 읊은 페르시아 2차 대전의 총사령관 테미스토클레스에 대한 평으로 마무리 된다. &lt;/p&gt;
-
-&lt;p&gt;테미스토클레스의 존재 자체가 감탄할 수 밖에 없는 경이로움.&lt;/p&gt;
-
-&lt;p&gt;그중에서 특히 필요해지면 반드시 발휘되는 유례를 찾기 힘든 강한 신념.&lt;/p&gt;
-
-&lt;p&gt;또한 기회에 따라 나타나는 천재적이라고 말해도 좋은 독창성.&lt;/p&gt;
-
-&lt;p&gt;그의 지력이나 기민함은 학문으로 얻은 지식이나 경험으로 얻은 축적에서 자유로웠고, 통찰력이 예리하면서 깊고, 슬쩍 보기만 해도 상황을 완벽하게 파악하고, 교활하다고 할 정도의 방법을 망설임 없이 실행에 옮겨서, 현재만이 아니라 미래를 내다보는 유효한 해결책을 강구할 줄 알았다.&lt;/p&gt;
-
-&lt;p&gt;그는 자기가 관여한 경우 실행에 옮기는 행위가 의미하는 것을 정확하게 알고 있었고, 그것을 타인에게 명쾌하게 설명하는 능력도 갖추었다.&lt;/p&gt;
-
-&lt;p&gt;그가 관여하지 않았다고 해도 그가 처한 상황에 대한 판단과 그에 대한 대응책들 가운데 잘못된 것이 없었다.&lt;/p&gt;
-
-&lt;p&gt;특히 뛰어났던 것은 타인이 상상도 하기 전에 앞으로 일어날 사태의 이익과 불이익 모두를 정확하게 꿰뚫어 보는 선견지명이었다.&lt;/p&gt;
-
-&lt;p&gt;그의 통찰력은 현재에 머무르지 않고 먼 미래까지 꿰뚫어 보았다.&lt;/p&gt;
-
-&lt;p&gt;테미스토클레스는 천부적인 재능을 타고난 사람이었다.&lt;/p&gt;
-
-&lt;p&gt;집중력과 순발력에서 타의 추종을 불허하는 힘을 발휘했고, 장애에 맞닥뜨리면 순식간에 해결책을 찾아내는 재능에서도 진정으로 경이로운 인물이었다.&lt;/p&gt;
-
-&lt;p&gt;20만의 페르시아 대군을 상대하면서도 두려워하지 않는 그리스인의 용기, 섬나라의 일원으로 머무르는 것이 아니라 지중해의 주인으로 우뚝설 수 있었던 그들의 강인함으로 볼 때, 테미스토클레스가 칭찬받는 덕목들은 곧 그리스인의 민족정신이다. 예전에 읽었던 니체에 책에서 그토록 그리스인을 칭찬한 이유를 알 것 같다. &lt;/p&gt;
-
-&lt;p&gt;역사를 공부하고 듣는 것은 항상 재밌는 일인 것 같다. 결국 나를 구성하는 조각의 기원을 이해하는 것이니 말이다. 민주주의의 시작과  과정, 니체가 말한 ‘주인의 덕’의 실사판을 몸소 체험한 기분이다.&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><summary type="html">왜 그리스인은 그 전에는 아무도 생각하지 못한 민주정치를 만들었고 언제 누가 어떻게 민주정치가 작동하게 만들었는지, 또한 국가가 존망 위기에 처해있을 때 유권자는 어떻게 했으며 그것이 가능했는지, 그 이후에 어떤 결과를 낳았는지에 관해 다루려고 한다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/097.jpeg" /><media:content medium="image" url="/assets/img/posts/from_tistory/097.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">고백록 - 아우구스티누스</title><link href="/blog/book/2017-08-24-tistory96/" rel="alternate" type="text/html" title="고백록 - 아우구스티누스" /><published>2017-08-24T00:00:00-04:00</published><updated>2021-04-30T01:00:37-04:00</updated><id>/blog/book/tistory96</id><content type="html" xml:base="/blog/book/2017-08-24-tistory96/">&lt;p&gt;   ’최후의 고대인이자 최초의 중세인’ 성 어거스틴(354~430)의 &amp;lt;고백록&amp;gt;. 어거스틴이 주교로서 성공적인 목회 생활을 마무리할 때 즈음 지은 책이다. 마니교의 열렬한 신자로 활동하다가 카톨릭으로 회심했던 그의 어린 시절을 비롯한 지난 날들의 심경을 솔직하게 담아냈다.&lt;/p&gt;
-
-&lt;p&gt;   기존의 편견과는 달리 어거스틴은 호기심과 의심이 많은 사람이었다. 신의 속성이 무엇인지, 여러 종교들 가운데 어떤 것이 진리인지 알고 싶어했다. 자신의 견해를 수정하기 위해 지속적으로 공부하고 회의했던 사람이다. 그의 일생을 보고 있으면, 절실하게 진리를 찾고자 애썼고 그 결과, 확신에 찬 필체로 자신의 진리를 설파할 수 있었던 니체가 떠오른다. 극과 극이 맞닿는 것일까. 조로아스터교의 후신인 마니교에서 카톨릭으로 회심한 어거스틴과, 개신교 목사의 아들로 태어나 마니교의 전신인 조로아스터교의 덕목을 쫓아 ‘주인의 덕’과 ‘초인’을 발명해낸 니체. 비슷한 성향의 두사람이 정반대 방향으로 대치되는 지점이 인상적이다.&lt;/p&gt;
-
-&lt;p&gt;   책 앞부분에는 삼일교회 송태근 목사의 추천사가 담겨있다. 그의 감상문에서 공감되는 부분들을 추려본다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;나는 &amp;lt;고백록&amp;gt;을 통해서 목사로서 하나님 이름으로 불리는 백성들을 섬기는 나의 부르심에 관한 몇 가지 중요한 함의를 발견했다. 먼저, 신앙은 신비의 영역에 속한다. 믿음은 우리의 결단이나 경건한 상태이기에 앞서서 신적 선물이다. (…)&lt;/p&gt;
-
-  &lt;p&gt;난 &amp;lt;고백록&amp;gt;의 책장을 넘기면서 신앙이 한순간에 일어나는 사건이라기보다는(물론 좋은 출발점이 될 수 있다.), 연속되는 들숨과 날숨 같은 것임들 알게 됐다. 조금씩 이어가는 여정임을 알게 되었다.
-마지막으로, 신앙은 의심의 반대말이 아님을 알게 됐다. 흔한 말로 아우구스티누스도 하나님을 다 알고 온전히 믿은 것은 아니다. 오히려 그의 믿음은 계속해서 이해를 추구하는 믿음 (Faith Seeking Understanding), “내가 믿으나, 믿음 없는 것을 도와주소서”라고 부르짖는, 달리 말해서 모순율을 끌어안는 믿음이었다. 믿음이 우리의 이성과 이해력을 마비시키지도 않고, 의심과 의문을 배제하지고 않는다. 오히려 참된 믿음은 의심과 의문을 먹고 자란다. 믿음의 반대말은 무관심, 신앙을 가장한 타성, 그리고 ‘내 종교(me-oriented religion)’와 율법주의이다.”&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="book" /><summary type="html">   ’최후의 고대인이자 최초의 중세인’ 성 어거스틴(354~430)의 &amp;lt;고백록&amp;gt;. 어거스틴이 주교로서 성공적인 목회 생활을 마무리할 때 즈음 지은 책이다. 마니교의 열렬한 신자로 활동하다가 카톨릭으로 회심했던 그의 어린 시절을 비롯한 지난 날들의 심경을 솔직하게 담아냈다.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/posts/from_tistory/096.jpg" /><media:content medium="image" url="/assets/img/posts/from_tistory/096.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Read, Read!&lt;/p&gt;</content><author><name>Jonghoon Shin</name><email>jhshin1026@gmail.com</email></author><category term="note" /><category term="self_development" /><summary type="html">한동안 책볼시간이 없었다. 앞으로도 없을듯 하지만…</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jonghoon.blog/assets/img/posts/from_tistory/100.png" /><media:content medium="image" url="https://jonghoon.blog/assets/img/posts/from_tistory/100.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -4,7 +4,7 @@
   "short_name": "jonghoon.blog",
   "description": "Welcome to Jong Hoon’s blog",
   "start_url": "/?utm_source=homescreen",
-  "theme_color": "rgb(8,46,57)",
+  "theme_color": "rgb(36,36,36)",
   "background_color": "#fff",
   "orientation": "portrait",
   "display": "minimal-ui",

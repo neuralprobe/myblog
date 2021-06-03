@@ -10,7 +10,9 @@ hide_description: true
 {:toc .large-only}
 
 ## Optimization skills
+- Convex Optimization for All [link](https://wikidocs.net/book/1896)
 - Quadratic Programming [link](https://wikidocs.net/17852)
+
 
 ## Ising model, simulated annealing, and hardware acceleration
 - [Ising formulations of many NP problems, A.Lucas](/assets/notes/TSP_papers/Lucas_IsingFormulation.pdf)

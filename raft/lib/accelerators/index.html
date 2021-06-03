@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Domain-Specific Hardware Accelertors | jonghoon.blog</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Domain-Specific Hardware Accelertors" />
+<meta name="author" content="Jonghoon Shin" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="describe here" />
+<meta property="og:description" content="describe here" />
+<link rel="canonical" href="https://jonghoon.blog/lib/accelerators/" />
+<meta property="og:url" content="https://jonghoon.blog/lib/accelerators/" />
+<meta property="og:site_name" content="jonghoon.blog" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Domain-Specific Hardware Accelertors" />
+<meta name="google-site-verification" content="JJLECMHEFQYgb4RaUq4w_U5R_Vr2b5ZYJTn4Hv41q3k" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Jonghoon Shin"},"url":"https://jonghoon.blog/lib/accelerators/","description":"describe here","@type":"WebPage","headline":"Domain-Specific Hardware Accelertors","dateModified":"2021-05-27T20:50:29-04:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="jonghoon.blog">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="jonghoon.blog">
+
+
+  <meta name="theme-color" content="rgb(36,36,36)">
+
+
+<meta name="generator" content="Hydejack v9.1.4" />
+
+
+<link rel="alternate" href="https://jonghoon.blog/lib/accelerators/" hreflang="en">
+
+<link type="application/atom+xml" rel="alternate" href="https://jonghoon.blog/feed.xml" title="jonghoon.blog" />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+<link rel="dns-prefetch" href="/assets/js/search-worker-9.1.4.js" as="worker" id="_hrefSearch">
+
+  
+  <link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css" id="_katexPreload">
+  <noscript><link rel="stylesheet" href="/assets/bower_components/katex/dist/katex.min.css"></noscript>
+
+
+
+
+<link rel="dns-prefetch" href="https://jonghoon-blog.disqus.com" id="_hrefDisqus">
+
+
+<!--applause button-->
+
+  <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
+  <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+
+
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script");n.src=e,t&&a(n,"load",t,{once:!0});t=c.scripts[0];return t.parentNode.insertBefore(n,t),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._advertise = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2021-05-31T12:56:19-04:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.4.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(212,97,44);--accent-color-faded: rgba(212,97,44,0.5);--accent-color-highlight: rgba(212,97,44,0.1);--accent-color-darkened: #b55225;--theme-color: rgb(36,36,36);--dark-mode-body-bg: #2d2d2d;--dark-mode-border-color: #393939}
+
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+
+</head>
+
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-page"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+    <li><a href="/">home</a></li>
+    
+      <li>
+      
+        <span>/</span>
+        
+        
+        <a href="/lib/">lib</a>
+      
+      </li>
+    
+      <li>
+      
+        <span>/</span>
+        <span>accelerators</span>
+      
+      </li>
+    
+  
+</ul></nav>
+  <article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">Domain-Specific Hardware Accelertors</h1>
+    
+
+
+
+  
+    <div class="hr pb0"></div>
+  
+
+
+  </header>
+
+  <ul class="large-only" id="markdown-toc">
+  <li><a href="#deep-learning-operations" id="markdown-toc-deep-learning-operations">Deep learning operations</a></li>
+  <li><a href="#review-on-dl-acceleration" id="markdown-toc-review-on-dl-acceleration">Review on DL acceleration</a></li>
+  <li><a href="#techniques-for-dl-acceleration" id="markdown-toc-techniques-for-dl-acceleration">Techniques for DL acceleration</a></li>
+  <li><a href="#industrial-trend" id="markdown-toc-industrial-trend">Industrial trend</a></li>
+  <li><a href="#stanford-cs217-reading-list-2019" id="markdown-toc-stanford-cs217-reading-list-2019">Stanford CS217 reading list (2019)</a></li>
+</ul>
+
+<h2 id="deep-learning-operations">Deep learning operations</h2>
+<ul>
+  <li>A guide to convolution arithmetic for deep learning, Vincent Dumoulin, 2016 <a href="/assets/notes/CNNArithmatic.pdf">pdf_annotated</a></li>
+  <li>Inception module in GoogLeNet <a href="/assets/notes/cs217/Inception_GoogLeNet_Kreview.pdf">pdf_annotated</a></li>
+</ul>
+
+<h2 id="review-on-dl-acceleration">Review on DL acceleration</h2>
+<ul>
+  <li>Matrix Computation <a href="https://www.amazon.com/Computations-Hopkins-Studies-Mathematical-Sciences/dp/1421407949">link</a></li>
+  <li>Efficient Methods and Hardware for Deep Learning, Stanford cs231, Song Han, 2017 <a href="http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture15.pdf">link</a></li>
+  <li>Efficient Processing of Deep Neural Networks: A Tutorial and Survey, Sze, MIT <a href="/assets/notes/Sze_DNN hardware.pdf">pdf</a></li>
+  <li>Tutorial on Deep Learning Acceleration, Vivien Sze, MIT <a href="http://www.rle.mit.edu/eems/publications/tutorials/">link</a></li>
+  <li>High-Performance Hardware for Machine Learning, W. Dally, 2015 <a href="https://media.nips.cc/Conferences/2015/tutorialslides/Dally-NIPS-Tutorial-2015.pdf">link</a></li>
+  <li>Acceleration of Deep Learning in Algorithm &amp; CMOS-based Hardware by me (2019)<a href="/assets/notes/DeepLearningAcc_JHShin.pdf">pdf</a></li>
+</ul>
+
+<h2 id="techniques-for-dl-acceleration">Techniques for DL acceleration</h2>
+<ul>
+  <li>One weird trick for parallelizing convolutional neural networks, Alex Krizhevsky, 2014 <a href="https://arxiv.org/abs/1404.5997">link</a></li>
+  <li>BinaryConnect: Training Deep Neural Networks with binary weights during propagations, Matthieu Courbariaux, 2016 <a href="https://arxiv.org/abs/1511.00363">link</a></li>
+  <li>Measuring the Limits of Data Parallel Training for Neural Networks, J. Lee, Mar. 2019<a href="https://ai.googleblog.com/2019/03/measuring-limits-of-data-parallel.html?fbclid=IwAR0o5sHfD83FK3Gp1GvqoiNUpKGbJSszrBb4Ww9lhBQ8RtL18hFj3-AekFo">link</a></li>
+</ul>
+
+<h2 id="industrial-trend">Industrial trend</h2>
+<ul>
+  <li>BrainWave: Accelerating Persistent Neural Networks at Datacenter Scale, Microsoft, 2017 <a href="http://learningsys.org/nips17/assets/slides/brainwave-nips17.pdf">link</a></li>
+  <li>TPU: In-datacenter performance analysis of a tensor processing unit, Google, 2017 <a href="https://ieeexplore.ieee.org/abstract/document/8192463">link</a></li>
+  <li>TPU: Machine Learning for Systems and Systems for Machine Learning, Google, 2017<a href="http://learningsys.org/nips17/assets/slides/dean-nips17.pdf">link</a></li>
+</ul>
+
+<h2 id="stanford-cs217-reading-list-2019">Stanford CS217 reading list (2019)</h2>
+<ul>
+  <li>Hardware Accelerators for Machine Learning, Stanford cs217 <a href="https://cs217.stanford.edu/">link</a></li>
+  <li>Is Dark Silicon Useful? by M. B. Taylor, 2012 <a href="/assets/notes/cs217/DarkSilicon.pdf">pdf_annotated</a></li>
+  <li>Why Systolic Architecture? by H. T. Kung, 1982 <a href="/assets/notes/cs217/WhySystolicArchitecture.pdf">pdf_annotated</a></li>
+  <li>Anatomy of High Performance Matrix Multiplication by K. Goto <a href="/assets/notes/cs217/HighPerformanceMatrixMultiplication.pdf">pdf_annotated</a></li>
+  <li>Dark Memory and Accelerator-Rich System Optimization in the Dark Silicon Era by A. Pedram, 2016 <a href="/assets/notes/cs217/DarkMemory.pdf">pdf_annotated</a></li>
+  <li>TABLA: A Unified Template-based Framework for Accelerating Statistical Machine Learning by D. Mahajan, 2016 <a href="/assets/notes/cs217/Tabla.pdf">pdf_annotated</a></li>
+  <li>Codesign Tradeoffs for High-Performance, Low-Power Linear Algebra Architectures by A. Pedram, 2012 <a href="/assets/notes/cs217/CodesignTradeoffLinAlg.pdf">pdf_annotated</a></li>
+  <li>Spatial: A Language and Compiler for Application Accelerators by K. Olukotun, 2018 <a href="/assets/notes/cs217/Spatial.pdf">pdf_annotated</a></li>
+  <li>Aladdin: A Pre-RTL, Power-Performance Accelerator Simulator Enabling Large Design Space Exploration of Customized Architectures by Y. S. Shao, 2014 <a href="/assets/notes/cs217/Aladdin.pdf">pdf_annotated</a></li>
+  <li>Roofline: An Insightful Visual Performance Model
+for Floating-Point Programs and Multicore Architectures by D. Patterson <a href="/assets/notes/cs217/RooflineVyNoYellow.pdf">pdf_annotated</a></li>
+  <li>In-Datacenter Performance Analysis of a Tensor Processing Unit by Google <a href="../wifi/cs217/TPUv1.pdf">pdf_annotated</a></li>
+  <li>NVIDIA TESLA V100 GPU ARCHITECTURE <a href="/assets/notes/cs217/volta-architecture-whitepaper.pdf">pdf_annotated</a></li>
+  <li>Efficient Processing of Deep Neural Networks: A Tutorial and Survey by V. Sze <a href="/assets/notes/cs217/2017_sze_dnn.pdf">pdf_annotated</a></li>
+  <li>A Systematic Approach to Blocking Convolutional Neural Networks by M. Horowitz <a href="/assets/notes/cs217/systolicCNN.pdf">pdf_annotated</a></li>
+  <li>Eyeriss: A Spatial Architecture for Energy-Efﬁcient Dataﬂow for Convolutional Neural Networks <a href="/assets/notes/cs217/2016_isca_eyeriss_architecture.pdf">pdf_annotated</a></li>
+  <li>Brooks’ DL for computer architecture, See Chapter 5 <a href="/assets/notes/cs217/DLforarchitecture.pdf">pdf_annotated</a></li>
+  <li>High Performance Zero-Memory Overhead Direct Convolutions by T. Low <a href="/assets/notes/cs217/ZeroMemOverheadDirectConv.pdf">pdf_annotated</a></li>
+  <li>Fast Algorithms for Convolutional Neural Networks (Winograd) by A. Lavin <a href="/assets/notes/cs217/FastConv.pdf">pdf_annotated</a></li>
+  <li>CATERPILLAR: Coarse Grain Reconfigurable Architecture for Accelerating the Training of Deep Neural Networks by A. Pedram <a href="/assets/notes/cs217/Catepillar.pdf">pdf_annotated</a></li>
+  <li>SCALEDEEP: A Scalable Compute Architecture for Learning and Evaluating Deep Networks by A. Raghunathan <a href="/assets/notes/cs217/ScaleDeep.pdf">pdf</a></li>
+  <li>Simon Knowles: Designing Processors for Intelligence <a href="https://www.youtube.com/watch?v=7XtBZ4Hsi_M&amp;feature=youtu.be">video</a></li>
+  <li>An overview of gradient descent optimization algorithms <a href="http://ruder.io/optimizing-gradient-descent/">link</a></li>
+  <li>LARGE BATCH TRAINING OF CONVOLUTIONAL NETWORKS by Y. You <a href="/assets/notes/cs217/LargeBatchCNN.pdf">pdf</a></li>
+  <li>DSD: DENSE SPARSE DENSE TRAINING FOR DEEP NEURAL NETWORKS by S. Han <a href="/assets/notes/cs217/DSD.pdf">pdf</a></li>
+  <li>High-Accuracy Low-Precision Training by C. D. Sa <a href="/assets/notes/cs217/HALP.pdf">pdf</a></li>
+  <li>EIE: Efficient Inference Engine on Compressed Deep Neural Network by S. Han <a href="/assets/notes/cs217/EIE.pdf">pdf</a></li>
+  <li>A Cloud-Scale Acceleration Architecture by Microsoft <a href="/assets/notes/cs217/CloudScaleAccelerationArchitecture.pdf">pdf</a></li>
+  <li>Serving DNNs in Real Time at Datacenter Scale with Project Brainwave by Microsoft <a href="/assets/notes/cs217/BRAINWAVE_.pdf">pdf</a></li>
+  <li>DAWNBench: An End-to-End Deep Learning Benchmark and Competition by M. Zaharia <a href="/assets/notes/cs217/nips_sysml_dawnbench.pdf">pdf</a></li>
+  <li>MLPerf: A broad ML benchmark suite for measuring performance of ML software frameworks, ML hardware accelerators, and ML cloud platforms <a href="https://mlperf.org/">link</a></li>
+  <li>REVISITING SMALL BATCH TRAINING FOR DEEP NEURAL NETWORKS by C. Luschi <a href="/assets/notes/cs217/SmallBatch.pdf">pdf</a></li>
+  <li>NIPS 2017 Workshop: Deep Learning At Supercomputer Scale <a href="https://supercomputersfordl2017.github.io/">link</a></li>
+  <li>DEEP GRADIENT COMPRESSION: REDUCING THE COMMUNICATION BANDWIDTH FOR DISTRIBUTED TRAINING by W. Dally <a href="/assets/notes/cs217/DeepGradientCompression.pdf">pdf</a></li>
+  <li>Plasticine: A Reconfigurable Architecture For Parallel Patterns by K. Olukotu <a href="/assets/notes/cs217/plasticine-isca2017.pdf">pdf</a></li>
+  <li>Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective by Faceboo <a href="/assets/notes/cs217/hpca-2018-facebook.pdf">pdf</a></li>
+</ul>
+
+
+</article>
+
+
+  <clap-button class="mb6" ></clap-button>
+  
+  
+    <p class="message centered border-radius" >
+      <span style="display:block;margin-bottom:.5rem;">This is a preview of <a href="https://getclaps.app">Clap Button</a>, a new feedback and analytics tools for Hydejack, built by yours truly.</span>
+      <span style="display:block;margin-bottom:.5rem;">You can try it out on <code>localhost</code> for free, but it will be removed (together with this message) when building with <code>JEKYLL_ENV=production</code>.</span>
+      <span style="display:block;margin-bottom:.5rem;">To use Clap Button on your site, get a <a href="https://getclaps.app#pricing">subscription</a><br/>and set <code>clap_button: true</code> in your config file.</span>
+    </p>
+  
+
+
+
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2021. All rights reserved.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
+      
+    
+    </small></nav>
+  
+  
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(36,36,36);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">jonghoon.blog</h2></a>
+    
+    
+      <p class="">
+        Interested in humanity, science, and engineering. Working in San Jose, CA.
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_drawer--opened"
+          href="/blog/"
+          class="sidebar-nav-item "
+          
+        >
+          Blog
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/tags/"
+          class="sidebar-nav-item "
+          
+        >
+          Tags
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/tag-notebook/"
+          class="sidebar-nav-item "
+          
+        >
+          Notebooks
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/lib/"
+          class="sidebar-nav-item "
+          
+        >
+          Library
+        </a>
+      </li>
+    
+  
+</ul>
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/jhoons0" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/neuralprobe" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:jhshin1026@gmail.com" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://jonghoon.blog/feed.xml" title="RSS" class="no-mark-external">
+      <span class="icon-rss2"></span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/jong-hoon-shin-b98b8673" title="LinkedIn" class="no-mark-external">
+      <span class="icon-linkedin2"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.4.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.4.js" nomodule defer></script>
+  
+
+  
+  <script>!function(w, d) {
+    w.ga=w.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+    /**/
+      ga('create', 'UA-75766716-1', 'auto');
+    /**/
+
+    var pushStateEl = d.getElementById('_pushState');
+    var timeoutId;
+    pushStateEl.addEventListener('hy-push-state-load', function() {
+      w.clearTimeout(timeoutId);
+      timeoutId = w.setTimeout(function() {
+        ga('set', 'page', w.location.pathname);
+        ga('send', 'pageview');
+      }, 500);
+    });
+
+    d.addEventListener('hy--cookies-ok', function () {
+      w.ga(function(tracker) {
+        w.ga("set", "anonymizeIp", undefined);
+        localStorage && localStorage.setItem("ga--client-id", tracker.get("clientId"));
+      });
+    });
+
+    w.loadJSDeferred('https://www.google-analytics.com/analytics.js');
+  }(window, document);</script>
+
+
+  <script type="module">
+    if ('serviceWorker' in navigator) {
+      /**/
+      navigator.serviceWorker.getRegistration()
+        .then(r => r.unregister())
+        .catch(() => {});
+      /**/
+    }
+  </script>
+<!--<![endif]-->
+  <!-- <script>
+  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+    el.addEventListener('click', function (e) {
+      if (el.pathname === window.location.pathname) {
+        e.preventDefault();
+        e.stopPropagation();
+        document.querySelector('hy-drawer').close();
+      }
+    });
+  });
+</script> -->
+
+<!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <clap-config>
+    <clap-text at="1">Keep going!</clap-text>
+    <clap-text at="2">Keep going ×2!</clap-text>
+    <clap-text at="3">Give me more!</clap-text>
+    <clap-text at="5">Thank you, thank you</clap-text>
+    <clap-text at="7">Far too kind!</clap-text>
+    <clap-text at="10">Never gonna give me up?</clap-text>
+    <clap-text at="14">Never gonna let me down?</clap-text>
+    <clap-text at="20">Turn around and desert me!</clap-text>
+    <clap-text at="30">You're an addict!</clap-text>
+    <clap-text at="40">Son of a clapper!</clap-text>
+    <clap-text at="50">No way</clap-text>
+    <clap-text at="60">Go back to work!</clap-text>
+    <clap-text at="70">This is getting out of <em>hand</em></clap-text>
+    <clap-text at="80">Unbelievable</clap-text>
+    <clap-text at="90">PREPOSTEROUS</clap-text>
+    <clap-text at="100">I N S A N I T Y</clap-text>
+    <clap-text at="185"><span style="font-family:monospace">FEED ME A STRAY CAT</span></clap-text>
+  </clap-config>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+  
+  
+    <template id="_dark-mode-template">
+  <button id="_dark-mode" class="nav-btn no-hover" >
+    <span class="sr-only">Dark Mode</span>
+    <span class="icon-brightness-contrast"></span>
+  </button>
+</template>
+
+  
+  
+    <template id="_search-template">
+  <button id="_search" class="nav-btn no-hover">
+    <label class="sr-only" for="_search-input">Search</label>
+    <span class="icon-search"></span>
+  </button>
+  <div id="_search-box">
+    <div class="nav-btn">
+      <span class="icon-search"></span>
+    </div>
+    <input 
+      id="_search-input"
+      type="search"
+      class="form-control form-control-lg nav-btn"
+      placeholder="Build with JEKYLL_ENV=production to enable search."
+    />
+    <button type="reset" class="nav-btn no-hover">
+      <span class="sr-only">Close</span>
+      <span class="icon-cross"></span>
+    </button>
+  </div>
+  <div id="_hits"></div>
+</template>
+
+  
+</div>
+
+</body>
+</html>
