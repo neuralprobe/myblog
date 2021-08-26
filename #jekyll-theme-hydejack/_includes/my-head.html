@@ -11,3 +11,18 @@ Fill in `href`. You may have to adjust `rel`.
 -->
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
 {% endcomment %}
+
+
+
+
+
+{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+{% endif %}
+
+
+
+
+{% comment %}
+<meta property="og:description" content="{{ page.subtitle }}" />
+{% endcomment %}
