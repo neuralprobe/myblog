@@ -49,3 +49,11 @@ Left here for reference, feel free to delete.
   });
 </script>
 {% endcomment %}
+
+
+
+{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+{% endif %}
+
+<meta property="og:description" content="{{ page.subtitle }}" />
