@@ -52,3 +52,14 @@ Left here for reference, feel free to delete.
 
 
 
+
+{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+{% endif %}
+
+
+
+
+{% comment %}
+<meta property="og:description" content="{{ page.subtitle }}" />
+{% endcomment %}

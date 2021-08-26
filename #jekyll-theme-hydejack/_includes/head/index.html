@@ -13,3 +13,15 @@
 {% include_cached head/styles.html layout=page.layout color=color theme_color=theme_color %}
 
 {% include my-head.html %}
+
+
+{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+{% endif %}
+
+
+
+
+{% comment %}
+<meta property="og:description" content="{{ page.subtitle }}" />
+{% endcomment %}
