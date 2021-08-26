@@ -17,6 +17,8 @@
 layout: base
 ---
 
+
+
 {% assign version = jekyll.version | split:'.' %}
 {% assign major = version[0] | plus:0 %}
 {% assign minor = version[1] | plus:0 %}
@@ -25,6 +27,8 @@ layout: base
 {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 
 
+
+<!--
 {% if page.applause_button %}
   <applause-button
     color={{ site.accent_color | default:'rgb(79,177,186)' }}
@@ -33,7 +37,10 @@ layout: base
 {% else %}
   <hr class="dingbat related" />
 {% endif %}
+-->
 
+
+{% include share-buttons.html %}
 
 {% include components/dingbat.html %}
 
@@ -49,8 +56,10 @@ layout: base
     {% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %}
   {% when 'random' %}
     {% include if-non-null try="pro/random-posts.html" %}
-  {% when 'comments' %}
-    {% include body/comments.html %}
+
   {% else %}
   {% endcase %}
 {% endfor %}
+
+<!--{% when 'comments' %}-->
+<!--{% include body/comments.html %}-->

@@ -145,13 +145,13 @@ defaults:
   - scope:
       type:            posts
     values:
-      comments:        true
+      comments:        false #true
 
   # # You can use the following to enable comments on all posts.
   - scope:
       type:            posts
     values:      
-      applause_button: true
+      applause_button: false #true
 
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
@@ -187,7 +187,7 @@ google_analytics:      UA-75766716-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                jonghoon-blog
+# disqus:                jonghoon-blog
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
