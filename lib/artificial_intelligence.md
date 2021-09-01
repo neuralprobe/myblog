@@ -9,8 +9,16 @@ hide_description: true
 - Table of Contents
 {:toc .large-only}
 
+## NLP
+- Transformer: Attention Is All You Need [video-k](https://www.youtube.com/watch?v=AA621UofTUA&t=2625s&ab_channel=%EB%8F%99%EB%B9%88%EB%82%98)
+
 ## Big pictures on AI
 - Deep Learning: Practice and Trends, Deepmind, 2017 [pdf](/assets/notes/DeepLearning_Practice_Trends_NIPS2017)
+
+## Online lectures
+- 모두의 딥러닝, Everybody's Deep Learning [link](https://hunkim.github.io/ml/) [Handrwritten Note](/assets/notes/note_everyonesdeeplearning_basic.pdf)
+
+- Stanford cs231n lecture [video](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk) [video-k](https://www.youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5)
 
 ## Deep learning operations
 - Deriving the Gradient for the Backward Pass of Batch Normalization [link](https://kevinzakka.github.io/2016/09/14/batch_normalization/)
@@ -20,13 +28,6 @@ hide_description: true
 - Inception module in GoogLeNet [pdf_annotated](/assets/notes/cs217/Inception_GoogLeNet_Kreview.pdf)
 
 - A guide to convolution arithmetic for deep learning, Vincent Dumoulin, 2016 [pdf_annotated](/assets/notes/CNNArithmatic.pdf)
-
-## Online lectures
-- 모두의 딥러닝, Everybody's Deep Learning [link](https://hunkim.github.io/ml/) [Handrwritten Note](/assets/notes/note_everyonesdeeplearning_basic.pdf)
-
-- Stanford cs231n lecture [video](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk) [video-k](https://www.youtube.com/playlist?list=PL1Kb3QTCLIVtyOuMgyVgT-OeW0PYXl3j5)
-
-
 
 ## Machine learning cheatsheet
 - S. Amidi's Machine Learning Cheatsheet [link](https://stanford.edu/~shervine/teaching/cs-230/)
