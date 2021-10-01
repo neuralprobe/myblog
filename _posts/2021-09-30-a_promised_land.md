@@ -5,7 +5,7 @@ categories: [book]
 tags: [biography, history]
 desc: written by Barack Obama
 image:
-  path:  /assets/img/posts/2021-06-01-a_promised_land/
+  path:  /assets/img/posts/2021-06-01-a_promised_land/001_1000.png
   srcset:
     500w:  /assets/img/posts/2021-06-01-a_promised_land/001_500.png
     1000w:  /assets/img/posts/2021-06-01-a_promised_land/001_1000.png
