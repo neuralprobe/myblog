@@ -9,6 +9,13 @@ hide_description: true
 - Table of Contents
 {:toc .large-only}
 
+## Recent Topics
+* [Interconnection Networks]{:.heading.flip-title} --- Connect compute units and memories together.
+{:.related-posts.faded}
+
+[Interconnection Networks]: /lib/interconnect
+
+
 ## Open-source Hardware
 * [Risc-V]{:.heading.flip-title} --- New era of open-source CPU just got started!
 {:.related-posts.faded}
@@ -29,6 +36,7 @@ hide_description: true
     + Memory Systems: Fundamentals, Recent Research, Challenges, Opportunities, Onur Mutlu, ETH Zurich, Fall 2018 [link](https://safari.ethz.ch/memory_systems/2018/doku.php)
 
 ## Books
+- Principles and Practices of Interconnection Networks, W. Dally [link](https://dl.acm.org/doi/pdf/10.5555/2821589)
 - Programming Massively Parallel Processors, Prof. Wen-Mei Hwu [link](https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0123814723)
 - STRUCTURE OF COMPUTER SYSTEMS, BARUCH, ZOLTAN FRANCISC, [link](http://users.utcluj.ro/~baruch/en/pages/resources/structure-of-computer-systems.php)
 
