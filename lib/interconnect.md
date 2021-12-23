@@ -10,8 +10,8 @@ hide_description: true
 {:toc .large-only}
 
 ## Study on Interconnection Networks
-- Principles and Practices of Interconnection Networks[pdf_link](https://dl.acm.org/doi/pdf/10.5555/2821589)
-- Note1. Topology basics (chapter 3)[handwritten_note](/assets/notes/PrincipleInterconnect_TopologyBasic.pdf)
+- Principles and Practices of Interconnection Networks [pdf_link](https://dl.acm.org/doi/pdf/10.5555/2821589)
+- Note1. Topology basics (chapter 3) [Handwritten_note](/assets/notes/PrincipleInterconnect_TopologyBasic.pdf)
 
 ## Related
-- Prof. Tushar Krishna's Group in Gatech[link](https://synergy.ece.gatech.edu/publications/)
+- Prof. Tushar Krishna's Group in Gatech [Link](https://synergy.ece.gatech.edu/publications/)
