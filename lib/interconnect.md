@@ -11,6 +11,9 @@ hide_description: true
 
 ## Study on Interconnection Networks
 - Principles and Practices of Interconnection Networks [pdf_link](https://dl.acm.org/doi/pdf/10.5555/2821589)
+
+![BookCover](/assets/img/posts/lib/InterconnectPrinciples.png)
+
 - Note1. Topology basics (chapter 3) [Handwritten_note](/assets/notes/PrincipleInterconnect_TopologyBasic.pdf)
 
 ## Related
