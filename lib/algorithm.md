@@ -9,6 +9,14 @@ hide_description: true
 - Table of Contents
 {:toc .large-only}
 
+## Recent Topics
+* [Neural Rendering]{:.heading.flip-title} --- Render your 3D object to 2D with neural networks.
+{:.related-posts.faded}
+
+[Neural Rendering]: /lib/neural_rendering
+
+
+
 ### Data Structure & Algorithm Learning
 - Python Data Algorithm Lecture [link](https://runestone.academy/runestone/static/pythonds/index.html)
 - Java Algorithm Lecture [video](https://www.youtube.com/user/damazzang/videos)
