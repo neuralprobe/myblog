@@ -15,12 +15,23 @@
       {% endif %}
       <h3 class="h4 faded">
         {% capture name %}{% include components/link.html title=pub.name href=pub.website span_class="bc" %}{% endcapture %}
+        {% capture authors %}<span class="bc">{{ pub.authors }}</span>{% endcapture %}
         {% capture publisher %}<span class="bc">{{ pub.publisher }}</span>{% endcapture %}
         {{ strings.resume.publications_title
-          | default:"<!--name--> by <!--publisher-->"
+          | default:"<!--name-->"
           | replace:"<!--name-->", name
+        }}
+        <br>
+        {{ strings.resume.publications_author
+          | default:"by <!--authors-->"
+          | replace:"<!--authors-->", authors
+        }}
+        <br>
+        {{ strings.resume.publications_publisher
+          | default:"published in <!--publisher-->"
           | replace:"<!--publisher-->", publisher
         }}
+
       </h3>
     </header>
 

@@ -1,9 +1,9 @@
 ---
 layout: grid
 type: tag
-title: AI
-slug: AI
+title: Fun
+slug: fun
 sidebar: false
 description: >
-   Related to AI
+   Related to Fun
 ---

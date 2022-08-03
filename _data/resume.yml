@@ -2,102 +2,255 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://placehold.it/240x240"
+  name: "Jong Hoon Shin"
+  label: ""
+  picture: ""
   email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  phone: ""
+  website: "https://jonghoon.blog"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Interested in physics, solid state devices, neuromorphic computing, artificial intelligence, computer architecture, software skills, and everything else. I like to read, write, learn, try, and share. Currently, working in San Jose, CA. Hope you enjoy this blog. :)
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: ""
+    postalCode: ""
+    city: "San Jose"
     countryCode: "US"
     region: "California"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
-    - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+    # - network: "Twitter"
+    #   username: "jhoons0"
+    #   url: ""
+    # - network: "LinkedIn"
+    #   username: "jhshin1026"
+    #   url: ""
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Samsung Semiconductor Inc., San Jose, CA"
+    position: "Sr. Hardware Engineer"
+    website: ""
+    startDate: "2019-07-15"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
-    highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
+      Research on the hardware architecture of deep neural network accelerators and associated algorithm-software optimization.
+
+  - company: "IBM Research, Yorktown Hegiths, NY"
+    position: "Research Intern"
+    website: ""
+    startDate: "2017-06-01"
+    endDate: "2019-09-01"
+    summary: >
+      Research on the neuromorphic computing using novel non-volatile memory.
+
+
+  - company: "LG Electronics"
+    position: "Research Engineer"
+    website: ""
+    startDate: "2011-07-01"
+    endDate: "2014-06-30"
+    summary: >
+      Research on the solid state physics in III-V compound semiconductors.
+
+
+
+#    highlights:
+#      - ""
+#      - ""
+#      - ""
+# volunteer:
+#   - organization: "CoderDojo"
+#     position: "Teacher"
+#     website: "https://coderdojo.com/"
+#     startDate: "2012-01-01"
+#     endDate: "2013-01-01"
+#     summary: "Global movement of free coding clubs for young people."
+#     highlights:
+#       - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+  - institution: "University of Michigan, Ann Arbor"
+    area: "Electrical Engineering and Computer Science"
+    studyType: "Ph.D"
+    startDate: "2014-09-01"
+    endDate: "2019-04-31"
+    gpu: ""
+
+  - institution: "Seoul National University"
+    area: "Physics"
+    studyType: "MS"
+    startDate: "2008-03-01"
+    endDate: "2010-02-28"
+
+  - institution: "Seoul National University"
+    area: "Physics"
+    studyType: "BS"
+    startDate: "2002-03-01"
+    endDate: "2008-02-28"
+
+#    gpa: "4.0"
+#    courses:
+#      - "DB1101 - Basic SQL"
+#      - "CS2011 - Java Introduction"
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
+
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
-skills:
-  - name: "Web Development"
-    level: "Master"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
-languages:
-  - language: "English"
-    fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+
+  - name: "Griffin: Rethinking Sparse Optimization for Deep Learning Architectures"
+    authors: "JH Shin, A Shafiee, A Pedram, H Abdel-Aziz, L Li, J Hassoun"
+    publisher: "2022 IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
+    releaseDate: "2022-4-2"
+    website: "https://ieeexplore.ieee.org/abstract/document/9773226"
+    summary: ""
+
+  - name: "Rethinking floating point overheads for mixed precision DNN accelerators"
+    authors: "Hamzah Abdelaziz, Ali Shafiee, Jong Hoon Shin, Ardavan Pedram, Joseph Hassoun"
+    publisher: "Proceedings of Machine Learning and Systems 3 (MLSys 2021)"
+    releaseDate: "2021-3-15"
+    website: "https://proceedings.mlsys.org/paper/2021/hash/5f93f983524def3dca464469d2cf9f3e-Abstract.html"
+    summary: ""
+
+  - name: "Temporal data classification and forecasting using a memristor-based reservoir computing system"
+    authors: "John Moon, Wen Ma, Jong Hoon Shin, Fuxi Cai, Chao Du, Seung Hwan Lee, Wei D Lu"
+    publisher: "Nature Electronics"
+    releaseDate: "2019-10-14"
+    website: "https://www.nature.com/articles/s41928-019-0313-3"
+    summary: ""
+
+
+  - name: "Resistive Switching Devices and Their Applications for Computing Beyond von Neumann Architecture"
+    authors: "Jong Hoon Shin"
+    publisher: "University of Michigan, Ann Arbor"
+    releaseDate: "2019-5-1"
+    website: "https://deepblue.lib.umich.edu/handle/2027.42/151648"
+    summary: ""
+
+  - name: "Hardware acceleration of simulated annealing of spin glass by RRAM crossbar array"
+    authors: "Jong Hoon Shin, Yeon Joo Jeong, Mohammed A Zidan, Qiwen Wang, Wei D Lu"
+    publisher: "2018 IEEE International Electron Devices Meeting (IEDM)"
+    releaseDate: "2018-12-1"
+    website: "https://ieeexplore.ieee.org/abstract/document/8614698"
+    summary: ""
+
+  - name: "Self-Limited and Forming-Free CBRAM Device With Double Al2O3ALD Layers"
+    authors: "Jong Hoon Shin, Qiwen Wang, Wei D Lu"
+    publisher: "IEEE Electron Device Letters"
+    releaseDate: "2018-9-3"
+    website: "https://ieeexplore.ieee.org/abstract/document/8453898"
+    summary: ""
+
+  - name: "K-means Data Clustering with Memristor Networks"
+    authors: "YeonJoo Jeong, Jihang Lee, John Moon, Jong Hoon Shin, Wei D Lu"
+    publisher: "Nano Letters"
+    releaseDate: "2018-6-7"
+    website: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.8b01526"
+    summary: ""
+
+  - name: "Field-programmable crossbar array (FPCA) for reconfigurable computing"
+    authors: "Mohammed A Zidan, YeonJoo Jeong, Jong Hoon Shin, Chao Du, Zhengya Zhang, Wei D Lu"
+    publisher: "IEEE Transactions on Multi-Scale Computing Systems"
+    releaseDate: "2017-6-28"
+    website: "https://ieeexplore.ieee.org/abstract/document/7961178"
+    summary: ""
+
+  - name: "Neuromorphic computation: Lowering dimensions"  
+    authors: "Giacomo Prando"
+    publisher: "Nature Nanotechnology"
+    releaseDate: "2017-6-6"
+    website: "https://www.nature.com/articles/nnano.2017.119"
+    summary: "Highlighted our paper published in Nano Letters"
+
+
+  - name: "Experimental Demonstration of Feature Extraction and Dimensionality Reduction using Memristor Networks"
+    authors: "Shinhyun Choi*, Jong Hoon Shin*, Jihang Lee, Patrick Sheridan, Wei D Lu"
+    publisher: "Nano Letters"
+    releaseDate: "2017-5-10"
+    website: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.7b00552"
+    summary: "Highlighteed in Nature Nanotechnology"
+
+
+
+  - name: "Investigating gate metal induced reduction of surface donor density in GaN/AlGaN/GaN heterostructure by electroreflectance spectroscopy"
+    authors: "Jong Hoon Shin, Kwang-Choong Kim, Kyu Sang Kim"
+    publisher: "Current Applied Physics"
+    releaseDate: "2015-11-1"
+    website: "https://www.sciencedirect.com/science/article/abs/pii/S1567173915300572"
+    summary: ""
+
+  - name: "Temperature-dependent hall measurement of AlGaN/GaN heterostructures on Si substrates"
+    authors: "In Hak Lee, Yong Hyun Kim, Young Jun Chang, Jong Hoon Shin, T Jang, Seung Yup Jang"
+    publisher: "Journal of the Korean Physical Society"
+    releaseDate: "2015-1-20"
+    website: "https://link.springer.com/article/10.3938/jkps.66.61"
+    summary: ""
+
+  - name: "Investigation of Buffer Traps in AlGaN/GaN Heterostructure Field-Effect Transistors Using a Simple Test Structure"
+    authors: "Seung Yup Jang, Jong-Hoon Shin, Eu Jin Hwang, Hyo-Seung Choi, Hun Jeong, Sang-Hun Song, Hyuck-In Kwon"
+    publisher: "JSTS: Journal of Semiconductor Technology and Science"
+    releaseDate: "2014-8-30"
+    website: "https://koreascience.kr/article/JAKO201426059105365.page"
+    summary: ""
+
+  - name: "High-resolution X-ray photoemission study of photo-grown Ga2O3 in GaN/AlGaN/GaN heterostructures on Si substrates"
+    authors: "Beom Soo Joo, Moonsup Han, Young Jun Chang, Jong Hoon Shin, Seung Yup Jang, Taehoon Jang"
+    publisher: "Journal of the Korean Physical Society"
+    releaseDate: "2013-12-29"
+    website: "https://link.springer.com/article/10.3938/jkps.63.2314"
+    summary: ""
+
+  - name: "Metal induced inhomogeneous Schottky barrier height in AlGaN/GaN Schottky diode"
+    authors: "Jong-Hoon Shin, Jinhong Park, SeungYup Jang, T Jang, Kyu Sang Kim"
+    publisher: "Applied Physics Letters"
+    releaseDate: "2013-2-24"
+    website: "https://aip.scitation.org/doi/abs/10.1063/1.4811756"
+    summary: ""
+
+  - name: "Gate metal dependent reverse leakage mechanisms in AlGaN/GaN Schottky diode"
+    authors: "Jong-Hoon Shin, Jinhong Park, SeungYup Jang, Tae-Hoon Jang, Kyu Sang Kim"
+    publisher: "Japanese Journal of Applied Physics"
+    releaseDate: "2013-6-11"
+    website: "https://iopscience.iop.org/article/10.7567/JJAP.52.070203/meta"
+    summary: ""
+
+  - name: "Gate metal induced reduction of surface donor states of AlGaN/GaN heterostructure on Si-substrate investigated by electroreflectance spectroscopy"
+    authors: "Jong Hoon Shin, Young Je Jo, Kwang-Choong Kim, T Jang, Kyu Sang Kim"
+    publisher: "Applied Physics Letters"
+    releaseDate: "2012-3-12"
+    website: "https://aip.scitation.org/doi/abs/10.1063/1.3695056"
+    summary: ""
+
+  - name: "Dual character of magnetism in EuFe 2 As 2: Optical spectroscopic and density-functional calculation study"
+    authors: "SJ Moon, JH Shin, D Parker, WS Choi, II Mazin, YS Lee, JY Kim, NH Sung, BK Cho, SH Khim, JS Kim, KH Kim, TW Noh"
+    publisher: "Physical Review B"
+    releaseDate: "2010-5-19"
+    website: "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.81.205114"
+    summary: ""
+
+
+
+# skills:
+#   - name: "Web Development"
+#     level: "Master"
+#     keywords:
+#       - "HTML"
+#       - "CSS"
+#       - "Javascript"
+#   - name: "Compression"
+#     level: "Master"
+#     keywords:
+#       - "Mpeg"
+#       - "MP4"
+#       - "GIF"
+# languages:
+#   - language: "English"
+#     fluency: "Native speaker"
+# interests:
+#   - name: "Wildlife"
+#     keywords:
+#       - "Ferrets"
+#       - "Unicorns"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+ #     Company proved that he will be a valuable addition to any company.

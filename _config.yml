@@ -50,16 +50,14 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Tags
-    url:               /tags/
+  - title:             Library
+    url:               /library/
   - title:             Notebooks
     url:               /tag-notebook/
-  # - title:           Résumé*
-  #  url:              /resume/
-  - title:             Library
-    url:               /lib/
-  # - title:           About me
-  #  url:              /about/
+  - title:             Tags
+    url:               /tags/
+  - title:             About me
+    url:               /AboutMe/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -98,7 +96,7 @@ accent_color:          rgb(212,97,44)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
-# Defaults to `accent_color`.
+# Defaults to `accent_color`.2
 theme_color:           rgb(36,36,36)
 
 # The string encoding which fonts to fetch from Google Fonts.
