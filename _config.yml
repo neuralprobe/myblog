@@ -56,6 +56,8 @@ menu:
     url:               /tag-notebook/
   - title:             Tags
     url:               /tags/
+  - title:             Digital-Garden
+    url:               https://digital-garden.jonghoon.blog
   - title:             About me
     url:               /AboutMe/
 
