@@ -11,6 +11,7 @@ image:
     1000w:  /assets/img/posts/2022-04-15-DoingGodsBlessing/001_1000.png
     1500w:  /assets/img/posts/2022-04-15-DoingGodsBlessing/001_1500.png
 hide_last_modified: true
+comments: true
 ---
 
 소명, 사랑, 기도, 그리고 인내: 일터에서 치열하게 살아가는 그리스도인의 신앙과 소명 그리고 사역을 이야기하다.
