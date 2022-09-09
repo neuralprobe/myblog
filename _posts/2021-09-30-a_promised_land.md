@@ -11,7 +11,6 @@ image:
     1000w:  /assets/img/posts/2021-06-01-a_promised_land/001_1000.png
     1500w:  /assets/img/posts/2021-06-01-a_promised_land/001_1500.png
 hide_last_modified: true
-comments: true
 ---
 
 A riveting, deeply personal account of history in the making-from the president who inspired us to believe in the power of democracy

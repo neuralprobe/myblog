@@ -145,7 +145,7 @@ defaults:
   - scope:
       type:            posts
     values:
-      comments:        false #true
+      comments:        true #true
 
   # # You can use the following to enable comments on all posts.
   - scope:
